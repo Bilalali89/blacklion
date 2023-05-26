@@ -21,12 +21,16 @@ export default function HeroSectionThreeMusician() {
                 Create <br/>
                 Cash-In
               </h1>
-            
-             
             </div>
           </div>
         </div>
+        <div
+          className="BL--musicians-hero3-shape2"
+        >
+            <img src="/images/musicians/shape-hero3.png" alt="shape" />
+        </div>
       </div>
+      
     </div>
   );
 }

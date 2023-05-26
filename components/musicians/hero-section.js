@@ -12,7 +12,7 @@ export default function MusiciansHeroSection() {
             className="col-lg-7 d-flex justify-content-center"
             style={{ flexDirection: "column" }}
           >
-            <div className="fugu--hero-content">
+            <div className="fugu--hero-content BL--musicians-content">
               <h1 className="wow fadeInUpX" data-wow-delay="0s">
                 Artists, <br />
                 Producers
@@ -22,8 +22,12 @@ export default function MusiciansHeroSection() {
               <p className="wow fadeInUpX" data-wow-delay="0.10s">
                 Join the #Roarvolution today by signing up for early access.
               </p>
-
-             
+              <div className="BL--musicians-arrow">
+                <img
+                  src="/images/musicians/green-arrow-down.png"
+                  alt="greenarrow"
+                />
+              </div>
             </div>
           </div>
           <div className="col-lg-5">
@@ -34,7 +38,6 @@ export default function MusiciansHeroSection() {
 
               <img src="/images/musicians/bell-phone.png" alt="bellphone" />
             </div>
-        
           </div>
         </div>
         <div className="BL--musicians-hero-shape1">

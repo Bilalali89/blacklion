@@ -5,6 +5,7 @@ import HeroSectionTwoMusicians from "../components/musicians/hero-section-2";
 import SocialSection from "../components/home-three/social-section";
 import HeroSectionThree from "../components/home-three/hero-sectionthree";
 import HeroSectionThreeMusician from "../components/musicians/hero-section-3";
+import HeroSectionFourMusicians from "../components/musicians/hero-section-4";
 
 export default function Musicians() {
 	return (
@@ -17,9 +18,7 @@ export default function Musicians() {
             <HeroSectionTwoMusicians />
             <HeroSectionThreeMusician />
             <SocialSection/>
-           
-          
-			
+			<HeroSectionFourMusicians />
 			
 		</>
 	);

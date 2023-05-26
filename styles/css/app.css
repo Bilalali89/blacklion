@@ -5210,7 +5210,7 @@ a.fugu-app-btn:last-child {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
-	text-fill-color: transparent;
+	/* text-fill-color: transparent; */
 }
 .fugu--counter-data p {
 	font-size: 18px;
@@ -6668,9 +6668,9 @@ a.fugu-faq-btn:hover {
 	max-width: 1150px;
 	margin: 0 auto;
 }
-.fugu-testimonial-slider2 .fugu-testimonial-card2 {
-	/* margin: 0 32px; */
-}
+/* .fugu-testimonial-slider2 .fugu-testimonial-card2 {
+	margin: 0 32px;
+} */
 @media (max-width: 1399px) {
 	.fugu-testimonial-slider2 .fugu-testimonial-card2 {
 		margin: 0 20px;
@@ -11873,6 +11873,18 @@ circle {
 	filter: blur(50px);
 }
 
+.BL--musicians-content {
+	position: relative;
+}
+
+.BL--musicians-arrow {
+	position: absolute;
+	bottom: -20%;
+	width: 30%;
+	right: 10%;
+	z-index: -1;
+}
+
 /* Hero Sections Two */
 
 .BL--musicians-hero2-right {
@@ -11937,4 +11949,100 @@ circle {
 	.BL--hero3-content {
 		max-width: 500px;
 	}
+}
+
+.BL--musicians-hero3-shape2 {
+	width: 100%;
+	position: absolute;
+	
+	opacity: 1;
+	filter: blur(50px);
+	top: 0px;
+	left:-30%;
+	z-index: -2;
+}
+
+.BL--musician-hero4-section {
+	z-index: 0;
+	padding: 200px 0px 200px 0px;
+	background-size: cover;
+	position: relative;
+	background-position: center bottom;
+	background: var(--gray-800);
+}
+.BL--musician-hero4-section .heart .heartimg{
+	top: 0px;
+	z-index: -1;
+	position: absolute;
+	transform: translate(33%);
+}
+
+@media (max-width: 991px) {
+	.BL--musician-hero4-section {
+		padding: 175px 0 100px;
+	}
+}
+@media (max-width: 767px) {
+	.BL--musician-hero4-section {
+		padding: 150px 0 80px;
+	}
+}
+@media (max-width: 575px) {
+	.BL--musician-hero4-section {
+		padding: 130px 0 80px;
+	}
+}
+
+.BL--musician-hero4-content {
+	width: 100%;
+	text-align: center;
+}
+.BL--musician-hero4-content h1 {
+	color: white;
+	font-family: "ClashDisplay-Bold", sans-serif;
+	font-size: 8rem;
+	line-height: 0.9;
+}
+
+.BL--musician-hero4-content p {
+	color: white;
+	font-family: "Satoshi-Bold", sans-serif;
+	font-size: 50px;
+	line-height: 1.1;
+	max-width: 60vw;
+	margin: 0 auto;
+}
+@media (max-width: 991px) {
+	.BL--musician-hero4-content {
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 767px) {
+	.BL--musician-hero4-content {
+		max-width: 500px;
+	}
+}
+
+@media (max-width: 991px) {
+	.BL--musician-hero4-content p {
+		margin-right: 0;
+	}
+}
+
+.BL--musician-hero4-cta {
+	text-align: center;
+}
+
+.BL--musician-hero4-cta .heading {
+	text-align: center;
+	color: white;
+	font-family: "Satoshi-Bold", sans-serif;
+}
+
+.BL--musician-hero4-section .imgcard {
+	position: absolute;
+	top: 25%;
+	width: 40%;
+	z-index: -1;
 }
