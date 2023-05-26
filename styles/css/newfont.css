@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'New Title';
+    src: url('../../public/fonts/NewTitle-Regular.eot');
+    src: local('New Title Regular'), local('NewTitle-Regular'),
+        url('../../public/fonts/NewTitle-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../public/fonts/NewTitle-Regular.woff2') format('woff2'),
+        url('../../public/fonts/NewTitle-Regular.woff') format('woff'),
+        url('../../public/fonts/NewTitle-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New Title';
+    src: url('../../public/fonts/NewTitle-Extralight.eot');
+    src: local('New Title Extralight'), local('NewTitle-Extralight'),
+        url('../../public/fonts/NewTitle-Extralight.eot?#iefix') format('embedded-opentype'),
+        url('../../public/fonts/NewTitle-Extralight.woff2') format('woff2'),
+        url('../../public/fonts/NewTitle-Extralight.woff') format('woff'),
+        url('../../public/fonts/NewTitle-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New Title';
+    src: url('../../public/fonts/NewTitle-Medium.eot');
+    src: local('New Title Medium'), local('NewTitle-Medium'),
+        url('../../public/fonts/NewTitle-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../public/fonts/NewTitle-Medium.woff2') format('woff2'),
+        url('../../public/fonts/NewTitle-Medium.woff') format('woff'),
+        url('../../public/fonts/NewTitle-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New Title';
+    src: url('../../public/fonts/NewTitle-Bold.eot');
+    src: local('New Title Bold'), local('NewTitle-Bold'),
+        url('../../public/fonts/NewTitle-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../public/fonts/NewTitle-Bold.woff2') format('woff2'),
+        url('../../public/fonts/NewTitle-Bold.woff') format('woff'),
+        url('../../public/fonts/NewTitle-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New Title';
+    src: url('../../public/fonts/NewTitle-Light.eot');
+    src: local('New Title Light'), local('NewTitle-Light'),
+        url('../../public/fonts/NewTitle-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../public/fonts/NewTitle-Light.woff2') format('woff2'),
+        url('../../public/fonts/NewTitle-Light.woff') format('woff'),
+        url('../../public/fonts/NewTitle-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
