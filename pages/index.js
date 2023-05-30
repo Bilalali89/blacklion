@@ -27,11 +27,6 @@ export default function Home() {
 			<HeroSectionThree/>
 			<AppLinks/>
 			<TextSection/>
-			{/* <CardSliderOne /> */}
-			{/* <FilterGalarryOne /> */}
-			{/* <TextSliderTwo /> */}
-			{/* <Team /> */}
-			{/* <NftRoadMap /> */}
 			
 		</>
 	);
