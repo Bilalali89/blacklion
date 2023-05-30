@@ -12,14 +12,18 @@ import SocialSection from "../components/home-three/social-section";
 import HeroSectionThree from "../components/home-three/hero-sectionthree";
 import TextSection from "../components/home-three/text-section";
 import AppLinks from "../components/home-three/app-links";
+import InvestorsHeroSection from "../components/Investors/hero-section-1";
 
 
 export default function Investors() {
 	return (
 		<>
 			<Head>
-				<title>Blacklion</title>
+				<title>Blacklion - Investors</title>
 			</Head>
+			
+			<InvestorsHeroSection />
+			<SocialSection />
 			
 			
 		</>
@@ -27,5 +31,5 @@ export default function Investors() {
 }
 
 export async function getStaticProps() {
-	return { props: { header: "three", footer: "two" } };
+	return { props: { header: "three", footer: "three" } };
 }

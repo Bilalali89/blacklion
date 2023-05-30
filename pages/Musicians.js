@@ -25,5 +25,5 @@ export default function Musicians() {
 }
 
 export async function getStaticProps() {
-	return { props: { header: "three", footer: "two" } };
+	return { props: { header: "three", footer: "three" } };
 }

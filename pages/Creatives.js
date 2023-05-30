@@ -1,25 +1,27 @@
 import Head from "next/head";
-import dynamic from "next/dynamic";
-import TextSliderOne from "../components/common/sliders/text/text-slider-one";
-import CardSliderOne from "../components/common/sliders/card/card-slider-one";
-import TextSliderTwo from "../components/common/sliders/text/text-slider-two";
-import HeroSection from "../components/home-three/hero-section";
-import HeroSectionTwo from "../components/home-three/hero-sectiontwo";
-import NewsLetter from "../components/home-three/news-letter";
-import NftRoadMap from "../components/home-three/nft-roadmap";
-import Team from "../components/home-three/Team";
+import CreaetivesHeroSection from "../components/creatives/hero-section-1";
 import SocialSection from "../components/home-three/social-section";
-import HeroSectionThree from "../components/home-three/hero-sectionthree";
-import TextSection from "../components/home-three/text-section";
-import AppLinks from "../components/home-three/app-links";
+import TextSectionOrg from "../components/organizations/text-section-org";
+import TextSectionCreatives from "../components/creatives/text-section-creatives";
+import HeroSectionThreeMusician from "../components/musicians/hero-section-3";
+import HeroSectionTwoCreative from "../components/creatives/hero-section-2";
+import HeroSectionThreeCreative from "../components/creatives/hero-section-3";
+import CreativeCTA from "../components/creatives/call-to-action";
 
 
 export default function Creatives() {
 	return (
 		<>
 			<Head>
-				<title>Blacklion</title>
+				<title>Blacklion - Creatives</title>
 			</Head>
+			<CreaetivesHeroSection />
+			<TextSectionCreatives />
+			<SocialSection/>
+			<HeroSectionTwoCreative />
+			<HeroSectionThreeCreative />
+			
+
 			
 			
 		</>
@@ -27,5 +29,5 @@ export default function Creatives() {
 }
 
 export async function getStaticProps() {
-	return { props: { header: "three", footer: "two" } };
+	return { props: { header: "three", footer: "three" } };
 }

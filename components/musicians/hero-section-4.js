@@ -39,6 +39,9 @@ export default function HeroSectionFourMusicians() {
       <div className="rt-spacer-100"></div>
       <div className="rt-spacer-100"></div>
       <div className="container">
+        <div className="BL--musician-hero4-arrow">
+          <img src="/images/musicians/arrows-white.png" alt="arrow" />
+        </div>
         <div className="BL--musician-hero4-cta">
           <h3 className="heading">Become a Lion in a musical jungle!</h3>
           <div className="fugu--hero-btn wow fadeInUpX" data-wow-delay="0.20s">
