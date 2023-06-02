@@ -4,6 +4,9 @@ import TextSectionOrg from "../components/organizations/text-section-org";
 import SocialSection from "../components/home-three/social-section";
 import OrganisationsHeroSectionTwo from "../components/organizations/hero-section-2";
 import OrganisationsHeroSectionThree from "../components/organizations/hero-section-3";
+import HeroSectionSteps from "../components/home-three/hero-section-steps";
+import CreativeCTA from "../components/creatives/call-to-action";
+import OrganizationsCTA from "../components/organizations/bottom-cta";
 
 export default function Organizations() {
   return (
@@ -13,9 +16,12 @@ export default function Organizations() {
       </Head>
       <OrganisastionsHeroSection />
       <TextSectionOrg />
-	  <SocialSection/>
-	  <OrganisationsHeroSectionTwo/>
-	  <OrganisationsHeroSectionThree/>
+      <OrganisationsHeroSectionTwo />
+      <HeroSectionSteps />
+      <OrganisationsHeroSectionThree />
+      <SocialSection />
+      <OrganizationsCTA />
+      
     </>
   );
 }

@@ -31,6 +31,9 @@ export default function OrganisationsHeroSectionThree() {
               <div className="BL--org-ellipse">
                 <img src="/images/organizations/ellipse.png" alt="ellipse" />
               </div>
+              <div className="BL--org-disc">
+                <img src="/images/organizations/disc.png" alt="disc" />
+            </div>
             </div>
           </div>
         </div>
@@ -43,11 +46,12 @@ export default function OrganisationsHeroSectionThree() {
             <div className="BL--org--leftring">
                 <img src="/images/organizations/oval-gradient.png" alt="oval" />
             </div>
+            
           </div>
           <div className="BL--org--cross">
             <img src="/images/organizations/white-cross.png" alt="cross" />
           </div>
-          <div className="BL--org-cta">
+          {/* <div className="BL--org-cta">
             <h3 className="heading">
               Let us aid you in more deal making, saving time and resources
               whilst maximizing revenue…
@@ -60,7 +64,7 @@ export default function OrganisationsHeroSectionThree() {
                 <a className="fugu--btn bg-gray active">Learn How!</a>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

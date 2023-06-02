@@ -20,12 +20,9 @@ export default function Investors() {
 		<>
 			<Head>
 				<title>Blacklion - Investors</title>
-			</Head>
-			
+			</Head>	
 			<InvestorsHeroSection />
-			<SocialSection />
-			
-			
+			<SocialSection />	
 		</>
 	);
 }

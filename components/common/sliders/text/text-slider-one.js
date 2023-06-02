@@ -48,30 +48,7 @@ export default function TextSliderOne() {
 	};
 	return (
 		<div className="fugu-text-slider-section" id="homeslide">
-			{/* <div className="fugu-text-slider-area1">
-				<div className="fugu-text-slider1">
-					<Slider {...settingsOne}>
-						<div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
-								<img src="/images/all-img/v2/star.png" alt="" />
-							</div>
-							<h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
-						</div>
-						<div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
-								<img src="/images/all-img/v2/star.png" alt="" />
-							</div>
-							<h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
-						</div>
-						<div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
-								<img src="/images/all-img/v2/star.png" alt="" />
-							</div>
-							<h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
-						</div>
-					</Slider>
-				</div>
-			</div> */}
+			
 			<div className="fugu-text-slider-area2">
 				<div className="fugu-text-slider2" dir="rtl">
 					<Slider {...settingsTwo}>

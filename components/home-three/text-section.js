@@ -33,10 +33,10 @@ export default function TextSection() {
                 </div>
                 <div className="BL-text-para">
                     <div className="BL-text-para-text">
-                    We invite you to join us in the
+                    We invite you to
                     </div>
                     <h3>
-                         #roarvolution
+                         join the revolution
                     </h3>
 
                 </div>

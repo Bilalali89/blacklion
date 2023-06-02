@@ -20,10 +20,7 @@ export default function Creatives() {
 			<SocialSection/>
 			<HeroSectionTwoCreative />
 			<HeroSectionThreeCreative />
-			
-
-			
-			
+	
 		</>
 	);
 }

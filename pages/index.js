@@ -12,6 +12,8 @@ import SocialSection from "../components/home-three/social-section";
 import HeroSectionThree from "../components/home-three/hero-sectionthree";
 import TextSection from "../components/home-three/text-section";
 import AppLinks from "../components/home-three/app-links";
+import OrganisationsHeroSectionTwo from "../components/organizations/hero-section-2";
+import HeroSectionSteps from "../components/home-three/hero-section-steps";
 
 
 export default function Home() {
@@ -23,7 +25,8 @@ export default function Home() {
 			<HeroSection />
 			<TextSliderOne />
 			<HeroSectionTwo/>
-			<SocialSection/>
+			<HeroSectionSteps/>
+			{/* <SocialSection/> */}
 			<HeroSectionThree/>
 			<AppLinks/>
 			<TextSection/>

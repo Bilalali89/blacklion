@@ -47,14 +47,9 @@ export default function HeaderHomeThree() {
 							</div>
 
 							<Navbar>
-								{/* <NavItem navItemText="Demo" menuItems={DemoDropdownMenus} />
-								<NavItem navItemText="Pages" menuItems={PagesDropdownMenus} />
-								<NavItem navItemText="Elements" menuItems={ElementsMegaMenu} megaMenu />
-								<NavItem navItemText="Blog" menuItems={BlogDropdownMenus} />
-								<NavItem navItemText="Contact Us" menuItems={ContactDropdownMenus} /> */}
-									<NavItem navItemText="Musicians" pathSite="/Musicians"/>
 									<NavItem navItemText="Organizations" pathSite="/Organizations" />
-									<NavItem navItemText="Investors"  pathSite="/Investors"/>
+									<NavItem navItemText="Musicians" pathSite="/Musicians"/>	
+									<NavItem navItemText="Investors"  pathSite="/Investors" />
 									<NavItem navItemText="Creatives" pathSite="/Creatives" />
 							</Navbar>
 						</nav>

@@ -6,6 +6,8 @@ import SocialSection from "../components/home-three/social-section";
 import HeroSectionThree from "../components/home-three/hero-sectionthree";
 import HeroSectionThreeMusician from "../components/musicians/hero-section-3";
 import HeroSectionFourMusicians from "../components/musicians/hero-section-4";
+import MusicianDataInsight from "../components/musicians/hero-music-card";
+import MusicianCardSlider from "../components/musicians/card-slider";
 
 export default function Musicians() {
 	return (
@@ -15,9 +17,11 @@ export default function Musicians() {
 			</Head>
             <MusiciansHeroSection />          
             <TextSliderMusicians/>
-            <HeroSectionTwoMusicians />
-            <HeroSectionThreeMusician />
-            <SocialSection/>
+            <HeroSectionTwoMusicians />	
+			<MusicianCardSlider />
+			<MusicianDataInsight />
+            {/* <HeroSectionThreeMusician /> */}
+            {/* <SocialSection/> */}
 			<HeroSectionFourMusicians />
 			
 		</>

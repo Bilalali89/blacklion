@@ -10,7 +10,7 @@ export default function ErrorPage() {
 						The page you're looking for can't be found. Double-check the URL and try again. we invite you to
 						visit our homepage.
 					</p>
-					<a className="fugu-btn small-btn" href="">
+					<a className="fugu-btn small-btn" href="/">
 						Go To Homepage
 					</a>
 				</div>
@@ -20,5 +20,5 @@ export default function ErrorPage() {
 }
 
 export async function getStaticProps() {
-	return { props: { header: "six", footer: "one" } };
+	return { props: { header: "three", footer: "three" } };
 }
