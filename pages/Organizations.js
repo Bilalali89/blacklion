@@ -17,7 +17,7 @@ export default function Organizations() {
       <OrganisastionsHeroSection />
       <TextSectionOrg />
       <OrganisationsHeroSectionTwo />
-      <HeroSectionSteps />
+      <HeroSectionSteps backgroundColor="#13111a" />
       <OrganisationsHeroSectionThree />
       <SocialSection />
       <OrganizationsCTA />

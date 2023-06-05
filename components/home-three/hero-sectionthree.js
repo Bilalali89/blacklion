@@ -1,8 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import HeroSectionSteps from "./hero-section-steps";
+import { MotionConfig, motion, useScroll } from "framer-motion";
 
 export default function HeroSectionThree() {
+  const { scrollYProgress } = useScroll();
   return (
     <div className="fugu--hero-section" id="herothree">
       <HeroSectionSteps/>
@@ -110,8 +112,11 @@ export default function HeroSectionThree() {
               </div>
             </div>
           </div>
-          <div className="col-xl-8 col-md-12">
-            <img src="/images/home/mobile-app.png" alt="mobileapp" />
+          <div className="col-xl-8 col-md-12" style={{zIndex :"-1"}}>
+          <motion.div style={{ scale: scrollYProgress }}> 
+              <img src="/images/home/mobile-app.png" alt="mobileapp" style={{transform: "scale(2)", zIndex:"-1"}}    />
+            </motion.div>
+           
           </div>
         </div>
       </div>

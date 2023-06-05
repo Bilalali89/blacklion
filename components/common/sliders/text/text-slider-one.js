@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Slider from "react-slick";
-export default function TextSliderOne() {
+export default function TextSliderOne(props) {
 	const settingsOne = {
 		infinite: true,
 		slidesToShow: 2,
@@ -46,8 +46,10 @@ export default function TextSliderOne() {
 			},
 		],
 	};
+
+	let {backgroundColor} = props
 	return (
-		<div className="fugu-text-slider-section" id="homeslide">
+		<div className="fugu-text-slider-section" id="homeslide" style={{backgroundColor: `${backgroundColor}`}}>
 			
 			<div className="fugu-text-slider-area2">
 				<div className="fugu-text-slider2" dir="rtl">

@@ -19,10 +19,7 @@ export default function Home() {
 				<title>Blacklion</title>
 			</Head>
 			<HeroSection />
-			<TextSliderOne />
 			<HeroSectionTwo/>
-			
-			{/* <SocialSection/> */}
 			<HeroSectionThree/>
 			<AppLinks/>
 			<TextSection/>

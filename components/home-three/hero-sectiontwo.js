@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-
+import { MotionConfig, motion, useScroll } from "framer-motion";
 
 export default function HeroSectionTwo() {
+  const { scrollYProgress } = useScroll();
+
   return (
     <div className="fugu--hero-section home-hero-2">
       <div id="fugu--counter"></div>
@@ -21,24 +23,19 @@ export default function HeroSectionTwo() {
                 We are Music technology company that is revolutionizing the
                 music industry for ALL!
               </p> */}
-             
             </div>
           </div>
           <div className="col-lg-8">
-            <div className="BL--hero-right">
-              {/* <span className="dollar"><img src="/images/home/Dollar-mark.png" alt="dollar" /></span> */}
-
-              <img src="/images/organizations/tablet.png" alt="hero" />
-            </div>
+            <motion.div className="BL--hero-right" style={{ scale: scrollYProgress }}> 
+              <img src="/images/organizations/tablet.png" alt="hero" style={{transform: "scale(5.5)"}} />
+            </motion.div>
            
           </div>
         </div>
         <div className="fugu--hero-shape1">
-          <img src="/images/home/bluegradient.png" alt=""/>
+          <img src="/images/home/bluegradient.png" alt="" />
         </div>
-        <div
-          className="fugu--hero-shape2"
-        ></div>
+        <div className="fugu--hero-shape2"></div>
       </div>
     </div>
   );

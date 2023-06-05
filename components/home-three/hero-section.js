@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { MotionConfig, motion } from "framer-motion";
+import TextSliderOne from "../common/sliders/text/text-slider-one";
 
 export default function HeroSection() {
 
-  return (
+  return (<>
     <div className="fugu--hero-section home-hero-one">
-      <div id="fugu--counter"></div>
       <div className="container">
         <div className="row">
           <div
@@ -92,6 +92,9 @@ export default function HeroSection() {
         </div>
         <div className="fugu--hero-shape2" style={{ zIndex: "-2" }}></div>
       </div>
+      <TextSliderOne backgroundColor="transparent"/>
     </div>
+    
+    </>
   );
 }
