@@ -733,7 +733,7 @@
 		font-size: 25px;
 	}
 	.site-header .menu-block .site-menu-main {
-		height: 100%;
+		height: 100vh;
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
