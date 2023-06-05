@@ -49,8 +49,8 @@ export default function HeaderHomeThree() {
 							<Navbar>
 									<NavItem navItemText="Organizations" pathSite="/Organizations" />
 									<NavItem navItemText="Musicians" pathSite="/Musicians"/>	
-									<NavItem navItemText="Investors"  pathSite="/Investors" />
-									<NavItem navItemText="Creatives" pathSite="/Creatives" />
+									{/* <NavItem navItemText="Investors"  pathSite="/Investors" />
+									<NavItem navItemText="Creatives" pathSite="/Creatives" /> */}
 							</Navbar>
 						</nav>
 					</div>

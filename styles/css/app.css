@@ -12819,11 +12819,11 @@ background: linear-gradient(118deg, rgba(90,24,125,1) 0%, rgba(79,56,138,1) 37%,
   transform: translateX(10%);
 }
 
-.site-menu-main .nav-item:last-child,
+/* .site-menu-main .nav-item:last-child,
 .site-menu-main .nav-item:nth-child(3) {
   opacity: 0.5;
   pointer-events: none;
-}
+} */
 
 .home-hero-one .text {
   font-family: "Satoshi-Medium";
