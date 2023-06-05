@@ -12834,6 +12834,7 @@ background: linear-gradient(118deg, rgba(90,24,125,1) 0%, rgba(79,56,138,1) 37%,
 .home-hero-one .BL--hero-right .dollar {
   left: 0%;
   top: 0%;
+  z-index: 1;
 }
 
 .BL--hero--btn {
@@ -12856,9 +12857,10 @@ background: linear-gradient(118deg, rgba(90,24,125,1) 0%, rgba(79,56,138,1) 37%,
   text-overflow: ellipsis;
   display: inline-block;
   text-align: center;
-  -o-transition: all 0.4s ease-in-out;
+  /* -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; */
+  transition: none;
   overflow: hidden;
   color: var(--gray-10);
   background-color: #4e476600;
@@ -12871,9 +12873,9 @@ background: linear-gradient(118deg, rgba(90,24,125,1) 0%, rgba(79,56,138,1) 37%,
 .BL--hero--btn .hero-btn:hover {
   background-color: var(--green);
   color: var(--gray-800);
-  -o-transition: all 0.4s ease-in-out;
+  /* -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; */
 }
 
 .home-hero-2 .fugu--hero-content {
