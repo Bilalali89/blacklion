@@ -655,7 +655,7 @@
 		top: 0;
 		/* height: 100%; */
 		height: 100vh;
-		overflow: hidden;
+		overflow-y: visible;
 		transform: translate(-100%);
 		transition: all 0.5s ease;
 		z-index: 1099;
@@ -697,6 +697,7 @@
 		position: sticky;
 		background-color: #ffffff;
 		top: 0;
+		overflow-y: visible;
 	}
 	.site-header .menu-block .mobile-menu-head .go-back {
 		height: 50px;
@@ -735,7 +736,7 @@
 	.site-header .menu-block .site-menu-main {
 		height: 100vh;
 		overflow-x: hidden;
-		overflow-y: auto;
+		overflow-y: visible;
 	}
 	.site-menu-main > li .sub-menu.mega-menu,
 	.site-menu-main > li .sub-menu {
