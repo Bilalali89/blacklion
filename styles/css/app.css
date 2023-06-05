@@ -13074,7 +13074,7 @@ background: linear-gradient(118deg, rgba(90,24,125,1) 0%, rgba(79,56,138,1) 37%,
 	position: absolute;
 	top: -20%;
 	right: -25%;
-  animation: float 5s infinite alternate;
+  animation: float2 5s infinite alternate;
 }
 
 .BL--home-steps-section .BL-step.step-two::after{
@@ -13091,7 +13091,7 @@ background: linear-gradient(118deg, rgba(90,24,125,1) 0%, rgba(79,56,138,1) 37%,
 	position: absolute;
 	top: -20%;
 	right: -25%;
-  animation: float2 5s infinite alternate;
+  animation: float 5s infinite alternate;
 }
 
 .BL--home-steps-section .BL-step.step-three::after{
