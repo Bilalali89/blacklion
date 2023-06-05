@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import HeroSectionSteps from "./hero-section-steps";
 
 export default function HeroSectionThree() {
   return (
     <div className="fugu--hero-section" id="herothree">
+      <HeroSectionSteps/>
       <div className="container">
         <div className="BL--headline">
           <p className="wow fadeInUpX" data-wow-delay="0.10s">
