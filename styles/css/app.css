@@ -56,11 +56,14 @@ body {
   vertical-align: baseline;
   text-rendering: optimizeLegibility;
   font-weight: 400;
-  overflow-x: hidden;
   background-color: #fff;
   counter-reset: my-sec-counter;
   font-size: 18px;
   line-height: 30px;
+}
+
+body > div {
+  overflow: hidden auto;
 }
 
 body.styleguide {
