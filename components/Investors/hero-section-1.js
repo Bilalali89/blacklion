@@ -1,11 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
-import CountUp from "react-countup";
-import NewsLetterOrg from "../organizations/newsletter-org";
-import NewsLetterCreatives from "../creatives/newsletter-creatives";
-import NewsLetter from "../home-three/news-letter";
 import NewsLetterInvestor from "./newsletter-investor";
-import TextSliderOne from "../common/sliders/text/text-slider-one";
 import TextSliderInvestor from "./text-slider-investor";
 
 export default function InvestorsHeroSection() {
@@ -14,9 +8,9 @@ export default function InvestorsHeroSection() {
 			<div id="fugu--counter"></div>
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-6 d-flex justify-content-center" style={{flexDirection:'column'}}>
+					<div className="col-lg-6 d-flex justify-content-center flex-direction-column" >
 						<div className="fugu--hero-content" style={{zIndex: '-1'}}>
-							<h1 className="wow fadeInUpX" data-wow-delay="0s">
+							<h1>
 								Changing <br/>
 								Music <br/>
 								Consumption <br/>

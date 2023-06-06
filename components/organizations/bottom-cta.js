@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import { MotionConfig, motion } from "framer-motion";
 
 export default function OrganizationsCTA() {
   return (
@@ -22,11 +23,16 @@ export default function OrganizationsCTA() {
             </h3>
             <div className="rt-spacer-100"></div>
             <div
-              className="fugu--hero-btn wow fadeInUpX"
-              data-wow-delay="0.20s"
+              className="fugu--hero-btn"
+             
             >
               <Link href={"#"} legacyBehavior>
-                <a className="fugu--btn bg-gray active">GET EARLY ACCESS!</a>
+                <motion.a className="fugu--btn bg-gray active"
+                 whileHover={{ scale: 1.1 }}
+                 transition={{ type: "spring", stiffness: 400, damping: 20 }}>
+                GET EARLY ACCESS!
+                </motion.a>
+               
               </Link>
             </div>
           </div>

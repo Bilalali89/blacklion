@@ -2,29 +2,57 @@
 import Link from "next/link";
 import HeroSectionSteps from "./hero-section-steps";
 import { MotionConfig, motion, useScroll } from "framer-motion";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 
 export default function HeroSectionThree() {
+  const refOne = useRef(null);
+  const refTwo = useRef(null);
+
+  const isInViewOne = useInView(refOne);
+  const isInViewTwo = useInView(refTwo);
+
   const { scrollYProgress } = useScroll();
   return (
     <div className="fugu--hero-section" id="herothree">
-      <HeroSectionSteps/>
+      <HeroSectionSteps />
       <div className="container">
-        <div className="BL--headline">
-          <p className="wow fadeInUpX" data-wow-delay="0.10s">
-            As a company with laser focus on music and technology, we have
-            created two NEW products which are already disrupting the music
-            industry in a big way!
-          </p>
-        </div>
-        <div className="BL--greenarrow">
-          <img src="/images/home/Zigzag-arrow-white.png" alt="arrow" />
-        </div>
+        <MotionConfig transition={{ duration: 1 }}>
+          <motion.div
+            className="BL--headline"
+            ref={refOne}
+            initial={{ y: "60%" }}
+            animate={{
+              opacity: isInViewOne ? 1 : 0,
+              y: isInViewOne ? "0%" : "60%",
+            }}
+          >
+            <p>
+              As a company with laser focus on music and technology, we have
+              created two NEW products which are already disrupting the music
+              industry in a big way!
+            </p>
+          </motion.div>
+        </MotionConfig>
+        <MotionConfig transition={{ duration: 1 }}>
+          <motion.div
+            ref={refTwo}
+            className="BL--greenarrow"
+            initial={{ y: "-60%" }}
+            animate={{
+              opacity: isInViewTwo ? 1 : 0,
+              y: isInViewTwo ? "0%" : "-60%",
+            }}
+          >
+            <img src="/images/home/Zigzag-arrow-white.png" alt="arrow" />
+          </motion.div>
+        </MotionConfig>
       </div>
       <div className="container mb-300">
         <div className="row">
           <div className="col-xl-4 col-md-12 d-flex justify-content-center flex-direction-column">
             <div className="fugu--hero-content">
-              <h1 className="wow fadeInUpX" data-wow-delay="0s">
+              <h1>
                 Blacklion <br />
                 Valuation <br />
                 Engine
@@ -112,11 +140,14 @@ export default function HeroSectionThree() {
               </div>
             </div>
           </div>
-          <div className="col-xl-8 col-md-12" style={{zIndex :"-1"}}>
-          <motion.div style={{ scale: scrollYProgress }}> 
-              <img src="/images/home/mobile-app.png" alt="mobileapp" style={{transform: "scale(2)", zIndex:"-1"}}    />
+          <div className="col-xl-8 col-md-12" style={{ zIndex: "-1" }}>
+            <motion.div style={{ scale: scrollYProgress }}>
+              <img
+                src="/images/home/mobile-app.png"
+                alt="mobileapp"
+                style={{ transform: "scale(2)", zIndex: "-1" }}
+              />
             </motion.div>
-           
           </div>
         </div>
       </div>

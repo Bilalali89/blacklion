@@ -15,7 +15,6 @@ export default function TextSection() {
   const isInViewThree = useInView(refThree);
   const isInViewFour = useInView(refFour);
 
-
   return (
     <>
       <div className="BL-background-dark">

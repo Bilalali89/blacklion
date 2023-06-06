@@ -1,7 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
-import CountUp from "react-countup";
-import NewsLetter from "../home-three/news-letter";
 import TextSliderOrg from "./text-slider";
 
 export default function OrganisastionsHeroSection() {

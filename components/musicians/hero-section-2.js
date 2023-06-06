@@ -12,10 +12,10 @@ export default function HeroSectionTwoMusicians() {
             className="col-lg-5 d-flex justify-content-center flex-direction-column"
           >
             <div className="fugu--hero-content">
-              <h1 className="wow fadeInUpX" data-wow-delay="0s">
+              <h1>
                 Insights <br />
                 That <br />
-                Play
+                Pay
               </h1>
               <p style={{marginRight: '0px'}}>Use your data to understand your value. Secure cash payments instantly & globally.</p>
               

@@ -1,16 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
-import CountUp from "react-countup";
-import NewsLetter from "../home-three/news-letter";
+import { MotionConfig, motion, useScroll } from "framer-motion";
 
 export default function OrganisationsHeroSectionTwo() {
+  const { scrollYProgress } = useScroll();
+
   return (
     <div className="fugu--hero-section BL--organization-sec">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-4 d-flex justify-content-center flex-direction-column">
             <div className="fugu--hero-content BL--organization-content">
-              <h1 className="wow fadeInUpX" data-wow-delay="0s">
+              <h1>
                 Digitize&nbsp;&<br />
                 Streamline
                 <br />
@@ -21,7 +21,9 @@ export default function OrganisationsHeroSectionTwo() {
           </div>
           <div className="col-lg-8">
             <div className="BL--organization-image justify-content-end d-flex">
-              <img src="/images/organizations/tablet.png" alt="tablet" />
+              <motion.div style={{ scale: scrollYProgress }}> 
+              <img src="/images/organizations/tablet.png" alt="hero" style={{transform: "scale(3)"}} />
+            </motion.div>
               <div className="BL--hero--btn-SAT">
                 <span className="hero-btn">
                   Smart <br />

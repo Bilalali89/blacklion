@@ -6,23 +6,19 @@ export default function HeroSectionTwo() {
 
   return (
     <div className="fugu--hero-section home-hero-2">
-      <div id="fugu--counter"></div>
+
       <div className="container-fluid">
         <div className="row">
           <div
-            className="col-lg-4 d-flex justify-content-center"
-            style={{ flexDirection: "column" }}
+            className="col-lg-4 d-flex justify-content-center flex-direction-column"
           >
             <div className="fugu--hero-content">
-              <h1 className="wow fadeInUpX" data-wow-delay="0s">
+              <h1>
                 Digitize&nbsp;& <br />
                 Streamline <br />
                 Operations
               </h1>
-              {/* <p className="wow fadeInUpX" data-wow-delay="0.10s">
-                We are Music technology company that is revolutionizing the
-                music industry for ALL!
-              </p> */}
+            
             </div>
           </div>
           <div className="col-lg-8">
@@ -32,10 +28,14 @@ export default function HeroSectionTwo() {
            
           </div>
         </div>
+       
         <div className="fugu--hero-shape1">
-          <img src="/images/home/bluegradient.png" alt="" />
+          <img src="/images/home/bluegradient.png" alt="shape" />
         </div>
         <div className="fugu--hero-shape2"></div>
+        <div className="fugu--hero-shape3">
+          <img src="/images/home/purple.png" alt="shape" />
+        </div>
       </div>
     </div>
   );

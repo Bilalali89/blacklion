@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import CountUp from "react-countup";
+import { MotionConfig, motion } from "framer-motion";
 
 export default function HeroSectionFourMusicians() {
   return (
@@ -15,33 +15,43 @@ export default function HeroSectionFourMusicians() {
           <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
               <div className="BL--musician-hero4-content">
-                <h1 className="wow fadeInUpX" data-wow-delay="0s">
-                  Match-Making
-                </h1>
+                <h1>Match-Making</h1>
                 <div className="rt-spacer-40"></div>
-                <p className="wow fadeInUpX" data-wow-delay="0.10s">
-                  We’re not Tinder, but we will find you the right partner
-                </p>
+                <p>We’re not Tinder, but we will find you the right partner</p>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-5">
-              <img src="/images/musicians/hero-section-4-1.png" alt="wave" className="imgwave" />
+              <img
+                src="/images/musicians/hero-section-4-1.png"
+                alt="wave"
+                className="imgwave"
+              />
             </div>
             <div className="col-lg-7">
-              <img src="/images/musicians/hero-section-4-2.png" alt="card" className="imgcard" />
+              <img
+                src="/images/musicians/hero-section-4-2.png"
+                alt="card"
+                className="imgcard"
+              />
             </div>
           </div>
         </div>
       </div>
-      
-      <div className="container" style={{marginTop: "400px"}}>
+
+      <div className="container mt-400">
         <div className="BL--musician-hero4-cta">
           <h3 className="heading">Become a Lion in a musical jungle!</h3>
-          <div className="fugu--hero-btn wow fadeInUpX" data-wow-delay="0.20s">
+          <div className="fugu--hero-btn">
             <Link href={"#"} legacyBehavior>
-              <a className="fugu--btn bg-gray active special">Get Early Access!</a>
+            <motion.a
+              className="fugu--btn bg-gray active special"
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 400, damping: 20 }}
+            >
+              Get Early Access!
+            </motion.a>
             </Link>
           </div>
         </div>

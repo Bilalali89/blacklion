@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import NewsLetterCreatives from "./newsletter-creatives";
 
 export default function TextSectionCreatives() {
@@ -10,38 +9,38 @@ export default function TextSectionCreatives() {
             <div className="container">
                 <div className="BL-text">
                     <div className="BL-text-one">
-                          <p className="wow fadeInUpX" data-wow-delay="0s">
+                          <p>
                          Managers
 						</p>
                     </div>
                     <div className="BL-text-two">
-                          <p className="wow fadeInUpX" data-wow-delay="0s">
+                          <p>
                            Publicists
 						</p>
                     </div>
                     <div className="BL-text-three">
-                          <p className="wow fadeInUpX" data-wow-delay="0s">
+                          <p>
 							Stylists
 						</p>
                     </div>
                     <div className="BL-text-three">
-                          <p className="wow fadeInUpX" data-wow-delay="0s">
+                          <p>
 							Radio Promoters
 						</p>
                     </div>
                     <div className="BL-text-three">
-                          <p className="wow fadeInUpX" data-wow-delay="0s">
+                          <p>
 							Music Supervisors
 						</p>
                     </div>
                     <div className="BL-text-three">
-                          <p className="wow fadeInUpX" data-wow-delay="0s">
+                          <p>
 							Creative Directors
 						</p>
                     </div>
                 
                     <div className="BL-text-four">
-                          <p className="wow fadeInUpX" data-wow-delay="0s">
+                          <p>
 							Graphic Designers
 						</p>
                     </div>

@@ -10,7 +10,7 @@ export default function CreaetivesHeroSection() {
             className="col-lg-4 d-flex justify-content-center flex-direction-column"
           >
             <div className="fugu--hero-content BL--musicians-content">
-              <h1 className="wow fadeInUpX" data-wow-delay="0s">
+              <h1>
                 Calling<br />
                 All
                 <br />
@@ -28,9 +28,6 @@ export default function CreaetivesHeroSection() {
         <div className="BL--musicians-hero-shape1">
           <img src="/images/musicians/green-bg.png" alt="greenbg" />
         </div>
-      
-       
-        {/* <div className="fugu--hero-shape2"></div> */}
       </div>
     </div>
   );

@@ -20,8 +20,7 @@ export default function Musicians() {
             <HeroSectionTwoMusicians />	
 			<MusicianCardSlider />
 			<MusicianDataInsight />
-            {/* <HeroSectionThreeMusician /> */}
-            {/* <SocialSection/> */}
+    
 			<HeroSectionFourMusicians />
 			
 		</>
