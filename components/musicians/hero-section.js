@@ -114,6 +114,10 @@ export default function MusiciansHeroSection() {
           <img src="/images/musicians/green-bg.png" alt="greenbg" />
         </div>
 
+        <div className="BL--musicians-hero-shape2">
+          <img src="/images/musicians/pathblob.png" alt="purplebg" />
+        </div>
+
         <div className="rt-spacer-50"></div>
         {/* <div className="fugu--hero-shape2"></div> */}
       </div>

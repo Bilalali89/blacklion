@@ -12148,6 +12148,14 @@ circle {
   filter: blur(50px);
 }
 
+.BL--musicians-hero-shape2 {
+  position: absolute;
+  top: 25%;
+  left: -20%;
+  z-index: -5;
+  filter: blur(50px);
+  transform: scale(0.8);
+}
 .BL--musicians-content {
   position: relative;
 }
