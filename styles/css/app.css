@@ -12300,6 +12300,7 @@ circle {
   right: 20%;
   z-index: -1;
   position: absolute;
+  animation: arrow 5s infinite alternate;
 }
 
 .BL--musician-hero4-content::after {
@@ -12308,7 +12309,10 @@ circle {
   left: 10%;
   z-index: -1;
   position: absolute;
+  animation: arrow 5s infinite alternate;
 }
+
+
 
 .BL--musician-hero4-content h1 {
   color: white;
@@ -12369,6 +12373,7 @@ circle {
   top: 25%;
   z-index: -1;
   width: auto;
+  animation: arrow 5s infinite alternate;
 }
 
 .BL--musician-hero4-arrow {
@@ -13628,4 +13633,8 @@ circle {
 .BL--hero--btn.button {
   position: inherit;
   display: block;
+}
+
+.imgwave {
+  animation: arrow 5s infinite alternate;
 }
