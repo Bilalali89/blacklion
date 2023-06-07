@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { useLayoutEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
@@ -9,11 +9,11 @@ gsap.registerPlugin(ScrollTrigger);
 export default function MusicianCardSlider() {
   const comp = useRef();
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     let ctx = gsap.context(() => {
       const spacer = 0;
       let cards = gsap.utils.toArray(".cardd");
-      console.log(cards[1].style.zIndex);
+      console.log(cards[1]?.style.zIndex);
       gsap.fromTo(
         ".cardd:not(:first-child)",
         {
@@ -26,27 +26,25 @@ export default function MusicianCardSlider() {
           rotate: 0,
           scrollTrigger: {
             pin: ".cardss",
-            pinSpacing:"200px",
             scrub: true,
             start: "top 20%",
             end: "bottom 20%",
-            invalidateOnRefresh: true,
-            markers: false,
+            invalidateOnRefresh: false,
+            markers: true,
           },
         }
       );
-    });
+    }, comp);
     return () => ctx.revert(); // <- cleanup!
   }, []);
 
-
   return (
-    <div className="BL--musician--cardslider" >
+    <div className="BL--musician--cardslider" ref={comp}>
       <div className="container">
         <div class="spacer"></div>
 
-        <div className="slidebox cardss">
-          <div className="panel sl1 cardd" style={{ position: "relative" }}>
+        <div className="slidebox cardss" >
+          <div className="panel sl1 cardd">
             <img src="/images/musicians/slide.png" alt="slide" />
           </div>
 

@@ -13646,13 +13646,13 @@ circle {
 
 .BL--musician--cardslider .slidebox {
   width: 100%;
-  height: auto;
+  height: 60vh;
   display: flex;
+  position: relative;
 }
 
-
 .BL--musician--cardslider .slidebox img{
-  max-width: inherit;
+  max-width: 100%;
   width: 65vw;
 }
 
