@@ -12,7 +12,7 @@ export default function HeroSectionTwoMusicians() {
             className="col-lg-5 d-flex justify-content-center flex-direction-column"
           >
             <div className="fugu--hero-content">
-              <h1>
+              <h1 className="cursor-scale small">
                 Insights <br />
                 That <br />
                 Pay

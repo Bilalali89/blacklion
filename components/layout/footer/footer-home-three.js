@@ -10,7 +10,7 @@ export default function FooterHomeThree() {
 				<div className="fugu-footer-middle">
 					<div className="row">
 						<div className="col-xl-2 col-lg-2">
-							<div className="fugu-footer-logo">
+							<div className="fugu-footer-logo cursor-scale small">
 								<img src="/images/logo/Logo.png" alt="logo" />
 							</div>
 						</div>

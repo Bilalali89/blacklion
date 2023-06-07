@@ -29,7 +29,7 @@ export default function HeaderHomeThree() {
 		>
 			<div className="container-fluid">
 				<nav className="navbar site-navbar">
-					<div className="brand-logo">
+					<div className="brand-logo cursor-scale small">
 						<Link href={"/"}>
 							<img src="/images/logo/Logo.png" alt="logo" className="light-version-logo" />
 						</Link>

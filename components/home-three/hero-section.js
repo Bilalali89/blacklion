@@ -11,7 +11,7 @@ export default function HeroSection() {
           <div className="row">
             <div className="col-lg-4 d-flex justify-content-center flex-direction-column">
               <div className="fugu--hero-content">
-                <h1>
+                <h1 className="cursor-scale small">
                   <MotionConfig transition={{ duration: 1, delay: 0 }}>
                     <motion.div
                       initial={{ opacity: 0, x: "-30%" }}

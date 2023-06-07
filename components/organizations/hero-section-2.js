@@ -10,7 +10,7 @@ export default function OrganisationsHeroSectionTwo() {
         <div className="row">
           <div className="col-lg-4 d-flex justify-content-center flex-direction-column">
             <div className="fugu--hero-content BL--organization-content">
-              <h1>
+              <h1 className="cursor-scale small">
                 Digitize&nbsp;&<br />
                 Streamline
                 <br />

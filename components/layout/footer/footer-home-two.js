@@ -11,8 +11,8 @@ export default function FooterHomeTwo() {
 				<div className="fugu-footer-middle">
 					<div className="row">
 						<div className="col-xl-2 col-lg-2">
-							<div className="fugu-footer-logo">
-								<img src="/images/logo/Logo.png" alt="logo" />
+							<div className="fugu-footer-logo cursor-scale small">
+								<img src="/images/logo/Logo.png" alt="logo"  />
 							</div>
 						</div>
 						<div className="col-xl-10 col-lg-10 d-flex justify-content-end">

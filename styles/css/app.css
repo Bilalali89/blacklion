@@ -13660,36 +13660,12 @@ circle {
   max-width: inherit;
   width: 65vw;
 }
-/* .cardd {
-  position: absolute;
-  right: -20%;
-} */
+
 .spacer {
   height: 20vh;
   opacity: 0.2
 }
-/* .BL--musician--cardslider .slidebox .sl1 {
-  position: fixed;
-  display: block;
-}
 
-.BL--musician--cardslider .slidebox .sl2 {
-  position: absolute;
-  right: -50%;
-  z-index: 2;
-}
-
-.BL--musician--cardslider .slidebox .sl3 {
-  position: absolute;
-  right: -100%;
-  z-index: 3;
-}
-
-.BL--musician--cardslider .slidebox .sl4 {
-  position: absolute;
-  right: -150%;
-  z-index: 4;
-} */
 
 .swiper-pagination-bullets {
   display: none;
@@ -13708,4 +13684,33 @@ circle {
 
 .imgwave {
   animation: float2 5s infinite alternate;
+}
+
+body { cursor: none; }
+
+/* // custom cursor style */
+.cursor{
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  border: 2px solid var(--green);
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+  pointer-events: none;
+  z-index: 1000;
+  cursor: none;
+}
+
+.grow, .grow-small{
+  transform: scale(4);
+  background: white;
+  mix-blend-mode: difference; 
+  border: none;
+}
+
+.grow-small{
+  transform: scale(10);
 }

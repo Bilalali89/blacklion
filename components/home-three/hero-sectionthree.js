@@ -52,7 +52,7 @@ export default function HeroSectionThree() {
         <div className="row">
           <div className="col-xl-4 col-md-12 d-flex justify-content-center flex-direction-column">
             <div className="fugu--hero-content">
-              <h1>
+              <h1 className="cursor-scale small">
                 Blacklion <br />
                 Valuation <br />
                 Engine
@@ -120,7 +120,7 @@ export default function HeroSectionThree() {
         <div className="row">
           <div className="col-xl-4 col-md-12 d-flex justify-content-center flex-direction-column">
             <div className="fugu--hero-content ">
-              <h1 className="wow fadeInUpX" data-wow-delay="0s">
+              <h1 className="cursor-scale small">
                 Blacklion <br />
                 App <br />
               </h1>

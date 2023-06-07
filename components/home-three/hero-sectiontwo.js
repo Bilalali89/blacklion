@@ -13,7 +13,7 @@ export default function HeroSectionTwo() {
             className="col-lg-4 d-flex justify-content-center flex-direction-column"
           >
             <div className="fugu--hero-content">
-              <h1>
+              <h1 className="cursor-scale small">
                 Digitize&nbsp;& <br />
                 Streamline <br />
                 Operations

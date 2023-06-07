@@ -11,10 +11,10 @@ export default function OrganisastionsHeroSection() {
             style={{ flexDirection: "column" }}
           >
             <div className="BL--org-content">
-              <h4 className="wow fadeInUpX" data-wow-delay="0s">
+              <h4 className="cursor-scale small">
                 WELCOME TO THE
               </h4>
-              <h1 className="wow fadeInUpX" data-wow-delay="0s">
+              <h1 className="cursor-scale small">
                 ROARVOLUTION
               </h1>
             </div>
