@@ -8254,22 +8254,24 @@ a.fugu-pricing-btn.active {
 
 .fugu-go-top {
   position: fixed;
-  bottom: 10%;
+  bottom: 8%;
   right: 3%;
   z-index: 99;
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
+  mix-blend-mode: difference; 
 }
 .fugu-go-top:before {
   content: "";
   left: 50%;
   top: 50%;
   z-index: -1;
-  width: 40px;
-  height: 40px;
-  border-radius: 3px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   position: absolute;
-  background-color: var(--warning-500);
+  background-color: var(--green);
+  
   transform: translate(-50%, -50%);
 }
 .fugu-go-top img {
@@ -13686,7 +13688,7 @@ circle {
   animation: float2 5s infinite alternate;
 }
 
-* { cursor: none }
+* { cursor: none !important }
 
 /* // custom cursor style */
 .cursor{

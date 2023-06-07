@@ -1,16 +1,15 @@
 import "bootstrap/dist/css/bootstrap.css";
-import "slick-carousel/slick/slick.css";
-import Layout from "../components/layout";
-import dynamic from "next/dynamic";
-import { useLayoutEffect } from "react";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { gsap } from "gsap/dist/gsap";
 import Head from "next/head";
+import { useLayoutEffect } from "react";
+import "slick-carousel/slick/slick.css";
 import Preloader from "../components/common/preloader/preloader";
 import ScrollTop from "../components/common/scroll-top";
+import Layout from "../components/layout";
+import "../styles/css/animate.css";
 import "../styles/css/app.css";
 import "../styles/css/main.css";
-import "../styles/css/animate.css";
-import { gsap } from "gsap/dist/gsap";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -65,7 +64,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </Layout>
 
-      {/* <ScrollTop /> */}
+      <ScrollTop />
       <Preloader />
     </>
   );
