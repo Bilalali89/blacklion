@@ -7,6 +7,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function MusicianCardSlider() {
+  const comp = useRef();
 
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
@@ -25,7 +26,7 @@ export default function MusicianCardSlider() {
           rotate: 0,
           scrollTrigger: {
             pin: ".cardss",
-            markers: false,
+            pinSpacing:"200px",
             scrub: true,
             start: "top 20%",
             end: "bottom 20%",
@@ -40,12 +41,12 @@ export default function MusicianCardSlider() {
 
 
   return (
-    <div className="BL--musician--cardslider">
+    <div className="BL--musician--cardslider" >
       <div className="container">
         <div class="spacer"></div>
 
-        <div className="slidebox d-flex cardss">
-          <div className="panel sl1 cardd">
+        <div className="slidebox cardss">
+          <div className="panel sl1 cardd" style={{ position: "relative" }}>
             <img src="/images/musicians/slide.png" alt="slide" />
           </div>
 

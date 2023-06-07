@@ -8271,7 +8271,6 @@ a.fugu-pricing-btn.active {
   border-radius: 50%;
   position: absolute;
   background-color: var(--green);
-  
   transform: translate(-50%, -50%);
 }
 .fugu-go-top img {
@@ -13646,17 +13645,11 @@ circle {
 }
 
 .BL--musician--cardslider .slidebox {
-  display: flex;
-  flex-direction: row;
   width: 100%;
   height: auto;
-}
-.BL--musician--cardslider .slidebox{
   display: flex;
-  width: 100%;
-  height: auto;
-  position: relative;
 }
+
 
 .BL--musician--cardslider .slidebox img{
   max-width: inherit;
@@ -13664,7 +13657,7 @@ circle {
 }
 
 .spacer {
-  height: 20vh;
+  height: 50vh;
   opacity: 0.2
 }
 
