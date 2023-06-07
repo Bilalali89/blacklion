@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "slick-carousel/slick/slick.css";
 import Layout from "../components/layout";
+import dynamic from "next/dynamic";
 
 import Head from "next/head";
 import "react-modal-video/css/modal-video.min.css";
@@ -11,6 +12,8 @@ import ScrollTop from "../components/common/scroll-top";
 import "../styles/css/app.css";
 import "../styles/css/main.css";
 import "../styles/css/animate.css";
+
+
 
 function MyApp({ Component, pageProps }) {
 	

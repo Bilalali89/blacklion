@@ -1,46 +1,86 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+import { useLayoutEffect, useRef } from "react";
+import { gsap } from "gsap/dist/gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
-// import "./styles.css";
-
-// import required modules
-import { Pagination } from "swiper";
+gsap.registerPlugin(ScrollTrigger);
 
 export default function MusicianCardSlider() {
+  // const component = useRef();
+  // const slider = useRef();
+
+  useLayoutEffect(() => {
+    // let ctx = gsap.context(() => {
+    //   let panels = gsap.utils.toArray(".panel");
+    //   gsap.to(panels, {
+    //     xPercent: -100 * (panels.length - 1),
+    //     ease: "none",
+    //     scrollTrigger: {
+    //       start: "top 20%",
+    //       trigger: slider.current,
+    //       pin: true,
+    //       scrub: 1,
+    //       snap: 1 / (panels.length - 1),
+    //       end: () => "+=" + slider.current.offsetWidth,
+    //       markers: false,
+    //     },
+    //   });
+    // }, component);
+    // return () => ctx.revert();
+
+
+const spacer = 0
+let cards = gsap.utils.toArray(".cardd");
+console.log(cards[1].style.zIndex)
+gsap.fromTo(
+  ".cardd:not(:first-child)",
+  {
+    x: () => window.innerWidth ,
+    rotate: 4,
+  },
+  {
+    x: spacer,
+    stagger: 0.5,
+    rotate: 0,
+    scrollTrigger: {
+      pin: ".cardss",
+      markers: false,
+      scrub: true,
+      start: "top 20%",
+      end: "bottom 20%",
+      invalidateOnRefresh: true,
+      markers: false
+    }
+  }
+);
+  });
+
   return (
-    <div className="BL--musician--cardslider">
-      
-      <div className="container-fluid"> 
-        <div className="row">
-        <Swiper
-        slidesPerView={2}
-        spaceBetween={30}
-        centeredSlides={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide><img src="/images/musicians/slide.png" alt="slide" /></SwiperSlide>
-        <SwiperSlide><img src="/images/musicians/slide-2.png" alt="slide" /></SwiperSlide>
-        <SwiperSlide><img src="/images/musicians/slide-3.png" alt="slide" /></SwiperSlide>
-        <SwiperSlide><img src="/images/musicians/slide-4.png" alt="slide" /></SwiperSlide>
-       
-      </Swiper>
-          
+    <div className="BL--musician--cardslider" >
+      <div className="container">
+      <div class="spacer"></div>
+
+        <div className="slidebox d-flex cardss">
+          <div className="panel sl1 cardd">
+            <img src="/images/musicians/slide.png" alt="slide" />
+          </div>
+
+          <div className="panel sl2 cardd" style={{zIndex: '2', position: 'absolute'}}>
+            <img src="/images/musicians/slide-2.png" alt="slide" />
+          </div>
+
+          <div className="panel sl3 cardd" style={{zIndex: '3', position: 'absolute'}}>
+            <img src="/images/musicians/slide-3.png" alt="slide" />
+          </div>
+
+          <div className="panel sl4 cardd" style={{zIndex: '4', position: 'absolute'}}>
+            <img src="/images/musicians/slide-4.png" alt="slide" />
+          </div>
         </div>
-        
+        <div className="rt-spacer-100"></div>
+        <div className="rt-spacer-100"></div>
       </div>
-      
     </div>
   );
 }
-
-

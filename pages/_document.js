@@ -5,7 +5,8 @@ export default function Document() {
 		<Html>
 			<Head>
 				<link rel="icon" href="/images/favicon.ico" />
-			
+				<script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+
 			
 			</Head>
 			<body>
