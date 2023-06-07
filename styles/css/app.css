@@ -13686,7 +13686,7 @@ circle {
   animation: float2 5s infinite alternate;
 }
 
-body { cursor: none; }
+* { cursor: none }
 
 /* // custom cursor style */
 .cursor{

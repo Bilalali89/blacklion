@@ -7,32 +7,37 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function MusicianCardSlider() {
+
   useLayoutEffect(() => {
-    const spacer = 0;
-    let cards = gsap.utils.toArray(".cardd");
-    console.log(cards[1].style.zIndex);
-    gsap.fromTo(
-      ".cardd:not(:first-child)",
-      {
-        x: () => window.innerWidth,
-        rotate: 4,
-      },
-      {
-        x: spacer,
-        stagger: 0.5,
-        rotate: 0,
-        scrollTrigger: {
-          pin: ".cardss",
-          markers: false,
-          scrub: true,
-          start: "top 20%",
-          end: "bottom 20%",
-          invalidateOnRefresh: true,
-          markers: false,
+    let ctx = gsap.context(() => {
+      const spacer = 0;
+      let cards = gsap.utils.toArray(".cardd");
+      console.log(cards[1].style.zIndex);
+      gsap.fromTo(
+        ".cardd:not(:first-child)",
+        {
+          x: () => window.innerWidth,
+          rotate: 4,
         },
-      }
-    );
-  });
+        {
+          x: spacer,
+          stagger: 0.5,
+          rotate: 0,
+          scrollTrigger: {
+            pin: ".cardss",
+            markers: false,
+            scrub: true,
+            start: "top 20%",
+            end: "bottom 20%",
+            invalidateOnRefresh: true,
+            markers: false,
+          },
+        }
+      );
+    });
+    return () => ctx.revert(); // <- cleanup!
+  }, []);
+
 
   return (
     <div className="BL--musician--cardslider">
