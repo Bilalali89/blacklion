@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { gsap } from "gsap/dist/gsap";
 import Head from "next/head";
-import { useLayoutEffect } from "react";
+import { useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import Preloader from "../components/common/preloader/preloader";
 import ScrollTop from "../components/common/scroll-top";
@@ -15,7 +15,8 @@ import "../styles/css/main.css";
 gsap.registerPlugin(ScrollTrigger);
 
 function MyApp({ Component, pageProps }) {
-  useLayoutEffect(() => {
+  useEffect(() => {
+    let ctx= gsap.context(() => {
     let cursor = document.querySelector(".cursor");
     let cursorScale = document.querySelectorAll(".cursor-scale");
     let mouseX = 0;
@@ -53,6 +54,8 @@ function MyApp({ Component, pageProps }) {
       });
     });
   });
+  return () => ctx.revert(); // <- cleanup!
+}, []);
 
   return (
     <>

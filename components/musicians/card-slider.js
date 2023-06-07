@@ -22,7 +22,7 @@ export default function MusicianCardSlider() {
         },
         {
           x: spacer,
-          stagger: 0.5,
+          stagger: 0.7,
           rotate: 0,
           scrollTrigger: {
             pin: ".cardss",
@@ -30,7 +30,7 @@ export default function MusicianCardSlider() {
             start: "top 20%",
             end: "bottom 20%",
             invalidateOnRefresh: false,
-            markers: true,
+            markers: false,
           },
         }
       );
