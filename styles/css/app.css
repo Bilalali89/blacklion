@@ -2655,7 +2655,7 @@ footer.fugu-foote2-section .fugu-default-content .fugu-app-btn-wrap {
   color: #ffffff;
   opacity: 0.6;
   margin: 0;
-  margin-right: 40px;
+  /* margin-right: 40px; */
 }
 @media (max-width: 767px) {
   .fugu-footer-bottom p {
@@ -13653,7 +13653,7 @@ circle {
 
 .BL--musician--cardslider .slidebox img{
   max-width: 100%;
-  width: 65vw;
+  width: 100%;
 }
 
 .spacer {
@@ -13708,5 +13708,108 @@ circle {
 
 .grow-small{
   transform: scale(10);
+}
+
+.BL--hero--btn-findcreative {
+  text-align: center;
+  position: absolute;
+  top: -20%;
+  right: 30%;
+}
+
+.BL--hero--btn-findcreative .hero-btn {
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 15px 30px;
+  font-weight: 700;
+  font-family: "Satoshi-Medium", sans-serif;
+  width: fit-content;
+  z-index: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+  text-align: center;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  color: var(--gray-10);
+  background-color: #4e476600;
+  border: 8px solid #FF0A64;
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+}
+
+.BL--hero--btn-findmusicians {
+  text-align: center;
+  position: absolute;
+  bottom: 32%;
+  right: 30%;
+}
+
+.BL--hero--btn-findmusicians .hero-btn {
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 15px 30px;
+  font-weight: 700;
+  font-family: "Satoshi-Medium", sans-serif;
+  width: fit-content;
+  z-index: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+  text-align: center;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  color: var(--gray-10);
+  background-color: #4e476600;
+  border: 8px solid #FF5D0A;
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+}
+
+.BL--hero--btn-findinvestors {
+  text-align: center;
+  position: absolute;
+  bottom: -15%;
+  left: -10%;
+}
+
+.BL--hero--btn-findinvestors .hero-btn {
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 15px 30px;
+  font-weight: 700;
+  font-family: "Satoshi-Medium", sans-serif;
+  width: fit-content;
+  z-index: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+  text-align: center;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  color: var(--gray-10);
+  background-color: #4e476600;
+  border: 8px solid #0AFF7C;
+  border-radius: 50px;
+  backdrop-filter: blur(5px);
+}
+
+@media  (max-width: 990px)  {
+  .fugu-foote3-section .fugu-footer-middle .justify-content-end {
+  justify-content: center !important;
+}
+
+.fugu-foote2-section .fugu-footer-middle .justify-content-end {
+  justify-content: center !important;
+}
 }
 

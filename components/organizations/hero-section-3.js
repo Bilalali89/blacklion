@@ -40,7 +40,7 @@ export default function OrganisationsHeroSectionThree() {
         <div className="row">
           <div className="BL--org-text-alt">& industry market leader</div>
           <div className="BL--org--logo">
-            <img src="/images/organizations/create-music-logo.png" alt="logo" />
+            <img src="/images/organizations/create-music-logo.png" alt="logo" className="cursor-scale small" />
             <div className="BL--org--leftring">
                 <img src="/images/organizations/oval-gradient.png" alt="oval" />
             </div>

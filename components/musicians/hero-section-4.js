@@ -14,6 +14,10 @@ export default function HeroSectionFourMusicians() {
           />
           <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
+              <div className="BL--hero--btn-findcreative">
+                <span className="hero-btn">Find Creatives</span>
+                
+              </div>
               <div className="BL--musician-hero4-content">
                 <h1>Match-Making</h1>
                 <div className="rt-spacer-40"></div>
@@ -28,6 +32,7 @@ export default function HeroSectionFourMusicians() {
                 alt="wave"
                 className="imgwave"
               />
+              
             </div>
             <div className="col-lg-7">
               <img
@@ -36,6 +41,14 @@ export default function HeroSectionFourMusicians() {
                 className="imgcard"
               />
             </div>
+            <div className="BL--hero--btn-findmusicians">
+                <span className="hero-btn">Find Musicians</span>
+                
+              </div>
+              <div className="BL--hero--btn-findinvestors">
+                <span className="hero-btn">Find Investors</span>
+                
+              </div>
           </div>
         </div>
       </div>
