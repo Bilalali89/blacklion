@@ -4736,6 +4736,7 @@ a.fugu-app-btn:last-child {
   font-size: 8rem;
   line-height: 0.9;
 }
+
 @media (max-width: 991px) {
   .fugu--hero-content {
     text-align: center;
@@ -4746,6 +4747,26 @@ a.fugu-app-btn:last-child {
   .fugu--hero-content {
     max-width: 500px;
   }
+
+  .fugu--hero-content h1 {
+    color: white;
+    font-family: "ClashDisplay-Bold", sans-serif;
+    font-size: 3rem;
+    line-height: 0.9;
+  }
+
+.home-hero-one .BL--hero--btn .hero-btn {
+  font-size: 14px;
+  padding: 12px 15px
+}
+
+.BL--hero--btn {
+  text-align: center;
+  position: absolute;
+  bottom: 25%;
+  right: 25%;
+}
+
 }
 .fugu--hero-content p {
   font-size: 34px;
@@ -8614,9 +8635,13 @@ a.fugu-pricing-btn.active {
   flex-direction: row-reverse;
 }
 @media (max-width: 767px) {
+  .fugu-text-slider-data.streamline {
+    text-align: center;
+    display: flex !important;
+  }
   .fugu-text-slider-data {
     text-align: center;
-    display: block !important;
+    display: flex !important;
   }
 }
 .fugu-text-slider-data h3 {
@@ -8629,14 +8654,43 @@ a.fugu-pricing-btn.active {
   letter-spacing: 1px;
   color: var(--gray-800);
 }
+
+.fugu-text-slider-data img {
+  padding-left: 50px;
+}
+
+.fugu-text-slider-data.streamline img {
+  padding-left: 20px;
+}
+
 @media (max-width: 1669px) {
+  .fugu-text-slider2 .slick-list {
+    height: 60px !important;
+  }
   .fugu-text-slider-data h3 {
-    font-size: 22px;
+    font-size: 50px;
+    line-height: 30px;
+    margin: 0 15px;
+    display: inline-block;
+  }
+
+  .fugu-text-slider-data img {
+    padding-left: 25px;
   }
 }
 @media (max-width: 1500px) {
+  .fugu-text-slider-data.streamline img {
+    padding-left: 0px;
+  }
+  .fugu-text-slider-data.streamline h3 {
+    font-size: 45px;
+  }
+  
+  .fugu-text-slider2 .slick-list {
+    height: 60px !important;
+  }
   .fugu-text-slider-data h3 {
-    font-size: 18px;
+    font-size: 50px;
   }
 }
 .fugu-text-slider-icon {
@@ -8649,6 +8703,15 @@ a.fugu-pricing-btn.active {
   .fugu-text-slider-icon {
     margin-bottom: 10px;
   }
+  .fugu-text-slider2 .slick-list {
+    height: 30px !important;
+  }
+  .home-hero-one .BL--hero-right .dollar {
+    left: -15% !important;
+    top: -50% !important;
+    z-index: 1;
+    transform: scale(0.5)!important;
+}
 }
 
 .fugu-trading-card-thumb {
@@ -11672,7 +11735,7 @@ circle {
 }
 
 #herothree {
-  padding: 100px 100px;
+  padding: 100px 0px;
   background: linear-gradient(
     170deg,
     #13111a 0%,
@@ -13085,6 +13148,7 @@ circle {
   left: -40%;
   top: -15%;
   transform: scale(1);
+  z-index: -2;
 }
 
 .home-hero-2 .fugu--hero-shape1 img {

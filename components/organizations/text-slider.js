@@ -53,37 +53,37 @@ export default function TextSliderOrg() {
 					<Slider {...settingsOne}>
 						<div className="fugu-text-slider-data" >
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '50px'}} />
+								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE </h3>
 						</div>
 						<div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '50px'}} />
+								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE  </h3>
 						</div>
                         <div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '50px'}} />
+								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE  </h3>
 						</div>
                         <div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '50px'}} />
+								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE  </h3>
 						</div>
                         <div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '50px'}} />
+								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE  </h3>
 						</div>
                         <div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '50px'}} />
+								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE  </h3>
 						</div>
@@ -95,34 +95,34 @@ export default function TextSliderOrg() {
 			<div className="fugu-text-slider-area2" style={{background: '#BAFC55', marginTop: '-44px'}}>
 				<div className="fugu-text-slider2" dir="rtl" >
 					<Slider {...settingsTwo}>
-						<div className="fugu-text-slider-data">
+						<div className="fugu-text-slider-data streamline">
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '20px'}} />
+								<img src="/images/home/Polygon.png" alt="polygon"  />
 							</div>
 							<h3>STREAMLINE OPERATIONS</h3>
 						</div>
 						
-						<div className="fugu-text-slider-data">
+						<div className="fugu-text-slider-data streamline">
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '20px'}}/>
+								<img src="/images/home/Polygon.png" alt="polygon"/>
 							</div>
 							<h3>STREAMLINE OPERATIONS</h3>
 						</div>
-						<div className="fugu-text-slider-data">
+						<div className="fugu-text-slider-data streamline">
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '20px'}}/>
+								<img src="/images/home/Polygon.png" alt="polygon"/>
 							</div>
 							<h3>STREAMLINE OPERATIONS</h3>
 						</div>
-                        <div className="fugu-text-slider-data">
+                        <div className="fugu-text-slider-data streamline">
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '20px'}}/>
+								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>STREAMLINE OPERATIONS</h3>
 						</div>
-                        <div className="fugu-text-slider-data">
+                        <div className="fugu-text-slider-data streamline">
 							<div className="fugu-text-slider-icon">
-								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '20px'}}/>
+								<img src="/images/home/Polygon.png" alt="polygon"/>
 							</div>
 							<h3>STREAMLINE OPERATIONS</h3>
 						</div>
