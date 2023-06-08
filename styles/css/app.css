@@ -8561,7 +8561,7 @@ a.fugu-pricing-btn.active {
 }
 
 .fugu-text-slider-section {
-  padding: 120px 0px 75px 0px;
+  padding: 170px 0px 75px 0px;
   background-color: var(--gray-800);
 }
 @media (max-width: 1280px) {
@@ -13709,3 +13709,4 @@ circle {
 .grow-small{
   transform: scale(10);
 }
+
