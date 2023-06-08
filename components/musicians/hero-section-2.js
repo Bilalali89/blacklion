@@ -36,6 +36,7 @@ export default function HeroSectionTwoMusicians() {
             <img src="/images/musicians/shape-hero2.png" alt="shape" />
         </div>
       </div>
+	
     </div>
   );
 }

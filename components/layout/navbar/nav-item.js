@@ -17,14 +17,15 @@ export default function NavItem({ pathSite, navItemText, menuItems, megaMenu = f
 
 	return (
 		<li className={`nav-item ${menuItems ? "nav-item-has-children" : ""}`}>
-			<Link href={{pathname: `${pathSite}`}} legacyBehavior>
-			<a className={`nav-link-item drop-trigger ${router.pathname === pathSite ? 'active' : ''}`} onClick={handleClick}
+			
+			{/* <a href={{pathname: `${pathSite}`}} className={`nav-link-item drop-trigger ${router.pathname === pathSite ? 'active' : ''}`} onClick={handleClick}
 			>
 				{navItemText}
-				{/* <FontAwesomeIcon icon={faAngleDown} /> */}
-			</a>
-			</Link>
+			</a> */}
 			
+			<a href={pathSite} className={`nav-link-item drop-trigger ${router.pathname === pathSite ? 'active' : ''}`} onClick={handleClick}>
+				{navItemText}
+			</a>
 
 			{!megaMenu ? (
 				<DropdownMenu isOpenDropDown={isOpenDropDown} menuItems={menuItems} />

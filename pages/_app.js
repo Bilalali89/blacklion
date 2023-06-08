@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { gsap } from "gsap/dist/gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Head from "next/head";
 import { useEffect } from "react";
 import "slick-carousel/slick/slick.css";
@@ -12,9 +12,8 @@ import "../styles/css/app.css";
 import "../styles/css/main.css";
 
 
-gsap.registerPlugin(ScrollTrigger);
-
 function MyApp({ Component, pageProps }) {
+  gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     let ctx= gsap.context(() => {
     let cursor = document.querySelector(".cursor");
@@ -54,7 +53,7 @@ function MyApp({ Component, pageProps }) {
       });
     });
   });
-  return () => ctx.revert(); // <- cleanup!
+  return () => ctx.revert(); 
 }, []);
 
   return (
