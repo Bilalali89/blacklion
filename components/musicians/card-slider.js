@@ -3,12 +3,11 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import { useInView } from "framer-motion";
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function MusicianCardSlider() {
-  const comp = useRef(null);
+  const comp = useRef();
 
 
   useEffect(() => {
@@ -33,8 +32,8 @@ export default function MusicianCardSlider() {
                     scrub: true,
                     start: "top 20%",
                     end: "bottom 20%",
-                    // invalidateOnRefresh: true,
-                    markers: true,
+                    invalidateOnRefresh: true,
+                    markers: false,
                   },
                 }
               );

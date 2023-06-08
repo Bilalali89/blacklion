@@ -56,8 +56,7 @@ body {
   vertical-align: baseline;
   text-rendering: optimizeLegibility;
   font-weight: 400;
-  background-color: #fff;
-  counter-reset: my-sec-counter;
+  background-color: var(--gray-800);
   font-size: 18px;
   line-height: 30px;
 }
