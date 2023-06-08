@@ -19,9 +19,9 @@ export default function HeroSectionFourMusicians() {
                 
               </div>
               <div className="BL--musician-hero4-content">
-                <h1>Match-Making</h1>
+                <h1 className="cursor-scale small">Match-Making</h1>
                 <div className="rt-spacer-40"></div>
-                <p>We’re not Tinder, but we will find you the right partner</p>
+                <p className="cursor-scale small">We’re not Tinder, but we will find you the right partner</p>
               </div>
             </div>
           </div>

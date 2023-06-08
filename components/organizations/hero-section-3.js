@@ -8,7 +8,7 @@ export default function OrganisationsHeroSectionThree() {
           <div
             className="col-lg-4 d-flex justify-content-center flex-direction-column"
           >
-            <div className="fugu--hero-content BL--org--text">
+            <div className="fugu--hero-content BL--org--text cursor-scale small">
               <p>Currently being used by</p>
               <h1>
                 100+
