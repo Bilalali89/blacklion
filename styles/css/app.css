@@ -13685,13 +13685,14 @@ circle {
   position: relative;
 }
 .BL--musician--data-insight .card-center img {
-  transform: scale(1.2) ;
+  transform: scale(1.1) ;
   position: relative;
+  box-shadow: 0px 0px 20px;
 }
 
 .BL--musician--data-insight .card-center::before {
   content: url('/images/socialmedia/soundcloud.png');
-  bottom: -40%;
+  bottom: -20%;
   right: 40%;
   display: block;
   z-index: 2;
@@ -14322,10 +14323,50 @@ circle {
 
 .BL--org--leftring {
   position: absolute;
+  display: none;
   left: 0%;
   top: 0;
   z-index: -1;
   animation: flyconvex 5s infinite alternate;
 }
 
+.BL-org-cta .BL--org-cta .ballpen:before {
+  content: url(/images/organizations/ballpen.png);
+  position: absolute;
+  right: 80%;
+  bottom: 30%;
+  animation: float 5s infinite alternate;
+}
+
+.BL-org-cta .BL--org-cta .clock:before {
+  content: url(/images/organizations/clock.png);
+  position: absolute;
+  left: 80%;
+  bottom: 30%;
+  animation: float 5s infinite alternate;
+}
+
+.BL-org-cta .BL--org-cta .piggybank:before {
+  content: url(/images/organizations/piggybank.png);
+  position: absolute;
+  right: 60%;
+  bottom: -80%;
+  animation: float2 5s infinite alternate;
+}
+
+
+.BL--org--logo {
+    padding: 30px 0;
+    position: relative;
+}
+
+.BL-social-section {
+  background-color: var(--gray-800);
+  padding: 30px 0px;
+}
+
+.BL-social-icons .col img {
+  height: 42px;
+  width: auto;
+}
 }

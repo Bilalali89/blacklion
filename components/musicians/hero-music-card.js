@@ -9,6 +9,7 @@ export default function MusicianDataInsight() {
           <div className="heading">DATA INSIGHTS ON</div>
           
           <div className="rt-spacer-100"></div>
+          <div className="rt-spacer-100"></div>
           <div className="insight-cards">
             <div className="row">
           <div className="col-4">
@@ -20,7 +21,7 @@ export default function MusicianDataInsight() {
           <div className="col-4">
             <div className="card-center">
               {" "}
-              <img src="/images/musicians/data-insight.png" alt="insight" />
+              <img src="/images/musicians/data-vertical.png" alt="insight" />
             </div>
           </div>
           <div className="col-4">
