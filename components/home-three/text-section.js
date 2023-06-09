@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { MotionConfig, motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
@@ -10,10 +9,10 @@ export default function TextSection() {
   const refTwo = useRef(null);
   const refThree = useRef(null);
   const refFour = useRef(null);
-  const isInViewOne = useInView(refOne);
-  const isInViewTwo = useInView(refTwo);
-  const isInViewThree = useInView(refThree);
-  const isInViewFour = useInView(refFour);
+  const isInViewOne = useInView(refOne, {once: true});
+  const isInViewTwo = useInView(refTwo, {once: true});
+  const isInViewThree = useInView(refThree, {once: true});
+  const isInViewFour = useInView(refFour, {once: true});
 
   return (
     <>

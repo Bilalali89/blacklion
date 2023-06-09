@@ -2,7 +2,7 @@
 import { MotionConfig, motion, useScroll } from "framer-motion";
 
 export default function HeroSectionTwo() {
-  const { scrollYProgress } = useScroll();
+  // const { scrollYProgress } = useScroll();
 
   return (
     <div className="fugu--hero-section home-hero-2">
@@ -22,9 +22,9 @@ export default function HeroSectionTwo() {
             </div>
           </div>
           <div className="col-lg-8">
-            <motion.div className="BL--hero-right" style={{ scale: scrollYProgress }}> 
-              <img src="/images/organizations/tablet.png" alt="hero" style={{transform: "scale(5.5)"}} />
-            </motion.div>
+            <div className="BL--hero-right"> 
+              <img src="/images/organizations/tablet.png" alt="hero"  />
+            </div>
            
           </div>
         </div>

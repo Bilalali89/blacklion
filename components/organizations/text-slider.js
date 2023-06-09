@@ -55,37 +55,37 @@ export default function TextSliderOrg() {
 							<div className="fugu-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
-							<h3>UNLOCKING VALUE </h3>
+							<h3>UNLOCKING VALUE</h3>
 						</div>
 						<div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
-							<h3>UNLOCKING VALUE  </h3>
+							<h3>UNLOCKING VALUE</h3>
 						</div>
                         <div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
-							<h3>UNLOCKING VALUE  </h3>
+							<h3>UNLOCKING VALUE</h3>
 						</div>
                         <div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
-							<h3>UNLOCKING VALUE  </h3>
+							<h3>UNLOCKING VALUE</h3>
 						</div>
                         <div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
-							<h3>UNLOCKING VALUE  </h3>
+							<h3>UNLOCKING VALUE</h3>
 						</div>
                         <div className="fugu-text-slider-data">
 							<div className="fugu-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
-							<h3>UNLOCKING VALUE  </h3>
+							<h3>UNLOCKING VALUE</h3>
 						</div>
                       
 						

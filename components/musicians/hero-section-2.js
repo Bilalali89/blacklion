@@ -35,6 +35,11 @@ export default function HeroSectionTwoMusicians() {
         >
             <img src="/images/musicians/shape-hero2.png" alt="shape" />
         </div>
+        <div
+          className="BL--musicians-hero2-shape3"
+        >
+            <img src="/images/musicians/blob.png" alt="shape" />
+        </div>
       </div>
 	
     </div>

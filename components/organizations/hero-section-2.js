@@ -21,9 +21,9 @@ export default function OrganisationsHeroSectionTwo() {
           </div>
           <div className="col-lg-8">
             <div className="BL--organization-image justify-content-end d-flex">
-              <motion.div style={{ scale: scrollYProgress }}> 
-              <img src="/images/organizations/tablet.png" alt="hero" style={{transform: "scale(3)"}} />
-            </motion.div>
+              <div> 
+              <img src="/images/organizations/tablet.png" alt="hero"/>
+            </div>
               <div className="BL--hero--btn-SAT">
                 <span className="hero-btn">
                   Smart <br />

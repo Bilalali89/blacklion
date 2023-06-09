@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import { MotionConfig, motion, useScroll } from "framer-motion";
-import { useInView } from "framer-motion";
+import { MotionConfig, motion, useScroll, useInView } from "framer-motion";
 import { useRef } from "react";
 
 export default function SocialSection() {

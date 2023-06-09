@@ -12287,6 +12287,25 @@ circle {
     right: 0;
   }
 }
+
+.BL--musicians-hero2-shape3 {
+  width: 56%;
+  position: absolute;
+  opacity: 1;
+  filter: blur(10px);
+  top: 45%;
+  left: 19%;
+  z-index: -2;
+  transform: scale(1.8);
+}
+@media (max-width: 1600px) {
+  .BL--musicians-hero2-shape3 {
+    right: 0;
+  }
+}
+
+
+
 #musicianherothree #app {
   padding: 300px 0px;
 }
@@ -13446,7 +13465,7 @@ circle {
   content: url("/images/organizations/ballpen.png");
   position: absolute;
   right: 20%;
-  top: -10%;
+  bottom: 30%;
   animation: float 5s infinite alternate;
 }
 
@@ -13476,7 +13495,7 @@ circle {
 }
 
 .BL--musician--data-insight {
-  background-color: var(--gray-800);
+  
   padding: 150px 0;
 }
 
@@ -13485,6 +13504,167 @@ circle {
   font-family: "Satoshi-Medium";
   font-size: 2rem;
   color: var(--gray-10);
+}
+
+.BL--musician--data-insight .insight-cards {
+  position: relative;
+}
+.BL--musician--data-insight .card-center img {
+  transform: scale(1.2) ;
+  position: relative;
+}
+
+.BL--musician--data-insight .card-center::before {
+  content: url('/images/socialmedia/soundcloud.png');
+  bottom: -40%;
+  right: 40%;
+  display: block;
+  z-index: 2;
+  position: absolute;
+}
+
+.BL--musician--data-insight .card-left {
+  position: relative;
+}
+
+.BL--musician--data-insight .card-left::before {
+  content: url('/images/socialmedia/spotify.png');
+  bottom: -40%;
+  right: 40%;
+  display: block;
+  z-index: 2;
+  position: absolute;
+}
+
+
+.BL--musician--data-insight .card-left::after {
+  content: url('/images/socialmedia/applemusic.png');
+  top: 47vh;
+  left: 0%;
+  display: block;
+  z-index: 2;
+  position: absolute;
+}
+
+.BL--musician--data-insight .card-left img {
+  transform: scale(1.1) rotate(-20deg) translate(15%, 5%);
+  transform-origin: right;
+  position: absolute;
+  animation: floatcardleft 8s infinite alternate-reverse;
+}
+
+.BL--musician--data-insight .card-right {
+  position: relative;
+}
+
+.BL--musician--data-insight .card-right::before {
+  content: url('/images/socialmedia/youtube.png');
+  bottom: -40%;
+  left: 30%;
+  display: block;
+  z-index: 2;
+  position: absolute;
+}
+
+.BL--musician--data-insight .card-right::after {
+  content: url('/images/socialmedia/tiktok.png');
+  top: 20%;
+  right: 0%;
+  display: block;
+  z-index: 2;
+  position: absolute;
+}
+
+@media (min-width: 300px) and (max-width: 950px) {
+  .BL--musician--data-insight .card-left::before {
+    content: url('/images/socialmedia/spotify.png');
+    bottom: -40%;
+    right: 40%;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    transform: scale(0.5);
+  }
+  .BL--musician--data-insight .card-right::after {
+    content: url('/images/socialmedia/tiktok.png');
+    top: -5vh;
+    right: 0%;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    transform: scale(0.5);
+  }
+  .BL--musician--data-insight .card-right::before {
+    content: url('/images/socialmedia/youtube.png');
+    bottom: -40%;
+    left: 30%;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    transform: scale(0.5);
+  }
+  .BL--musician--data-insight .card-left::before {
+    content: url('/images/socialmedia/spotify.png');
+    bottom: -40%;
+    right: 40%;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    transform: scale(0.5);
+  }
+  
+  .BL--musician--data-insight .card-left::after {
+    content: url('/images/socialmedia/applemusic.png');
+    top: 27vh;
+    left: 0%;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    transform: scale(0.5);
+  }
+  .BL--musician--data-insight .card-center::before {
+    content: url('/images/socialmedia/soundcloud.png');
+    bottom: -40%;
+    right: 40%;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    transform: scale(0.5);
+  }
+}
+
+
+
+.BL--musician--data-insight .card-right img {
+  transform: scale(1.1) rotate(20deg) translate(-15%, 5%);
+  transform-origin: left;
+  z-index: -1;
+  position: absolute;
+  animation: floatcardright 8s infinite alternate;
+}
+
+@keyframes floatcardleft {
+  0% {
+    transform: scale(1.1) rotate(-20deg) translate(15%, 5%);
+  }
+  50% {
+    transform: scale(1.1) rotate(-21deg) translate(15%, 8%);
+  }
+  0% {
+    transform: scale(1.1) rotate(-20deg) translate(15%, 5%);
+  }
+}
+
+@keyframes floatcardright {
+  0% {
+    transform: scale(1.1) rotate(20deg) translate(-15%, 5%);
+  }
+  50% {
+    transform: scale(1.1) rotate(21deg) translate(-15%, 8%);
+  }
+  0% {
+    transform: scale(1.1) rotate(20deg) translate(-15%, 5%);
+  }
 }
 
 .heart {

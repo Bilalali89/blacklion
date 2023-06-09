@@ -9,8 +9,8 @@ export default function HeroSectionThree() {
   const refOne = useRef(null);
   const refTwo = useRef(null);
 
-  const isInViewOne = useInView(refOne);
-  const isInViewTwo = useInView(refTwo);
+  const isInViewOne = useInView(refOne, { once: true });
+  const isInViewTwo = useInView(refTwo, { once: true });
 
   const { scrollYProgress } = useScroll();
   return (
@@ -34,7 +34,7 @@ export default function HeroSectionThree() {
             </p>
           </motion.div>
         </MotionConfig>
-        <MotionConfig transition={{ duration: 1 }}>
+        <MotionConfig transition={{ duration: 1, delay: 1 }}>
           <motion.div
             ref={refTwo}
             className="BL--greenarrow"
@@ -57,7 +57,7 @@ export default function HeroSectionThree() {
                 Valuation <br />
                 Engine
               </h1>
-              <p className="wow fadeInUpX" data-wow-delay="0.10s">
+              <p>
                 The valuation engine blends streaming, financial, social and
                 creative data.
               </p>
@@ -71,16 +71,6 @@ export default function HeroSectionThree() {
                 <div className="p-five point">Secure payments</div>
                 <div className="p-six point">Consumer-facing Interface</div>
               </div>
-
-              {/* <div
-                className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX"
-                data-wow-delay="0.20s"
-              >
-                <Link href={"#"} legacyBehavior>
-                  <a className="fugu--btn bg-gray active">More Details</a>
-                </Link>
-            
-              </div> */}
             </div>
           </div>
           <div className="col-xl-8 col-md-12">
