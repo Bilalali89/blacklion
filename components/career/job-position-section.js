@@ -3,12 +3,12 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function JobPositionSection() {
 	return (
-		<div className="section fugu-section-padding3">
+		<div className="section BL-section-padding3">
 			<div className="container">
-				<div className="fugu-section-title2">
+				<div className="BL-section-title2">
 					<div className="row">
 						<div className="col-xl-5 col-lg-6">
-							<h2>Current available positions at fugu</h2>
+							<h2>Current available positions at BL</h2>
 						</div>
 						<div className="col-xl-5 col-lg-6 offset-xl-2 d-flex align-items-center">
 							<p>
@@ -21,15 +21,15 @@ export default function JobPositionSection() {
 				</div>
 				<div className="row">
 					<div className="col-xxl-4 col-xl-6 col-lg-6">
-						<div className="fugu-career-card wow fadeInUpX" data-wow-delay="0s">
-							<div className="fugu-career-data">
+						<div className="BL-career-card wow fadeInUpX" data-wow-delay="0s">
+							<div className="BL-career-data">
 								<h4>UI/UX and Product Designer</h4>
 								<p>
 									It has survived not only five centuries, but also a the leap into electronic
 									typesetting
 								</p>
 							</div>
-							<div className="fugu-career-time">
+							<div className="BL-career-time">
 								<ul>
 									<li>
 										<img src="/images/svg/clock.svg" alt="" />
@@ -46,22 +46,22 @@ export default function JobPositionSection() {
 								</ul>
 							</div>
 							<Link href={"single-career"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Apply Now <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>
 						</div>
 					</div>
 					<div className="col-xxl-4 col-xl-6 col-lg-6">
-						<div className="fugu-career-card wow fadeInUpX" data-wow-delay=".10s">
-							<div className="fugu-career-data">
+						<div className="BL-career-card wow fadeInUpX" data-wow-delay=".10s">
+							<div className="BL-career-data">
 								<h4>Jr Frontend Developer</h4>
 								<p>
 									It has survived not only five centuries, but also a the leap into electronic
 									typesetting
 								</p>
 							</div>
-							<div className="fugu-career-time">
+							<div className="BL-career-time">
 								<ul>
 									<li>
 										<img src="/images/svg/clock.svg" alt="" />
@@ -78,22 +78,22 @@ export default function JobPositionSection() {
 								</ul>
 							</div>
 							<Link href={"single-career"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Apply Now <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>
 						</div>
 					</div>
 					<div className="col-xxl-4 col-xl-6 col-lg-6">
-						<div className="fugu-career-card wow fadeInUpX" data-wow-delay=".20s">
-							<div className="fugu-career-data">
+						<div className="BL-career-card wow fadeInUpX" data-wow-delay=".20s">
+							<div className="BL-career-data">
 								<h4>Senior Office Manager</h4>
 								<p>
 									It has survived not only five centuries, but also a the leap into electronic
 									typesetting
 								</p>
 							</div>
-							<div className="fugu-career-time">
+							<div className="BL-career-time">
 								<ul>
 									<li>
 										<img src="/images/svg/clock.svg" alt="" />
@@ -110,22 +110,22 @@ export default function JobPositionSection() {
 								</ul>
 							</div>
 							<Link href={"single-career"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Apply Now <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>
 						</div>
 					</div>
 					<div className="col-xxl-4 col-xl-6 col-lg-6">
-						<div className="fugu-career-card wow fadeInUpX" data-wow-delay=".30s">
-							<div className="fugu-career-data">
+						<div className="BL-career-card wow fadeInUpX" data-wow-delay=".30s">
+							<div className="BL-career-data">
 								<h4>SEO Specialist</h4>
 								<p>
 									It has survived not only five centuries, but also a the leap into electronic
 									typesetting
 								</p>
 							</div>
-							<div className="fugu-career-time">
+							<div className="BL-career-time">
 								<ul>
 									<li>
 										<img src="/images/svg/clock.svg" alt="" />
@@ -142,22 +142,22 @@ export default function JobPositionSection() {
 								</ul>
 							</div>
 							<Link href={"single-career"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Apply Now <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>
 						</div>
 					</div>
 					<div className="col-xxl-4 col-xl-6 col-lg-6">
-						<div className="fugu-career-card wow fadeInUpX" data-wow-delay=".40s">
-							<div className="fugu-career-data">
+						<div className="BL-career-card wow fadeInUpX" data-wow-delay=".40s">
+							<div className="BL-career-data">
 								<h4>Marketing Executive</h4>
 								<p>
 									It has survived not only five centuries, but also a the leap into electronic
 									typesetting
 								</p>
 							</div>
-							<div className="fugu-career-time">
+							<div className="BL-career-time">
 								<ul>
 									<li>
 										<img src="/images/svg/clock.svg" alt="" />
@@ -174,22 +174,22 @@ export default function JobPositionSection() {
 								</ul>
 							</div>
 							<Link href={"single-career"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Apply Now <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>
 						</div>
 					</div>
 					<div className="col-xxl-4 col-xl-6 col-lg-6">
-						<div className="fugu-career-card wow fadeInUpX" data-wow-delay=".50s">
-							<div className="fugu-career-data">
+						<div className="BL-career-card wow fadeInUpX" data-wow-delay=".50s">
+							<div className="BL-career-data">
 								<h4>Senior Backend Developer</h4>
 								<p>
 									It has survived not only five centuries, but also a the leap into electronic
 									typesetting
 								</p>
 							</div>
-							<div className="fugu-career-time">
+							<div className="BL-career-time">
 								<ul>
 									<li>
 										<img src="/images/svg/clock.svg" alt="" />
@@ -206,7 +206,7 @@ export default function JobPositionSection() {
 								</ul>
 							</div>
 							<Link href={"single-career"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Apply Now <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>

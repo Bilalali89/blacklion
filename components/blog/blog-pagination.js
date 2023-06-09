@@ -3,7 +3,7 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function BlogPagination() {
 	return (
-		<div className="fugu-pagination">
+		<div className="BL-pagination">
 			<nav aria-label="Page navigation example">
 				<ul className="pagination">
 					<li className="page-item">

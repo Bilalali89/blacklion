@@ -2,7 +2,7 @@
 
 export default function HeroSectionTwoCreative() {
   return (
-    <div className="fugu--hero-section" id="creativeherotwo">
+    <div className="BL--hero-section" id="creativeherotwo">
       <div className="container">
         <div className="row">
           <div className="col-lg-5">

@@ -72,10 +72,10 @@ export default function OrganizationsCTA() {
                 animate={{
                   opacity: isInViewFive ? 1 : 0,
                   y: isInViewFive ? "0%" : "30%",
-                }} className="fugu--hero-btn">
+                }} className="BL--hero-btn">
                 <Link href={"#"} legacyBehavior>
                   <motion.a
-                    className="fugu--btn bg-gray active"
+                    className="BL--btn bg-gray active"
                     whileHover={{ scale: 1.1 }}
                     transition={{ type: "spring", stiffness: 400, damping: 20 }}
                   >

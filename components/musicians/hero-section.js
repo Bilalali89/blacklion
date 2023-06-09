@@ -42,11 +42,11 @@ export default function MusiciansHeroSection() {
   };
 
   return (
-    <div className="fugu--hero-section">
+    <div className="BL--hero-section">
       <div className="container">
         <div className="row">
           <div className="col-lg-7 d-flex justify-content-center flex-direction-column">
-            <div className="fugu--hero-content BL--musicians-content">
+            <div className="BL--hero-content BL--musicians-content">
               <h1 className="cursor-scale small">
                 <MotionConfig transition={{ duration: 1, delay: 0 }}>
                   <motion.div
@@ -178,7 +178,7 @@ export default function MusiciansHeroSection() {
         </div>
 
         <div className="rt-spacer-50"></div>
-        {/* <div className="fugu--hero-shape2"></div> */}
+        {/* <div className="BL--hero-shape2"></div> */}
       </div>
     </div>
   );

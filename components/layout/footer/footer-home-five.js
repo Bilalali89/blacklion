@@ -4,20 +4,20 @@ import React from "react";
 
 export default function FooterHomeFive() {
 	return (
-		<footer className="fugu--footer-section">
+		<footer className="BL--footer-section">
 			<div className="container">
-				<div className="fugu--footer-top">
+				<div className="BL--footer-top">
 					<div className="row">
 						<div className="col-lg-3">
-							<div className="fugu--textarea">
-								<div className="fugu--footer-logo">
+							<div className="BL--textarea">
+								<div className="BL--footer-logo">
 									<img src="/images/logo/logo-white.svg" alt="" className="light-version-logo" />
 								</div>
 								<p>
 									Discover NFTs by category, track the latest drops, and follow the collections you
 									love to enjoy it!
 								</p>
-								<div className="fugu--social-icon fugu--social-icon3">
+								<div className="BL--social-icon BL--social-icon3">
 									<ul>
 										<li>
 											<Link href="#">
@@ -44,7 +44,7 @@ export default function FooterHomeFive() {
 							</div>
 						</div>
 						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
-							<div className="fugu--footer-menu">
+							<div className="BL--footer-menu">
 								<span>Marketplace</span>
 								<ul>
 									<li>
@@ -66,7 +66,7 @@ export default function FooterHomeFive() {
 							</div>
 						</div>
 						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
-							<div className="fugu--footer-menu">
+							<div className="BL--footer-menu">
 								<span>Marketplace</span>
 								<ul>
 									<li>
@@ -88,10 +88,10 @@ export default function FooterHomeFive() {
 							</div>
 						</div>
 						<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
-							<div className="fugu--footer-menu">
+							<div className="BL--footer-menu">
 								<span>Marketplace</span>
 							</div>
-							<div className="fugu--info">
+							<div className="BL--info">
 								<ul>
 									<li>
 										<Link href="#">
@@ -116,13 +116,13 @@ export default function FooterHomeFive() {
 						</div>
 					</div>
 				</div>
-				<div className="fugu--footer-bottom fugu--footer-bottom3">
+				<div className="BL--footer-bottom BL--footer-bottom3">
 					<div className="row">
 						<div className="col-lg-6">
 							<p>&copy; Copyright 2022, All Rights Reserved by Mthemeus</p>
 						</div>
 						<div className="col-lg-6">
-							<div className="fugu--footer-menu">
+							<div className="BL--footer-menu">
 								<ul>
 									<li>
 										<Link href="#">Terms</Link>

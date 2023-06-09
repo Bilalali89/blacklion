@@ -10,12 +10,12 @@ export default function FilterGallaryFour() {
 	const [filterKey, setFilterKey] = useState("*");
 	useEffect(() => {
 		setTimeout(() => {
-			isotope.current = new Isotope("#fugu-gallery-masonay3", {
-				itemSelector: ".fugu-grid-item",
+			isotope.current = new Isotope("#BL-gallery-masonay3", {
+				itemSelector: ".BL-grid-item",
 
 				resizable: false,
 				masonry: {
-					columnWidth: ".fugu-grid-item",
+					columnWidth: ".BL-grid-item",
 					gutterWidth: 0,
 				},
 			});
@@ -40,9 +40,9 @@ export default function FilterGallaryFour() {
 	};
 
 	return (
-		<div className="section fugu-section-padding">
+		<div className="section BL-section-padding">
 			<div className="container">
-				<div className="fugu-gallery-menu">
+				<div className="BL-gallery-menu">
 					<ul id="watch-filter-gallery" className="option-set clear-both" data-option-key="filter">
 						<li onClick={handleFilterKeyChange("*")} className={handleActiveClass("*")}>
 							All Projects (35)
@@ -61,16 +61,16 @@ export default function FilterGallaryFour() {
 						</li>
 					</ul>
 				</div>
-				<div className="fugu-gallery-wrap3" id="fugu-gallery-masonay3">
-					<div className="fugu-grid-item branding border_bottom wow fadeInUpX" data-wow-delay="0s">
+				<div className="BL-gallery-wrap3" id="BL-gallery-masonay3">
+					<div className="BL-grid-item branding border_bottom wow fadeInUpX" data-wow-delay="0s">
 						<div className="row">
 							<div className="col-lg-12">
-								<div className="fugu-gallery-thumb">
+								<div className="BL-gallery-thumb">
 									<img src="/images/all-img/portfolio/p3/p1.png" alt="" />
 								</div>
 							</div>
 							<div className="col-lg-9">
-								<div className="fugu-gallery-data3">
+								<div className="BL-gallery-data3">
 									<h4>Artwork wall printing</h4>
 									<p>
 										There are many variations of passages of Lorem Ipsum available, but the majority
@@ -78,7 +78,7 @@ export default function FilterGallaryFour() {
 										which don't look even slightly believable.
 									</p>
 									<Link href={"single-portfolio"} legacyBehavior>
-										<a className="fugu-icon-btn">
+										<a className="BL-icon-btn">
 											Discover More <img src="/images/svg/arrow-black-right.svg" alt="" />
 										</a>
 									</Link>
@@ -86,22 +86,22 @@ export default function FilterGallaryFour() {
 							</div>
 						</div>
 					</div>
-					<div className="fugu-grid-item commercial border_bottom wow fadeInUpX" data-wow-delay=".10s">
+					<div className="BL-grid-item commercial border_bottom wow fadeInUpX" data-wow-delay=".10s">
 						<div className="row">
 							<div className="col-lg-7">
-								<div className="fugu-gallery-thumb">
+								<div className="BL-gallery-thumb">
 									<img src="/images/all-img/portfolio/p3/p2.png" alt="" />
 								</div>
 							</div>
 							<div className="col-lg-5 d-flex align-items-center">
-								<div className="fugu-gallery-data3">
+								<div className="BL-gallery-data3">
 									<h4>Crypto coin</h4>
 									<p>
 										There are many variations of passages of Lorem Ipsum available, but the majority
 										have suffered alteration in some form.
 									</p>
 									<Link href={"single-portfolio"} legacyBehavior>
-										<a className="fugu-icon-btn">
+										<a className="BL-icon-btn">
 											Discover More <img src="/images/svg/arrow-black-right.svg" alt="" />
 										</a>
 									</Link>
@@ -109,22 +109,22 @@ export default function FilterGallaryFour() {
 							</div>
 						</div>
 					</div>
-					<div className="fugu-grid-item digital border_bottom wow fadeInUpX" data-wow-delay=".20s">
+					<div className="BL-grid-item digital border_bottom wow fadeInUpX" data-wow-delay=".20s">
 						<div className="row">
 							<div className="col-lg-7 order-lg-2">
-								<div className="fugu-gallery-thumb">
+								<div className="BL-gallery-thumb">
 									<img src="/images/all-img/portfolio/p3/p3.png" alt="" />
 								</div>
 							</div>
 							<div className="col-lg-5 d-flex align-items-center">
-								<div className="fugu-gallery-data3">
+								<div className="BL-gallery-data3">
 									<h4>Primitive culture</h4>
 									<p>
 										There are many variations of passages of Lorem Ipsum available, but the majority
 										have suffered alteration in some form.
 									</p>
 									<Link href={"single-portfolio"} legacyBehavior>
-										<a className="fugu-icon-btn">
+										<a className="BL-icon-btn">
 											Discover More <img src="/images/svg/arrow-black-right.svg" alt="" />
 										</a>
 									</Link>
@@ -132,15 +132,15 @@ export default function FilterGallaryFour() {
 							</div>
 						</div>
 					</div>
-					<div className="fugu-grid-item design border_bottom wow fadeInUpX" data-wow-delay=".30s">
+					<div className="BL-grid-item design border_bottom wow fadeInUpX" data-wow-delay=".30s">
 						<div className="row">
 							<div className="col-lg-12">
-								<div className="fugu-gallery-thumb">
+								<div className="BL-gallery-thumb">
 									<img src="/images/all-img/portfolio/p3/p4.png" alt="" />
 								</div>
 							</div>
 							<div className="col-lg-9">
-								<div className="fugu-gallery-data3">
+								<div className="BL-gallery-data3">
 									<h4>Wild animal artwork</h4>
 									<p>
 										There are many variations of passages of Lorem Ipsum available, but the majority
@@ -148,7 +148,7 @@ export default function FilterGallaryFour() {
 										which don't look even slightly believable.
 									</p>
 									<Link href={"single-portfolio"} legacyBehavior>
-										<a className="fugu-icon-btn">
+										<a className="BL-icon-btn">
 											Discover More <img src="/images/svg/arrow-black-right.svg" alt="" />
 										</a>
 									</Link>
@@ -157,9 +157,9 @@ export default function FilterGallaryFour() {
 						</div>
 					</div>
 				</div>
-				<div className="fugu-portfolio-btn">
+				<div className="BL-portfolio-btn">
 					<Link href="#">
-						<a className="fugu-btn small-btn">View All</a>
+						<a className="BL-btn small-btn">View All</a>
 					</Link>
 				</div>
 			</div>

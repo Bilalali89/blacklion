@@ -2,13 +2,13 @@
 
 export default function OrganisationsHeroSectionThree() {
   return (
-    <div className="fugu--hero-section BL--org-hero-section-3">
+    <div className="BL--hero-section BL--org-hero-section-3">
       <div className="container">
         <div className="row">
           <div
             className="col-lg-4 d-flex justify-content-center flex-direction-column"
           >
-            <div className="fugu--hero-content BL--org--text cursor-scale small">
+            <div className="BL--hero-content BL--org--text cursor-scale small">
               <p>Currently being used by</p>
               <h1>
                 100+

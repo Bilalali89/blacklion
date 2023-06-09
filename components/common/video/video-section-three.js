@@ -7,9 +7,9 @@ export default function VideoSectionThree() {
 	const [isOpen, setOpen] = useState(false);
 
 	return (
-		<div className="section bg-warning-200 fugu-section-padding2">
+		<div className="section bg-warning-200 BL-section-padding2">
 			<div className="container">
-				<div className="fugu-section-title2">
+				<div className="BL-section-title2">
 					<div className="row">
 						<div className="col-lg-6">
 							<h2>Buy your favorite crypto at the price you want</h2>
@@ -22,11 +22,11 @@ export default function VideoSectionThree() {
 						</div>
 					</div>
 				</div>
-				<div className="fugu-video-thumb fugu-video-thumb2 wow fadeInUpX" data-wow-delay="0.10s">
+				<div className="BL-video-thumb BL-video-thumb2 wow fadeInUpX" data-wow-delay="0.10s">
 					<img src="/images/all-img/v2/video-thumb.png" alt="" />
-					<div className="fugu-popup">
+					<div className="BL-popup">
 						<img src="/images/all-img/v2/video-btn.png" alt="" />
-						<div className="fugu-play-btn" onClick={() => setOpen(true)}>
+						<div className="BL-play-btn" onClick={() => setOpen(true)}>
 							<img src="/images/all-img/play-btn.png" alt="" />
 						</div>
 					</div>

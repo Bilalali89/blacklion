@@ -2,7 +2,7 @@
 
 export default function ProjectThumbSection() {
 	return (
-		<div className="fugu-gallery-thumb wow fadeInUpX">
+		<div className="BL-gallery-thumb wow fadeInUpX">
 			<img src="/images/all-img/portfolio/p3/p1.png" alt="" />
 		</div>
 	);

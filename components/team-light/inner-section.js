@@ -3,7 +3,7 @@ import TeamSection from "./team-section";
 
 export default function InnerSection() {
 	return (
-		<div className="fugu--inner-section light-version bg-white team-page">
+		<div className="BL--inner-section light-version bg-white team-page">
 			<div className="container">
 				<BreadcrumbSection />
 				<TeamSection />

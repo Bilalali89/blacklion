@@ -11,21 +11,21 @@ export default function ContactFormSection() {
 	} = useForm();
 	const onSubmit = (data) => console.log(data);
 	return (
-		<div className="section fugu-section-padding">
+		<div className="section BL-section-padding">
 			<div className="container">
 				<div className="row">
 					<div className="col-xl-5 col-lg-6 col-md-10">
-						<div className="fugu-default-content contact-page">
+						<div className="BL-default-content contact-page">
 							<h2>Have any questions? We will talk to you sincerely anytime</h2>
 							<p>
 								If you have any questions about subscription or usage, please fill out the form and our
 								team will get back to you within 24 hours.
 							</p>
-							<div className="fugu-contact-info">
+							<div className="BL-contact-info">
 								<ul>
 									<li>
 										<Link href="tel:123">
-											<div className="fugu-contact-info-icon">
+											<div className="BL-contact-info-icon">
 												<img src="/images/social/call.svg" alt="" />
 											</div>
 											<h5>Call us</h5>
@@ -34,7 +34,7 @@ export default function ContactFormSection() {
 									</li>
 									<li>
 										<Link href="mailto:name@email.com">
-											<div className="fugu-contact-info-icon">
+											<div className="BL-contact-info-icon">
 												<img src="/images/social/email.svg" alt="" />
 											</div>
 											<h5>Email us</h5>
@@ -43,7 +43,7 @@ export default function ContactFormSection() {
 									</li>
 									<li>
 										<Link href="">
-											<div className="fugu-contact-info-icon">
+											<div className="BL-contact-info-icon">
 												<img src="/images/social/map.svg" alt="" />
 											</div>
 											<h5>Office address</h5>
@@ -55,9 +55,9 @@ export default function ContactFormSection() {
 						</div>
 					</div>
 					<div className="col-xl-6 col-lg-6 offset-xl-1">
-						<div className="fugu-contact-wrap  wow fadeInUpX">
+						<div className="BL-contact-wrap  wow fadeInUpX">
 							<form onSubmit={handleSubmit(onSubmit)}>
-								<div className="fugu-input-field">
+								<div className="BL-input-field">
 									<label>Your name</label>
 									<input
 										type="text"
@@ -71,7 +71,7 @@ export default function ContactFormSection() {
 										</p>
 									)}
 								</div>
-								<div className="fugu-input-field">
+								<div className="BL-input-field">
 									<label>Email address</label>
 									<input
 										type="email"
@@ -85,7 +85,7 @@ export default function ContactFormSection() {
 										</p>
 									)}
 								</div>
-								<div className="fugu-input-field">
+								<div className="BL-input-field">
 									<label>Write your message</label>
 									<textarea
 										name="textarea"
@@ -93,7 +93,7 @@ export default function ContactFormSection() {
 										{...register("comment")}
 									></textarea>
 								</div>
-								<button id="fugu-input-submit" type="submit">
+								<button id="BL-input-submit" type="submit">
 									Send Message
 								</button>
 							</form>

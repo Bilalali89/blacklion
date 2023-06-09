@@ -24,23 +24,23 @@ export default function TextSliderThree() {
 		],
 	};
 	return (
-		<div className="fugu--text-slider-section fugu--text-slider-section2">
-			<div className="fugu--text-slider">
+		<div className="BL--text-slider-section BL--text-slider-section2">
+			<div className="BL--text-slider">
 				<Slider {...settings}>
-					<div className="fugu--text-slider-data">
-						<div className="fugu--text-slider-icon">
+					<div className="BL--text-slider-data">
+						<div className="BL--text-slider-icon">
 							<img src="/images/all-img/v4/star.png" alt="" />
 						</div>
 						<h3>COLLECT RARE AND EXTRAORDINARY RARE ARTWORK</h3>
 					</div>
-					<div className="fugu--text-slider-data">
-						<div className="fugu--text-slider-icon">
+					<div className="BL--text-slider-data">
+						<div className="BL--text-slider-icon">
 							<img src="/images/all-img/v4/star.png" alt="" />
 						</div>
 						<h3>COLLECT RARE AND EXTRAORDINARY RARE ARTWORK</h3>
 					</div>
-					<div className="fugu--text-slider-data">
-						<div className="fugu--text-slider-icon">
+					<div className="BL--text-slider-data">
+						<div className="BL--text-slider-icon">
 							<img src="/images/all-img/v4/star.png" alt="" />
 						</div>
 						<h3>COLLECT RARE AND EXTRAORDINARY RARE ARTWORK</h3>

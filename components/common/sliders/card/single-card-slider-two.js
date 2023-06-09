@@ -5,21 +5,21 @@ export default function SingleCardSliderTwo({ card }) {
 	const [isDarke, setIsDarke] = useState(false);
 
 	return (
-		<div className="fugu--card-wrap fugu--card2">
-			<div className="fugu--card-thumb">
+		<div className="BL--card-wrap BL--card2">
+			<div className="BL--card-thumb">
 				<img src={`/images/all-img/v4/${card.img}.jpg`} alt="" />
 			</div>
-			<div className="fugu--card-data">
+			<div className="BL--card-data">
 				<h3>{card.title}</h3>
 				<p>
 					<img src="/images/all-img/v4/daimond.png" alt="" /> {card.eth} ETH
 				</p>
-				<div className="fugu--card-footer">
-					<div className="fugu--card-footer-data">
+				<div className="BL--card-footer">
+					<div className="BL--card-footer-data">
 						<h4>{card.name}</h4>
 					</div>
 					<button
-						className={`fugu--btn btn-sm fugu--tigger ${isDarke ? "dark-btn" : ""}`}
+						className={`BL--btn btn-sm BL--tigger ${isDarke ? "dark-btn" : ""}`}
 						onClick={() => setIsDarke(!isDarke)}
 						type="button"
 					>

@@ -8,7 +8,7 @@ const BlogFilterning = dynamic(() => import("./blog-filtering"), {
 
 export default function BlogInnerSection() {
 	return (
-		<div className="fugu--inner-section light-version">
+		<div className="BL--inner-section light-version">
 			<div className="container">
 				<BreadcrumbsSection />
 				<BlogTopSection />

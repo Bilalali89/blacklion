@@ -1,11 +1,11 @@
 import { Accordion } from "react-bootstrap";
 export default function FaqAccordionOne() {
 	return (
-		<div className="fugu--faq-section fugu--section-padding">
+		<div className="BL--faq-section BL--section-padding">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-4">
-						<div className="fugu--default-content content-black">
+						<div className="BL--default-content content-black">
 							<h2>Frequently asked questions</h2>
 							<p>
 								FAQ used to refer to a list of answers to typical NFTs questions that users might ask.
@@ -13,7 +13,7 @@ export default function FaqAccordionOne() {
 						</div>
 					</div>
 					<div className="col-lg-7 offset-lg-1">
-						<div className="fugu--accordion-one">
+						<div className="BL--accordion-one">
 							<Accordion defaultActiveKey="0">
 								<Accordion.Item eventKey="0">
 									<Accordion.Header>What is an NFT?</Accordion.Header>

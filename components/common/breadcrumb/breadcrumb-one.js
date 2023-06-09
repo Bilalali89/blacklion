@@ -3,7 +3,7 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function BreadcrumbOne({ title }) {
 	return (
-		<div className="fugu-breadcrumb-section">
+		<div className="BL-breadcrumb-section">
 			<div className="container">
 				<div className="breadcrumbs">
 					<h1>{title}</h1>
@@ -19,10 +19,10 @@ export default function BreadcrumbOne({ title }) {
 					</nav>
 				</div>
 			</div>
-			<div className="fugu-shape8">
+			<div className="BL-shape8">
 				<img src="/images/shape/shape7.png" alt="" />
 			</div>
-			<div className="fugu-shape9">
+			<div className="BL-shape9">
 				<img src="/images/shape/shape8.png" alt="" />
 			</div>
 		</div>

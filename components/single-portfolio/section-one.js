@@ -7,9 +7,9 @@ import RelatedProjectSection from "./related-project-section";
 
 export default function SectionOne() {
 	return (
-		<div className="section fugu-section-padding3">
+		<div className="section BL-section-padding3">
 			<div className="container">
-				<div className="fugu-gallery-wrap3">
+				<div className="BL-gallery-wrap3">
 					<div className="row">
 						<div className="col-lg-12">
 							<ProjectThumbSection />

@@ -20,7 +20,7 @@ export default function HeaderHomeFive() {
 	const scroll = useScroll();
 	return (
 		<header
-			className={`site-header fugu--header-section fugu--header-three ${scroll ? "sticky-menu" : ""}`}
+			className={`site-header BL--header-section BL--header-three ${scroll ? "sticky-menu" : ""}`}
 			id="sticky-menu"
 		>
 			<div className="container-fluid">
@@ -52,7 +52,7 @@ export default function HeaderHomeFive() {
 						</nav>
 					</div>
 					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-						<a className="fugu--btn fugu--menu-btn3" href="contact.html">
+						<a className="BL--btn BL--menu-btn3" href="contact.html">
 							Get Started
 						</a>
 					</div>

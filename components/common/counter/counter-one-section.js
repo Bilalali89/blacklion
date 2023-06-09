@@ -3,33 +3,33 @@
 import CountUp from "react-countup";
 export default function CounterOneSection() {
 	return (
-		<div className="fugu-counter-section bg-gray-800">
-			<div id="fugu-counter"></div>
+		<div className="BL-counter-section bg-gray-800">
+			<div id="BL-counter"></div>
 			<div className="container">
 				<div className="row">
 					<div className="col-xl-7">
-						<div className="fugu-counter-wrap">
-							<div className="fugu-counter-data wow fadeInUpX" data-wow-delay=".10s">
+						<div className="BL-counter-wrap">
+							<div className="BL-counter-data wow fadeInUpX" data-wow-delay=".10s">
 								<h2>
-									<span className="fugu-counter">
+									<span className="BL-counter">
 										<CountUp end={83} />
 									</span>
 									<strong>M</strong>
 								</h2>
 								<p>Total successful projects completed</p>
 							</div>
-							<div className="fugu-counter-data wow fadeInUpX" data-wow-delay=".20s">
+							<div className="BL-counter-data wow fadeInUpX" data-wow-delay=".20s">
 								<h2>
-									<span className="fugu-counter">
+									<span className="BL-counter">
 										<CountUp end={6} />
 									</span>
 									<strong>M</strong>
 								</h2>
 								<p>Satisfied clients around the world</p>
 							</div>
-							<div className="fugu-counter-data wow fadeInUpX" data-wow-delay=".30s">
+							<div className="BL-counter-data wow fadeInUpX" data-wow-delay=".30s">
 								<h2>
-									<span className="fugu-counter">
+									<span className="BL-counter">
 										<CountUp end={7} />
 									</span>
 									<strong>%</strong>
@@ -39,9 +39,9 @@ export default function CounterOneSection() {
 						</div>
 					</div>
 					<div className="col-xl-5 d-flex align-items-center">
-						<div className="fugu-default-content content-white">
+						<div className="BL-default-content content-white">
 							<h2>Take a look at what we've accomplished</h2>
-							<div className="fugu-counter-rating">
+							<div className="BL-counter-rating">
 								<ul>
 									<li>
 										<img src="/images/all-img/about/trustpilot.png" alt="" />

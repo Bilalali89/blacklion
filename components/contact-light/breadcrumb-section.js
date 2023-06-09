@@ -2,10 +2,10 @@ import React from "react";
 
 export default function BreadcrumbSection() {
 	return (
-		<div className="fugu--inner-section light-version bg-white">
+		<div className="BL--inner-section light-version bg-white">
 			<div className="container">
-				<div className="fugu--breadcrumbs-section">
-					<div className="fugu--breadcrumbs-data center-content">
+				<div className="BL--breadcrumbs-section">
+					<div className="BL--breadcrumbs-data center-content">
 						<h1 className="wow fadeInUpX" data-wow-delay="0s">
 							Get in touch with us
 						</h1>

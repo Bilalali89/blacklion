@@ -7,9 +7,9 @@ import CommentListSection from "./comment-list-section";
 
 export default function SingleBlogPost() {
 	return (
-		<div className="fugu-blog-single-wrap">
+		<div className="BL-blog-single-wrap">
 			<img className="wow fadeInUpX" src="/images/all-img/blog/blog-single-thumb.png" alt="" />
-			<div className="fugu-blog-meta">
+			<div className="BL-blog-meta">
 				<ul>
 					<li>
 						<Link href={"#"}> Article </Link>
@@ -82,11 +82,11 @@ export default function SingleBlogPost() {
 				there is a group of indicators if the blockchain can abring value to your idea. I presented 6 of them
 				with descriptions. I hope they helped a the general blockchain or non-blockchain direction.
 			</p>
-			<div className="fugu-user-wrap">
-				<div className="fugu-user-thumb">
+			<div className="BL-user-wrap">
+				<div className="BL-user-thumb">
 					<img src="/images/all-img/blog/user.png" alt="" />
 				</div>
-				<div className="fugu-user-data">
+				<div className="BL-user-data">
 					<ul>
 						<li>Patrick Perfetto</li>
 						<li>
@@ -98,7 +98,7 @@ export default function SingleBlogPost() {
 						is very well designed. Crypto is a marketing is very good and I think it'll to win.”
 					</p>
 				</div>
-				<div className="fugu-social-icon3">
+				<div className="BL-social-icon3">
 					<ul>
 						<li>
 							<Link href={"#"}>
@@ -178,14 +178,14 @@ export default function SingleBlogPost() {
 				</div>
 			</div>
 
-			<div className="fugu-blog-post-wrap">
+			<div className="BL-blog-post-wrap">
 				<Link href={"#"} legacyBehavior>
-					<a className="fugu-blog-post-column">
-						<div className="fugu-blog-post-arrow">
-							<div className="fugu-blog-post-arrow-icon">
+					<a className="BL-blog-post-column">
+						<div className="BL-blog-post-arrow">
+							<div className="BL-blog-post-arrow-icon">
 								<img src="/images/svg/arrow-black-left.svg" alt="" />
 							</div>
-							<div className="fugu-blog-post-arrow-data">
+							<div className="BL-blog-post-arrow-data">
 								<p>Previous post</p>
 							</div>
 						</div>
@@ -193,12 +193,12 @@ export default function SingleBlogPost() {
 					</a>
 				</Link>
 				<Link href={"#"} legacyBehavior>
-					<a className="fugu-blog-post-column post-column-right">
-						<div className="fugu-blog-post-arrow">
-							<div className="fugu-blog-post-arrow-data">
+					<a className="BL-blog-post-column post-column-right">
+						<div className="BL-blog-post-arrow">
+							<div className="BL-blog-post-arrow-data">
 								<p>Next post</p>
 							</div>
-							<div className="fugu-blog-post-arrow-icon">
+							<div className="BL-blog-post-arrow-icon">
 								<img src="/images/svg/arrow-black-right.svg" alt="" />
 							</div>
 						</div>

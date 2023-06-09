@@ -4,7 +4,7 @@ import React from "react";
 
 export default function BreadcrumbSection() {
 	return (
-		<div className="fugu-breadcrumb-section">
+		<div className="BL-breadcrumb-section">
 			<div className="container">
 				<div className="breadcrumbs">
 					<h1 className="wow fadeInUpX" data-wow-delay="0s">
@@ -22,10 +22,10 @@ export default function BreadcrumbSection() {
 					</nav>
 				</div>
 			</div>
-			<div className="fugu-shape8">
+			<div className="BL-shape8">
 				<img src="assets/images/shape/shape7.png" alt="" />
 			</div>
-			<div className="fugu-shape9">
+			<div className="BL-shape9">
 				<img src="assets/images/shape/shape8.png" alt="" />
 			</div>
 		</div>

@@ -2,7 +2,7 @@
 
 export default function HeroSectionThreeMusician() {
   return (
-    <div className="fugu--hero-section" id="musicianherothree">
+    <div className="BL--hero-section" id="musicianherothree">
       <div className="container" id="app">
         <div className="row">
           <div className="col-lg-4">

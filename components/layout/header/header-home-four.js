@@ -22,7 +22,7 @@ export default function HeaderHomeFour() {
 	const scroll = useScroll();
 	return (
 		<header
-			className={`site-header fugu--header-section fugu--header-two ${scroll ? "sticky-menu" : ""}`}
+			className={`site-header BL--header-section BL--header-two ${scroll ? "sticky-menu" : ""}`}
 			id="sticky-menu"
 		>
 			<div className="container-fluid">
@@ -54,7 +54,7 @@ export default function HeaderHomeFour() {
 						</nav>
 					</div>
 					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-						<a className="fugu--btn fugu--menu-btn2" href="contact.html">
+						<a className="BL--btn BL--menu-btn2" href="contact.html">
 							Connect Wallet
 						</a>
 					</div>

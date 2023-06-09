@@ -11,12 +11,12 @@ export default function ContactFormSection() {
 	} = useForm();
 	const onSubmit = (data) => console.log(data);
 	return (
-		<div className="fugu--contact-section white-version">
+		<div className="BL--contact-section white-version">
 			<div className="container">
-				<div className="fugu--contact-column">
+				<div className="BL--contact-column">
 					<div className="row">
 						<div className="col-lg-5">
-							<div className="fugu--contact-info">
+							<div className="BL--contact-info">
 								<h4>Reach out to us at:</h4>
 								<ul>
 									<li>
@@ -45,7 +45,7 @@ export default function ContactFormSection() {
 									</li>
 								</ul>
 							</div>
-							<div className="fugu--contact-info fugu--contact-info2">
+							<div className="BL--contact-info BL--contact-info2">
 								<h4>Opening hours:</h4>
 								<ul>
 									<li>
@@ -61,11 +61,11 @@ export default function ContactFormSection() {
 							</div>
 						</div>
 						<div className="col-lg-7">
-							<div className="fugu--contact-form wow fadeInUpX">
+							<div className="BL--contact-form wow fadeInUpX">
 								<h3>Leave a Reply:</h3>
 								<p>Your email address will not be published. Required fields are marked*</p>
 								<form action="#">
-									<div className="fugu--comment-field">
+									<div className="BL--comment-field">
 										<input
 											type="text"
 											placeholder="Your Name*"
@@ -78,7 +78,7 @@ export default function ContactFormSection() {
 											</p>
 										)}
 									</div>
-									<div className="fugu--comment-field">
+									<div className="BL--comment-field">
 										<input
 											type="email"
 											placeholder="Your Email*"
@@ -91,14 +91,14 @@ export default function ContactFormSection() {
 											</p>
 										)}
 									</div>
-									<div className="fugu--comment-field">
+									<div className="BL--comment-field">
 										<textarea
 											name="textarea"
 											placeholder="Write your comment*"
 											{...register("comment")}
 										></textarea>
 									</div>
-									<button id="fugu--form-submit-btn" type="submit">
+									<button id="BL--form-submit-btn" type="submit">
 										Post Comment
 									</button>
 								</form>

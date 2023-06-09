@@ -4,12 +4,12 @@ import TextSliderInvestor from "./text-slider-investor";
 
 export default function InvestorsHeroSection() {
 	return (
-		<div className="fugu--hero-section" id="investorhero">
-			<div id="fugu--counter"></div>
+		<div className="BL--hero-section" id="investorhero">
+			<div id="BL--counter"></div>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6 d-flex justify-content-center flex-direction-column" >
-						<div className="fugu--hero-content" style={{zIndex: '-1'}}>
+						<div className="BL--hero-content" style={{zIndex: '-1'}}>
 							<h1>
 								Changing <br/>
 								Music <br/>
@@ -34,10 +34,10 @@ export default function InvestorsHeroSection() {
 				</div>
                
                 
-				{/* <div className="fugu--hero-shape1">
+				{/* <div className="BL--hero-shape1">
 					<img src="/images/all-img/v3/shape-hero1.png" alt="" />
 				</div> */}
-				{/* <div className="fugu--hero-shape2"></div> */}
+				{/* <div className="BL--hero-shape2"></div> */}
 			</div>
             <TextSliderInvestor />
             <div className="BL-text-para">

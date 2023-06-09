@@ -17,14 +17,14 @@ export default function Preloader() {
 	});
 	return (
 		showLoader && (
-			<div className={`fugu-preloader ${isLoded}`}>
+			<div className={`BL-preloader ${isLoded}`}>
 				<div className="text-center"><img src="/images/logo/Logo.png" alt="logo" /></div>
-				{/* <div className="fugu-spinner">
+				{/* <div className="BL-spinner">
 					<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 						<circle cx="50" cy="50" r="46" />
 					</svg>
 				</div> */}
-				<div className="fugu-title">loading...</div>
+				<div className="BL-title">loading...</div>
 			</div>
 		)
 	);

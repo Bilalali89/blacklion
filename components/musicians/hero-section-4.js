@@ -56,10 +56,10 @@ export default function HeroSectionFourMusicians() {
       <div className="container mt-400">
         <div className="BL--musician-hero4-cta">
           <h3 className="heading">Become a Lion in a musical jungle!</h3>
-          <div className="fugu--hero-btn">
+          <div className="BL--hero-btn">
             <Link href={"#"} legacyBehavior>
             <motion.a
-              className="fugu--btn bg-gray active special"
+              className="BL--btn bg-gray active special"
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 400, damping: 20 }}
             >

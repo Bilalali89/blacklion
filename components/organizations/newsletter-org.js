@@ -12,7 +12,7 @@ export default function NewsLetterOrg() {
                 <input type="email" placeholder="Email Address" />
               </div>
               <div className="col-md-4">
-                <button className="btn-block BL--newsletter-org-button" type="submit" id="BL--submit-btn">
+                <button className="btn-block BL--newsletter-org-button" type="submit" id="fugu--submit-btn">
                   Get Updates
                 </button>
               </div>

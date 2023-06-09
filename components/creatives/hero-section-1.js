@@ -3,13 +3,13 @@
 
 export default function CreaetivesHeroSection() {
   return (
-    <div className="fugu--hero-section">
+    <div className="BL--hero-section">
       <div className="container">
         <div className="row">
           <div
             className="col-lg-4 d-flex justify-content-center flex-direction-column"
           >
-            <div className="fugu--hero-content BL--musicians-content">
+            <div className="BL--hero-content BL--musicians-content">
               <h1>
                 Calling<br />
                 All

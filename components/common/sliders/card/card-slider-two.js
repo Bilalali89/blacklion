@@ -91,10 +91,10 @@ export default function CardSliderTwo() {
 	};
 
 	return (
-		<div className="fugu--collection-section fugu--section-padding">
+		<div className="BL--collection-section BL--section-padding">
 			<div className="container">
-				<div className="fugu--section-title">
-					<div className="fugu--default-content content-black">
+				<div className="BL--section-title">
+					<div className="BL--default-content content-black">
 						<h2>Start your NFTs collection</h2>
 						<p>
 							Start your NFT collection quickly & easily by grabbing a free NFT every week! Get in early
@@ -103,7 +103,7 @@ export default function CardSliderTwo() {
 					</div>
 				</div>
 			</div>
-			<div className="fugu--slider-two">
+			<div className="BL--slider-two">
 				<Slider {...settings}>
 					{nftCollections.map((card) => (
 						<SingleCardSliderTwo key={uuid4()} card={card} />

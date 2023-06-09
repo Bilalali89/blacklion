@@ -6,16 +6,16 @@ const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 export default function VideoSectionOne({ marginBottom }) {
 	const [isOpen, setOpen] = useState(false);
 	return (
-		<div className="section fugu-team-page" style={{ marginBottom: marginBottom ? "100px" : null }}>
+		<div className="section BL-team-page" style={{ marginBottom: marginBottom ? "100px" : null }}>
 			<div className="container">
-				<div className="fugu-section-title max-w-full">
+				<div className="BL-section-title max-w-full">
 					<h2>We are a team of talented people</h2>
 				</div>
-				<div className="fugu-video-thumb fugu-video-thumb3 wow fadeInUpX" data-wow-delay=".10s">
+				<div className="BL-video-thumb BL-video-thumb3 wow fadeInUpX" data-wow-delay=".10s">
 					<img src="/images/all-img/about/video-thumb2.png" alt="" />
-					<div className="fugu-popup">
+					<div className="BL-popup">
 						<img src="/images/all-img/video-btn.png" alt="" />
-						<div className="fugu-play-btn" onClick={() => setOpen(true)}>
+						<div className="BL-play-btn" onClick={() => setOpen(true)}>
 							<img src="/images/all-img/play-btn.png" alt="" />
 						</div>
 					</div>

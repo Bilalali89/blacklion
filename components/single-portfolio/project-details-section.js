@@ -1,6 +1,6 @@
 export default function ProjectDetailsSection() {
 	return (
-		<div className="fugu-gallery-data4">
+		<div className="BL-gallery-data4">
 			<h4>Project Details:</h4>
 			<p>
 				By partnering with cross-functional teams and customers, for you will turn your insights into there is a

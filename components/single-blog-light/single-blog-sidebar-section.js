@@ -3,22 +3,22 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function SingleBlogSidebarSection() {
 	return (
-		<div className="fugu-blog-sidebar">
-			<div className="fugu-sidebar-item">
+		<div className="BL-blog-sidebar">
+			<div className="BL-sidebar-item">
 				<form action="#">
-					<div className="fugu-product-search">
+					<div className="BL-product-search">
 						<input type="search" placeholder="Type to search..." />
-						<button id="fugu-search-btn">
+						<button id="BL-search-btn">
 							<img src="/images/svg/search.svg" alt="" />
 						</button>
 					</div>
 				</form>
 			</div>
-			<div className="fugu-sidebar-item">
-				<div className="fugu-sidebar-item-title">
+			<div className="BL-sidebar-item">
+				<div className="BL-sidebar-item-title">
 					<h5>Blog Categories</h5>
 				</div>
-				<div className="fugu-categories">
+				<div className="BL-categories">
 					<ul>
 						<li>
 							<Link href={"#"}> Cryptocurrency (05) </Link>
@@ -35,15 +35,15 @@ export default function SingleBlogSidebarSection() {
 					</ul>
 				</div>
 			</div>
-			<div className="fugu-sidebar-item">
-				<div className="fugu-sidebar-item-title">
+			<div className="BL-sidebar-item">
+				<div className="BL-sidebar-item-title">
 					<h5>Recent Posts</h5>
 				</div>
-				<div className="fugu-recent-post-item">
+				<div className="BL-recent-post-item">
 					<Link href={"#"}>
 						<img src="/images/all-img/blog/recent-post1.png" alt="" />
 					</Link>
-					<div className="fugu-blog-meta">
+					<div className="BL-blog-meta">
 						<ul>
 							<li>
 								<Link href={"#"}> Article </Link>
@@ -59,11 +59,11 @@ export default function SingleBlogSidebarSection() {
 						</Link>
 					</h6>
 				</div>
-				<div className="fugu-recent-post-item">
+				<div className="BL-recent-post-item">
 					<Link href={"#"}>
 						<img src="/images/all-img/blog/recent-post2.png" alt="" />
 					</Link>
-					<div className="fugu-blog-meta">
+					<div className="BL-blog-meta">
 						<ul>
 							<li>
 								<Link href={"#"}> Article </Link>
@@ -79,11 +79,11 @@ export default function SingleBlogSidebarSection() {
 						</Link>
 					</h6>
 				</div>
-				<div className="fugu-recent-post-item">
+				<div className="BL-recent-post-item">
 					<Link href={"#"}>
 						<img src="/images/all-img/blog/recent-post3.png" alt="" />
 					</Link>
-					<div className="fugu-blog-meta">
+					<div className="BL-blog-meta">
 						<ul>
 							<li>
 								<Link href={"#"}> Article </Link>
@@ -100,11 +100,11 @@ export default function SingleBlogSidebarSection() {
 					</h6>
 				</div>
 			</div>
-			<div className="fugu-sidebar-item">
-				<div className="fugu-sidebar-item-title">
+			<div className="BL-sidebar-item">
+				<div className="BL-sidebar-item-title">
 					<h5>Tags</h5>
 				</div>
-				<div className="fugu-tags">
+				<div className="BL-tags">
 					<ul>
 						<li>
 							<Link href={"#"}> #Sponsored </Link>

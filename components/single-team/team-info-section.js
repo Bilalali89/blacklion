@@ -4,10 +4,10 @@ export default function TeamInfoSection() {
 	return (
 		<div className="section">
 			<div className="container">
-				<div className="fugu-team-information-wrap">
+				<div className="BL-team-information-wrap">
 					<div className="row">
 						<div className="col-lg-4">
-							<div className="fugu-team-information">
+							<div className="BL-team-information">
 								<h5>Graphic design</h5>
 								<p>
 									I studied professional graphic design, at design school at Duoc UC. I understand the
@@ -17,7 +17,7 @@ export default function TeamInfoSection() {
 							</div>
 						</div>
 						<div className="col-lg-4">
-							<div className="fugu-team-information">
+							<div className="BL-team-information">
 								<h5>UI design</h5>
 								<p>
 									In my first UI designer job, I had the opportunity to hone my digital product
@@ -27,7 +27,7 @@ export default function TeamInfoSection() {
 							</div>
 						</div>
 						<div className="col-lg-4">
-							<div className="fugu-team-information">
+							<div className="BL-team-information">
 								<h5>UX design</h5>
 								<p>
 									In 2018, I took the Information Architecture and UX Diploma from Central University,
@@ -39,10 +39,10 @@ export default function TeamInfoSection() {
 					</div>
 				</div>
 
-				<div className="fugu-team-information-wrap">
+				<div className="BL-team-information-wrap">
 					<div className="row">
 						<div className="col-lg-4">
-							<div className="fugu-team-information">
+							<div className="BL-team-information">
 								<h5>Graphic design</h5>
 								<ul>
 									<li>
@@ -67,7 +67,7 @@ export default function TeamInfoSection() {
 							</div>
 						</div>
 						<div className="col-lg-4">
-							<div className="fugu-team-information">
+							<div className="BL-team-information">
 								<h5>UI design</h5>
 								<ul>
 									<li>
@@ -95,7 +95,7 @@ export default function TeamInfoSection() {
 							</div>
 						</div>
 						<div className="col-lg-4">
-							<div className="fugu-team-information">
+							<div className="BL-team-information">
 								<h5>UX design</h5>
 								<ul>
 									<li>

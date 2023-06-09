@@ -1,7 +1,7 @@
 export default function BreadcrumbsSection() {
 	return (
-		<div className="fugu--breadcrumbs-section">
-			<div className="fugu--breadcrumbs-data">
+		<div className="BL--breadcrumbs-section">
+			<div className="BL--breadcrumbs-data">
 				<h1>Blog & Resources</h1>
 				<p>
 					Your source of market analysis, news, developments, and project reviews for the NFT ecosystem.

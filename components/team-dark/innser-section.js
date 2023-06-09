@@ -4,7 +4,7 @@ import TeamSection from "./team-section";
 
 export default function InnerSection() {
 	return (
-		<div className="fugu--inner-section dark-version team-page">
+		<div className="BL--inner-section dark-version team-page">
 			<div className="container">
 				<BreadcrumbSection />
 				<TeamSection />

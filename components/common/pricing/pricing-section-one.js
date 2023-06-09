@@ -8,9 +8,9 @@ export default function PricingSectionOne() {
 		setToggleBilled(!toggleBilled);
 	};
 	return (
-		<div className="section bg-warning-300 fugu-section-padding2">
+		<div className="section bg-warning-300 BL-section-padding2">
 			<div className="container">
-				<div className="fugu-section-title">
+				<div className="BL-section-title">
 					<h2>
 						Fast and affordable
 						<br />
@@ -29,18 +29,18 @@ export default function PricingSectionOne() {
 				</div>
 				<div className="row" id="table-price-value" data-pricing-dynamic data-value-active="monthly">
 					<div className="col-lg-4 col-md-6">
-						<div className="fugu-pricing-wrap wow fadeInUpX" data-wow-delay=".10s">
-							<div className="fugu-pricing-header">
+						<div className="BL-pricing-wrap wow fadeInUpX" data-wow-delay=".10s">
+							<div className="BL-pricing-header">
 								<h5>Basic</h5>
 								<p>Suitable for small companies and personal use</p>
 							</div>
-							<div className="fugu-pricing-price">
-								<span className="fugu-pricing-currency">$</span>
-								<div className="fugu-price">{toggleBilled ? "99" : "19"}</div>
+							<div className="BL-pricing-price">
+								<span className="BL-pricing-currency">$</span>
+								<div className="BL-price">{toggleBilled ? "99" : "19"}</div>
 								<p className="bottom_text">{toggleBilled ? "/m" : "/y"}</p>
 							</div>
 							<Link href={"#"}>Choose the plan</Link>
-							<div className="fugu-pricing-body">
+							<div className="BL-pricing-body">
 								<ul>
 									<li>
 										<img src="/images/svg/check3.svg" alt="" />
@@ -59,18 +59,18 @@ export default function PricingSectionOne() {
 						</div>
 					</div>
 					<div className="col-lg-4 col-md-6">
-						<div className="fugu-pricing-wrap wow fadeInUpX active" data-wow-delay=".10s">
-							<div className="fugu-pricing-header">
+						<div className="BL-pricing-wrap wow fadeInUpX active" data-wow-delay=".10s">
+							<div className="BL-pricing-header">
 								<h5>Standard</h5>
 								<p>Suitable for small companies and personal use</p>
 							</div>
-							<div className="fugu-pricing-price">
-								<span className="fugu-pricing-currency">$</span>
-								<div className="fugu-price">{toggleBilled ? "199" : "89"}</div>
+							<div className="BL-pricing-price">
+								<span className="BL-pricing-currency">$</span>
+								<div className="BL-price">{toggleBilled ? "199" : "89"}</div>
 								<p className="bottom_text">{toggleBilled ? "/m" : "/y"}</p>
 							</div>
 							<Link href={"#"}>Choose the plan</Link>
-							<div className="fugu-pricing-body">
+							<div className="BL-pricing-body">
 								<ul>
 									<li>
 										<img src="/images/svg/check4.svg" alt="" />
@@ -86,22 +86,22 @@ export default function PricingSectionOne() {
 									</li>
 								</ul>
 							</div>
-							<div className="fugu-pricing-label">Popular</div>
+							<div className="BL-pricing-label">Popular</div>
 						</div>
 					</div>
 					<div className="col-lg-4 col-md-6">
-						<div className="fugu-pricing-wrap wow fadeInUpX" data-wow-delay=".20s">
-							<div className="fugu-pricing-header">
+						<div className="BL-pricing-wrap wow fadeInUpX" data-wow-delay=".20s">
+							<div className="BL-pricing-header">
 								<h5>Premium</h5>
 								<p>Suitable for small companies and personal use</p>
 							</div>
-							<div className="fugu-pricing-price">
-								<span className="fugu-pricing-currency">$</span>
-								<div className="fugu-price">{toggleBilled ? "299" : "199"}</div>
+							<div className="BL-pricing-price">
+								<span className="BL-pricing-currency">$</span>
+								<div className="BL-price">{toggleBilled ? "299" : "199"}</div>
 								<p className="bottom_text">{toggleBilled ? "/m" : "/y"}</p>
 							</div>
 							<Link href={"#"}>Choose the plan</Link>
-							<div className="fugu-pricing-body">
+							<div className="BL-pricing-body">
 								<ul>
 									<li>
 										<img src="/images/svg/check3.svg" alt="" />

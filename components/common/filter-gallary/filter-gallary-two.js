@@ -10,8 +10,8 @@ export default function FilterGallaryTwo() {
 
 	useEffect(() => {
 		setTimeout(() => {
-			isotope.current = new Isotope("#fugu-gallery-masonay1", {
-				itemSelector: ".fugu-grid-item",
+			isotope.current = new Isotope("#BL-gallery-masonay1", {
+				itemSelector: ".BL-grid-item",
 				layoutMode: "fitRows",
 			});
 		}, 1000);
@@ -36,9 +36,9 @@ export default function FilterGallaryTwo() {
 	};
 
 	return (
-		<div className="section fugu-section-padding">
+		<div className="section BL-section-padding">
 			<div className="container">
-				<div className="fugu-gallery-menu">
+				<div className="BL-gallery-menu">
 					<ul id="watch-filter-gallery" className="option-set clear-both">
 						<li onClick={handleFilterKeyChange("*")} className={handleActiveClass("*")}>
 							All Projects (35)
@@ -57,11 +57,11 @@ export default function FilterGallaryTwo() {
 						</li>
 					</ul>
 				</div>
-				<div className="fugu-gallery-wrap" id="fugu-gallery-masonay1">
-					<div className="fugu-grid-item branding commercial fugu-grid-item-w2 wow fadeInUpX">
-						<div className="fugu-gallery-item">
+				<div className="BL-gallery-wrap" id="BL-gallery-masonay1">
+					<div className="BL-grid-item branding commercial BL-grid-item-w2 wow fadeInUpX">
+						<div className="BL-gallery-item">
 							<img src="/images/all-img/portfolio/p1.png" alt="" />
-							<div className="fugu-gallery-data">
+							<div className="BL-gallery-data">
 								<h4>
 									<Link href={"/single-portfolio"}>Artwork wall printing</Link>
 								</h4>
@@ -69,10 +69,10 @@ export default function FilterGallaryTwo() {
 							</div>
 						</div>
 					</div>
-					<div className="fugu-grid-item commercial fugu-grid-item-w2 wow fadeInUpX" data-wow-delay=".10s">
-						<div className="fugu-gallery-item">
+					<div className="BL-grid-item commercial BL-grid-item-w2 wow fadeInUpX" data-wow-delay=".10s">
+						<div className="BL-gallery-item">
 							<img src="/images/all-img/portfolio/p2.png" alt="" />
-							<div className="fugu-gallery-data">
+							<div className="BL-gallery-data">
 								<h4>
 									<Link href={"/single-portfolio"}>Skeleton face</Link>
 								</h4>
@@ -80,10 +80,10 @@ export default function FilterGallaryTwo() {
 							</div>
 						</div>
 					</div>
-					<div className="fugu-grid-item design wow fadeInUpX" data-wow-delay=".20s">
-						<div className="fugu-gallery-item">
+					<div className="BL-grid-item design wow fadeInUpX" data-wow-delay=".20s">
+						<div className="BL-gallery-item">
 							<img src="/images/all-img/portfolio/p3.png" alt="" />
-							<div className="fugu-gallery-data">
+							<div className="BL-gallery-data">
 								<h4>
 									<Link href={"/single-portfolio"}>Chinese ladyface</Link>
 								</h4>
@@ -91,10 +91,10 @@ export default function FilterGallaryTwo() {
 							</div>
 						</div>
 					</div>
-					<div className="fugu-grid-item digital design wow fadeInUpX" data-wow-delay=".30s">
-						<div className="fugu-gallery-item">
+					<div className="BL-grid-item digital design wow fadeInUpX" data-wow-delay=".30s">
+						<div className="BL-gallery-item">
 							<img src="/images/all-img/portfolio/p4.png" alt="" />
-							<div className="fugu-gallery-data">
+							<div className="BL-gallery-data">
 								<h4>
 									<Link href={"/single-portfolio"}>Primitive culture</Link>
 								</h4>
@@ -102,10 +102,10 @@ export default function FilterGallaryTwo() {
 							</div>
 						</div>
 					</div>
-					<div className="fugu-grid-item digital design wow fadeInUpX" data-wow-delay=".40s">
-						<div className="fugu-gallery-item">
+					<div className="BL-grid-item digital design wow fadeInUpX" data-wow-delay=".40s">
+						<div className="BL-gallery-item">
 							<img src="/images/all-img/portfolio/p5.png" alt="" />
-							<div className="fugu-gallery-data">
+							<div className="BL-gallery-data">
 								<h4>
 									<Link href={"/single-portfolio"}>Crypto coin</Link>
 								</h4>
@@ -113,10 +113,10 @@ export default function FilterGallaryTwo() {
 							</div>
 						</div>
 					</div>
-					<div className="fugu-grid-item design wow fadeInUpX" data-wow-delay=".50s">
-						<div className="fugu-gallery-item">
+					<div className="BL-grid-item design wow fadeInUpX" data-wow-delay=".50s">
+						<div className="BL-gallery-item">
 							<img src="/images/all-img/portfolio/p3.png" alt="" />
-							<div className="fugu-gallery-data">
+							<div className="BL-gallery-data">
 								<h4>
 									<Link href={"/single-portfolio"}>Chinese ladyface</Link>
 								</h4>
@@ -125,12 +125,12 @@ export default function FilterGallaryTwo() {
 						</div>
 					</div>
 					<div
-						className="fugu-grid-item branding commercial fugu-grid-item-w2 wow fadeInUpX"
+						className="BL-grid-item branding commercial BL-grid-item-w2 wow fadeInUpX"
 						data-wow-delay=".60s"
 					>
-						<div className="fugu-gallery-item">
+						<div className="BL-gallery-item">
 							<img src="/images/all-img/portfolio/p6.png" alt="" />
-							<div className="fugu-gallery-data">
+							<div className="BL-gallery-data">
 								<h4>
 									<Link href={"/single-portfolio"}>Strategic planning</Link>
 								</h4>
@@ -138,10 +138,10 @@ export default function FilterGallaryTwo() {
 							</div>
 						</div>
 					</div>
-					<div className="fugu-grid-item commercial fugu-grid-item-w2 wow fadeInUpX" data-wow-delay=".70s">
-						<div className="fugu-gallery-item">
+					<div className="BL-grid-item commercial BL-grid-item-w2 wow fadeInUpX" data-wow-delay=".70s">
+						<div className="BL-gallery-item">
 							<img src="/images/all-img/portfolio/p7.png" alt="" />
-							<div className="fugu-gallery-data">
+							<div className="BL-gallery-data">
 								<h4>
 									<Link href={"/single-portfolio"}>Wild animal artwork</Link>
 								</h4>
@@ -150,8 +150,8 @@ export default function FilterGallaryTwo() {
 						</div>
 					</div>
 				</div>
-				<div className="fugu-portfolio-btn">
-					<a className="fugu-btn small-btn" href="">
+				<div className="BL-portfolio-btn">
+					<a className="BL-btn small-btn" href="">
 						View All
 					</a>
 				</div>

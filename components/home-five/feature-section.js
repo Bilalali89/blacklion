@@ -3,10 +3,10 @@ import React from "react";
 
 export default function FeatureSection() {
 	return (
-		<div className="fugu--feature-section fugu--section-padding2">
+		<div className="BL--feature-section BL--section-padding2">
 			<div className="container">
-				<div className="fugu--section-title">
-					<div className="fugu--default-content">
+				<div className="BL--section-title">
+					<div className="BL--default-content">
 						<h2>Innovative features to buy, trade and invest in crypto</h2>
 						<p>
 							A cryptocurrency is a digital & virtual currency that is secured by Fugu which makes it
@@ -16,8 +16,8 @@ export default function FeatureSection() {
 				</div>
 				<div className="row">
 					<div className="col-xl-4 col-md-6">
-						<div className="fugu--iconbox-wrap fugu--iconbox-wrap3 wow fadeInUpX" data-wow-delay="0s">
-							<div className="fugu--iconbox-thumb">
+						<div className="BL--iconbox-wrap BL--iconbox-wrap3 wow fadeInUpX" data-wow-delay="0s">
+							<div className="BL--iconbox-thumb">
 								<svg
 									width="41"
 									height="45"
@@ -39,7 +39,7 @@ export default function FeatureSection() {
 									/>
 								</svg>
 							</div>
-							<div className="fugu--iconbox-data">
+							<div className="BL--iconbox-data">
 								<h4>Safe and secure</h4>
 								<p>
 									Cryptocurrency is a digital currency using to secure transactions so there are
@@ -49,8 +49,8 @@ export default function FeatureSection() {
 						</div>
 					</div>
 					<div className="col-xl-4 col-md-6">
-						<div className="fugu--iconbox-wrap fugu--iconbox-wrap3 wow fadeInUpX" data-wow-delay=".10s">
-							<div className="fugu--iconbox-thumb">
+						<div className="BL--iconbox-wrap BL--iconbox-wrap3 wow fadeInUpX" data-wow-delay=".10s">
+							<div className="BL--iconbox-thumb">
 								<svg
 									width="45"
 									height="45"
@@ -72,7 +72,7 @@ export default function FeatureSection() {
 									/>
 								</svg>
 							</div>
-							<div className="fugu--iconbox-data">
+							<div className="BL--iconbox-data">
 								<h4>Easy to create wallet</h4>
 								<p>
 									Create your account. Hosted wallet, you don't need to share any personal info to
@@ -82,8 +82,8 @@ export default function FeatureSection() {
 						</div>
 					</div>
 					<div className="col-xl-4 col-md-6">
-						<div className="fugu--iconbox-wrap fugu--iconbox-wrap3 wow fadeInUpX" data-wow-delay=".20s">
-							<div className="fugu--iconbox-thumb">
+						<div className="BL--iconbox-wrap BL--iconbox-wrap3 wow fadeInUpX" data-wow-delay=".20s">
+							<div className="BL--iconbox-thumb">
 								<svg
 									width="45"
 									height="45"
@@ -105,7 +105,7 @@ export default function FeatureSection() {
 									/>
 								</svg>
 							</div>
-							<div className="fugu--iconbox-data">
+							<div className="BL--iconbox-data">
 								<h4>Reports & analytics</h4>
 								<p>
 									Crypto fund report published by a cointelegraph research investigates provides
@@ -115,8 +115,8 @@ export default function FeatureSection() {
 						</div>
 					</div>
 					<div className="col-xl-4 col-md-6">
-						<div className="fugu--iconbox-wrap fugu--iconbox-wrap3 wow fadeInUpX" data-wow-delay=".30s">
-							<div className="fugu--iconbox-thumb">
+						<div className="BL--iconbox-wrap BL--iconbox-wrap3 wow fadeInUpX" data-wow-delay=".30s">
+							<div className="BL--iconbox-thumb">
 								<svg
 									width="42"
 									height="45"
@@ -138,7 +138,7 @@ export default function FeatureSection() {
 									/>
 								</svg>
 							</div>
-							<div className="fugu--iconbox-data">
+							<div className="BL--iconbox-data">
 								<h4>Integrated application</h4>
 								<p>
 									An integrated application is a stand-alone application that can seamlessly integrate
@@ -148,8 +148,8 @@ export default function FeatureSection() {
 						</div>
 					</div>
 					<div className="col-xl-4 col-md-6">
-						<div className="fugu--iconbox-wrap fugu--iconbox-wrap3 wow fadeInUpX" data-wow-delay=".40s">
-							<div className="fugu--iconbox-thumb">
+						<div className="BL--iconbox-wrap BL--iconbox-wrap3 wow fadeInUpX" data-wow-delay=".40s">
+							<div className="BL--iconbox-thumb">
 								<svg
 									width="45"
 									height="45"
@@ -167,7 +167,7 @@ export default function FeatureSection() {
 									/>
 								</svg>
 							</div>
-							<div className="fugu--iconbox-data">
+							<div className="BL--iconbox-data">
 								<h4>Real-time interest</h4>
 								<p>
 									A real interest rate is the interest rate that takes inflation into account. This
@@ -177,8 +177,8 @@ export default function FeatureSection() {
 						</div>
 					</div>
 					<div className="col-xl-4 col-md-6">
-						<div className="fugu--iconbox-wrap fugu--iconbox-wrap3 wow fadeInUpX" data-wow-delay=".50s">
-							<div className="fugu--iconbox-thumb">
+						<div className="BL--iconbox-wrap BL--iconbox-wrap3 wow fadeInUpX" data-wow-delay=".50s">
+							<div className="BL--iconbox-thumb">
 								<svg
 									width="45"
 									height="45"
@@ -204,7 +204,7 @@ export default function FeatureSection() {
 									/>
 								</svg>
 							</div>
-							<div className="fugu--iconbox-data">
+							<div className="BL--iconbox-data">
 								<h4>Multi curency support</h4>
 								<p>
 									Multi-currency support means that shoppers can pay for your products or services

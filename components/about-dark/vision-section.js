@@ -5,28 +5,28 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function VisionSection() {
 	return (
-		<div className="fugu--vision-section">
+		<div className="BL--vision-section">
 			<div className="container">
 				<div className="row">
 					<div className="col-xl-4 col-lg-4">
-						<div className="fugu--swiper-slider-wrap">
-							<div className="fugu--swiper-slider">
+						<div className="BL--swiper-slider-wrap">
+							<div className="BL--swiper-slider">
 								<div className="swiper-wrapper">
 									<div className="swiper-slide">
-										<div className="fugu--card-wrap">
-											<div className="fugu--card-thumb">
+										<div className="BL--card-wrap">
+											<div className="BL--card-thumb">
 												<img src="/images/all-img/v3/card5.jpg" alt="" />
 											</div>
-											<div className="fugu--card-data">
+											<div className="BL--card-data">
 												<h3>3D ZelenskiyNFT</h3>
 												<p>Pre-sale : 18 May 2023</p>
-												<div className="fugu--card-footer">
-													<div className="fugu--card-footer-data">
+												<div className="BL--card-footer">
+													<div className="BL--card-footer-data">
 														<span>Mint Price:</span>
 														<h4>0.194 ETH</h4>
 													</div>
 													<Link href={"/"} legacyBehavior>
-														<a className="fugu--btn btn-sm bg-white">Place a Bid</a>
+														<a className="BL--btn btn-sm bg-white">Place a Bid</a>
 													</Link>
 												</div>
 											</div>
@@ -37,7 +37,7 @@ export default function VisionSection() {
 						</div>
 					</div>
 					<div className="col-xl-6 offset-xl-2 col-lg-7 offset-lg-1 d-flex align-items-center">
-						<div className="fugu--default-content content-sm">
+						<div className="BL--default-content content-sm">
 							<h2>Our vision is to build a strong NFT portfolio of denomination</h2>
 							<p>
 								We're excited about a brand new type of digital good called NFT. NFTs have exciting new
@@ -48,9 +48,9 @@ export default function VisionSection() {
 								ownership of an asset more secure. Blockchain tech can also make ownership of more
 								transparent.
 							</p>
-							<div className="fugu--btn-wrap">
+							<div className="BL--btn-wrap">
 								<Link legacyBehavior href={"/"}>
-									<a className="fugu--btn bg-gradient">Join Community</a>
+									<a className="BL--btn bg-gradient">Join Community</a>
 								</Link>
 							</div>
 						</div>

@@ -14,7 +14,7 @@ export default function HeroSectionThree() {
 
   const { scrollYProgress } = useScroll();
   return (
-    <div className="fugu--hero-section" id="herothree">
+    <div className="BL--hero-section" id="herothree">
       <HeroSectionSteps />
       <div className="container">
         <MotionConfig transition={{ duration: 1 }}>
@@ -51,7 +51,7 @@ export default function HeroSectionThree() {
       <div className="container mb-300">
         <div className="row">
           <div className="col-xl-4 col-md-12 d-flex justify-content-center flex-direction-column">
-            <div className="fugu--hero-content">
+            <div className="BL--hero-content">
               <h1 className="cursor-scale small">
                 Blacklion <br />
                 Valuation <br />
@@ -108,8 +108,8 @@ export default function HeroSectionThree() {
       </div>
       <div className="container-fluid" id="app">
         <div className="row">
-          <div className="col-xl-4 col-md-12 d-flex justify-content-center flex-direction-column">
-            <div className="fugu--hero-content ">
+          <div className="col-xl-4 col-md-12 order-2 order-xs-1 order-sm-1 order-md-1 d-flex justify-content-center flex-direction-column">
+            <div className="BL--hero-content ">
               <h1 className="cursor-scale small">
                 Blacklion <br />
                 App <br />
@@ -130,7 +130,7 @@ export default function HeroSectionThree() {
               </div>
             </div>
           </div>
-          <div className="col-xl-8 col-md-12" style={{ zIndex: "-1" }}>
+          <div className="col-xl-8 col-md-12 order-1 order-xs-2 order-sm-2 order-md-2" style={{ zIndex: "-1" }}>
             <motion.div style={{ scale: scrollYProgress }}>
               <img
                 src="/images/home/mobile-app.png"

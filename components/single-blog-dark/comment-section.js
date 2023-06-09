@@ -3,16 +3,16 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function CommentSection() {
 	return (
-		<div className="fugu--comment-wrap">
+		<div className="BL--comment-wrap">
 			<h3>3 comments on this post:</h3>
-			<div className="fugu--comment-list">
+			<div className="BL--comment-list">
 				<ul>
 					<li>
-						<div className="fugu--comment-body">
-							<div className="fugu--comment-author">
+						<div className="BL--comment-body">
+							<div className="BL--comment-author">
 								<img src="/images/all-img/blog2/author1.png" alt="" />
 							</div>
-							<div className="fugu--comment-meta">
+							<div className="BL--comment-meta">
 								<h5>Juliya Naik</h5>
 								<span>Dec. 25, 2022</span>
 								<p>
@@ -22,16 +22,16 @@ export default function CommentSection() {
 								</p>
 							</div>
 							<Link href={"#"} legacyBehavior>
-								<a className="fugu--comment-reply">Reply</a>
+								<a className="BL--comment-reply">Reply</a>
 							</Link>
 						</div>
 					</li>
 					<li className="children">
-						<div className="fugu--comment-body">
-							<div className="fugu--comment-author">
+						<div className="BL--comment-body">
+							<div className="BL--comment-author">
 								<img src="/images/all-img/blog2/author2.png" alt="" />
 							</div>
-							<div className="fugu--comment-meta">
+							<div className="BL--comment-meta">
 								<h5>Willium Marco</h5>
 								<span>Dec. 25, 2022</span>
 								<p>
@@ -41,16 +41,16 @@ export default function CommentSection() {
 								</p>
 							</div>
 							<Link href={"#"} legacyBehavior>
-								<a className="fugu--comment-reply">Reply</a>
+								<a className="BL--comment-reply">Reply</a>
 							</Link>
 						</div>
 					</li>
 					<li>
-						<div className="fugu--comment-body">
-							<div className="fugu--comment-author">
+						<div className="BL--comment-body">
+							<div className="BL--comment-author">
 								<img src="/images/all-img/blog2/author3.png" alt="" />
 							</div>
-							<div className="fugu--comment-meta">
+							<div className="BL--comment-meta">
 								<h5>Robert fox</h5>
 								<span>Dec. 25, 2022</span>
 								<p>
@@ -61,7 +61,7 @@ export default function CommentSection() {
 								</p>
 							</div>
 							<Link href={"#"} legacyBehavior>
-								<a className="fugu--comment-reply">Reply</a>
+								<a className="BL--comment-reply">Reply</a>
 							</Link>
 						</div>
 					</li>

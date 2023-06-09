@@ -3,7 +3,7 @@ import SingleBlogSidebarSection from "./single-blog-sidebar-section";
 
 export default function SingleBlogContainer() {
 	return (
-		<div className="fugu-blog-section fugu-section-padding">
+		<div className="BL-blog-section BL-section-padding">
 			<div className="container">
 				<div className="row">
 					<div className="col-xl-8 col-lg-7">

@@ -17,7 +17,7 @@ export default function HeaderErrorSix() {
 		setIsMobileMenuOpen(false);
 	};
 	return (
-		<header className="site-header site-header--menu-right fugu-header-section bg-warning-400" id="sticky-menu">
+		<header className="site-header site-header--menu-right BL-header-section bg-warning-400" id="sticky-menu">
 			<div className="container-fluid">
 				<nav className="navbar site-navbar">
 					<div className="brand-logo">
@@ -47,7 +47,7 @@ export default function HeaderErrorSix() {
 						</nav>
 					</div>
 					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-						<a className="fugu-btn fugu-header-btn" href="contact.html">
+						<a className="BL-btn BL-header-btn" href="contact.html">
 							Get Started
 						</a>
 					</div>

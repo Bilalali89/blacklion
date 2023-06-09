@@ -12,7 +12,7 @@ export default function IndexFive() {
 	return (
 		<>
 			<Head>
-				<title>fugu - index o5</title>
+				<title>BL - index o5</title>
 			</Head>
 			<HeroSection />
 			<ClientSliderOne />

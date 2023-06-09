@@ -3,21 +3,21 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function BlogSidebarSection() {
 	return (
-		<div className="fugu--blog-sidebar">
-			<div className="fugu--blog-sidebar-item">
-				<div className="fugu--newsletter fugu--search">
+		<div className="BL--blog-sidebar">
+			<div className="BL--blog-sidebar-item">
+				<div className="BL--newsletter BL--search">
 					<input type="email" placeholder="Search..." />
-					<button type="submit" id="fugu--submit-btn">
+					<button type="submit" id="BL--submit-btn">
 						Search
 					</button>
-					<button id="fugu--search-btn">
+					<button id="BL--search-btn">
 						<img src="/images/svg2/search.svg" alt="" />
 					</button>
 				</div>
 			</div>
-			<div className="fugu--blog-sidebar-item">
+			<div className="BL--blog-sidebar-item">
 				<h4>Categories:</h4>
-				<div className="fugu--category">
+				<div className="BL--category">
 					<ul>
 						<li>
 							<Link href={"#"}> Art & Analysis (04)</Link>
@@ -34,15 +34,15 @@ export default function BlogSidebarSection() {
 					</ul>
 				</div>
 			</div>
-			<div className="fugu--blog-sidebar-item">
+			<div className="BL--blog-sidebar-item">
 				<h4>Latest Posts:</h4>
-				<div className="fugu--blog-post-wrap">
-					<div className="fugu--blog-post-thumb">
+				<div className="BL--blog-post-wrap">
+					<div className="BL--blog-post-thumb">
 						<Link href={"#"}>
 							<img src="/images/all-img/blog2/dark/blog1.png" alt="" />
 						</Link>
 					</div>
-					<div className="fugu--blog-post-data">
+					<div className="BL--blog-post-data">
 						<Link href={"#"}>
 							<p>July 27, 2022</p>
 						</Link>
@@ -51,13 +51,13 @@ export default function BlogSidebarSection() {
 						</Link>
 					</div>
 				</div>
-				<div className="fugu--blog-post-wrap">
-					<div className="fugu--blog-post-thumb">
+				<div className="BL--blog-post-wrap">
+					<div className="BL--blog-post-thumb">
 						<Link href={"#"}>
 							<img src="/images/all-img/blog2/dark/blog2.png" alt="" />
 						</Link>
 					</div>
-					<div className="fugu--blog-post-data">
+					<div className="BL--blog-post-data">
 						<Link href={"#"}>
 							<p>July 27, 2022</p>
 						</Link>
@@ -66,13 +66,13 @@ export default function BlogSidebarSection() {
 						</Link>
 					</div>
 				</div>
-				<div className="fugu--blog-post-wrap">
-					<div className="fugu--blog-post-thumb">
+				<div className="BL--blog-post-wrap">
+					<div className="BL--blog-post-thumb">
 						<Link href={"#"}>
 							<img src="/images/all-img/blog2/dark/blog3.png" alt="" />
 						</Link>
 					</div>
-					<div className="fugu--blog-post-data">
+					<div className="BL--blog-post-data">
 						<Link href={"#"}>
 							<p>July 27, 2022</p>
 						</Link>
@@ -82,9 +82,9 @@ export default function BlogSidebarSection() {
 					</div>
 				</div>
 			</div>
-			<div className="fugu--blog-sidebar-item">
+			<div className="BL--blog-sidebar-item">
 				<h4>Tags:</h4>
-				<div className="fugu--tags">
+				<div className="BL--tags">
 					<ul>
 						<li>
 							<Link href={"#"}> NFTs art</Link>

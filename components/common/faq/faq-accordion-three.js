@@ -2,14 +2,14 @@ import { Accordion } from "react-bootstrap";
 
 export default function FaqAccordionThree() {
 	return (
-		<div className="fugu--faq-section dark-version fugu--section-padding">
+		<div className="BL--faq-section dark-version BL--section-padding">
 			<div className="container">
-				<div className="fugu--section-title">
-					<div className="fugu--default-content content-sm">
+				<div className="BL--section-title">
+					<div className="BL--default-content content-sm">
 						<h2>If you need to know anything about NFTs, just ask us!</h2>
 					</div>
 				</div>
-				<div className="fugu--accordion-one accordion-four" id="accordionExample">
+				<div className="BL--accordion-one accordion-four" id="accordionExample">
 					<Accordion defaultActiveKey="0">
 						<Accordion.Item eventKey="0">
 							<Accordion.Header>What is an NFT?</Accordion.Header>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeroSectionThreeCreative() {
   return (
-    <div className="fugu--hero-section" id="creativeherothree">
+    <div className="BL--hero-section" id="creativeherothree">
       <div className="container">
         <div className="row">
           <div

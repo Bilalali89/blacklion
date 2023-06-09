@@ -3,11 +3,11 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function HeroSection() {
 	return (
-		<div className="fugu-hero-section">
+		<div className="BL-hero-section">
 			<div className="container">
 				<div className="row">
 					<div className="col-xl-6 col-lg-7">
-						<div className="fugu-hero-content">
+						<div className="BL-hero-content">
 							<h1 className="wow fadeInUpX" data-wow-delay="0s">
 								The crypto trading app for the next-gen
 							</h1>
@@ -15,29 +15,29 @@ export default function HeroSection() {
 								Fugu is the app that gives you access to trading tools that you can actively buy & sell
 								digital currencies in an optimal way.
 							</p>
-							<div className="fugu-app-btn-wrap wow fadeInUpX" data-wow-delay="0.40s">
+							<div className="BL-app-btn-wrap wow fadeInUpX" data-wow-delay="0.40s">
 								<Link href={"contact"} legacyBehavior>
-									<a className="fugu-app-btn">
+									<a className="BL-app-btn">
 										<img src="/images/all-img/app-store.png" alt="title" />
 									</a>
 								</Link>
 								<Link href={"contact"} legacyBehavior>
-									<a className="fugu-app-btn">
+									<a className="BL-app-btn">
 										<img src="/images/all-img/play-store.png" alt="title" />
 									</a>
 								</Link>
 							</div>
-							<div className="fugu-hero-client-area wow fadeInUpX" data-wow-delay="0.50s">
-								<div className="fugu-hero-client-wrap">
-									<div className="fugu-hero-client-thumb">
+							<div className="BL-hero-client-area wow fadeInUpX" data-wow-delay="0.50s">
+								<div className="BL-hero-client-wrap">
+									<div className="BL-hero-client-thumb">
 										<img src="/images/all-img/client.png" alt="title" />
 									</div>
-									<div className="fugu-hero-client-data">
+									<div className="BL-hero-client-data">
 										<h3>64,739</h3>
 										<p>Happy Customers</p>
 									</div>
 								</div>
-								<div className="fugu-hero-client-rating">
+								<div className="BL-hero-client-rating">
 									<h3>4.8/5</h3>
 									<ul>
 										<li>
@@ -62,19 +62,19 @@ export default function HeroSection() {
 						</div>
 					</div>
 					<div className="col-xl-6 col-lg-5">
-						<div className="fugu-hero-thumb">
+						<div className="BL-hero-thumb">
 							<img src="/images/all-img/hand-mocup.png" alt="title" />
-							<div className="fugu-shape2">
+							<div className="BL-shape2">
 								<img src="/images/shape/shape2.png" alt="title" />
 							</div>
-							<div className="fugu-hero-star">
+							<div className="BL-hero-star">
 								<img src="/images/all-img/star-shape.png" alt="title" />
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className="fugu-shape1">
+			<div className="BL-shape1">
 				<img src="/images/shape/shape1.png" alt="title" />
 			</div>
 		</div>

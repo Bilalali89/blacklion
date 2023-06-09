@@ -47,42 +47,42 @@ export default function TextSliderOrg() {
 		],
 	};
 	return (
-		<div className="fugu-text-slider-section" id="homeslide" style={{background:'transparent'}}>
-			<div className="fugu-text-slider-area1" style={{transform: 'rotate(-3.5deg) translateY(89px)'}} >
-				<div className="fugu-text-slider1">
+		<div className="BL-text-slider-section" id="homeslide" style={{background:'transparent'}}>
+			<div className="BL-text-slider-area1" style={{transform: 'rotate(-3.5deg) translateY(89px)'}} >
+				<div className="BL-text-slider1">
 					<Slider {...settingsOne}>
-						<div className="fugu-text-slider-data" >
-							<div className="fugu-text-slider-icon">
+						<div className="BL-text-slider-data" >
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE</h3>
 						</div>
-						<div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
+						<div className="BL-text-slider-data">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE</h3>
 						</div>
-                        <div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
+                        <div className="BL-text-slider-data">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE</h3>
 						</div>
-                        <div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
+                        <div className="BL-text-slider-data">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE</h3>
 						</div>
-                        <div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
+                        <div className="BL-text-slider-data">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE</h3>
 						</div>
-                        <div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
+                        <div className="BL-text-slider-data">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>UNLOCKING VALUE</h3>
@@ -92,36 +92,36 @@ export default function TextSliderOrg() {
 					</Slider>
 				</div>
 			</div>
-			<div className="fugu-text-slider-area2" style={{background: '#BAFC55', marginTop: '-44px'}}>
-				<div className="fugu-text-slider2" dir="rtl" >
+			<div className="BL-text-slider-area2" style={{background: '#BAFC55', marginTop: '-44px'}}>
+				<div className="BL-text-slider2" dir="rtl" >
 					<Slider {...settingsTwo}>
-						<div className="fugu-text-slider-data streamline">
-							<div className="fugu-text-slider-icon">
+						<div className="BL-text-slider-data streamline">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon"  />
 							</div>
 							<h3>STREAMLINE OPERATIONS</h3>
 						</div>
 						
-						<div className="fugu-text-slider-data streamline">
-							<div className="fugu-text-slider-icon">
+						<div className="BL-text-slider-data streamline">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon"/>
 							</div>
 							<h3>STREAMLINE OPERATIONS</h3>
 						</div>
-						<div className="fugu-text-slider-data streamline">
-							<div className="fugu-text-slider-icon">
+						<div className="BL-text-slider-data streamline">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon"/>
 							</div>
 							<h3>STREAMLINE OPERATIONS</h3>
 						</div>
-                        <div className="fugu-text-slider-data streamline">
-							<div className="fugu-text-slider-icon">
+                        <div className="BL-text-slider-data streamline">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" />
 							</div>
 							<h3>STREAMLINE OPERATIONS</h3>
 						</div>
-                        <div className="fugu-text-slider-data streamline">
-							<div className="fugu-text-slider-icon">
+                        <div className="BL-text-slider-data streamline">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon"/>
 							</div>
 							<h3>STREAMLINE OPERATIONS</h3>

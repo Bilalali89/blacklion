@@ -22,7 +22,7 @@ export default function HeaderHomeThree() {
   const scroll = useScroll();
   return (
     <header
-      className={`site-header site-header--menu-right fugu--header-section fugu--header-three ${
+      className={`site-header site-header--menu-right BL--header-section BL--header-three ${
         scroll ? "sticky-menu" : ""
       }`}
       id="sticky-menu"
@@ -68,7 +68,7 @@ export default function HeaderHomeThree() {
             </nav>
           </div>
           <div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-            <a className="fugu--btn fugu--menu-btn1" href="/">
+            <a className="BL--btn BL--menu-btn1" href="/">
               Request Demo
             </a>
           </div>

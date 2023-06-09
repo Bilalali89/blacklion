@@ -8,8 +8,8 @@ import TagSection from "./tag-section";
 
 export default function SingleBlogPost() {
 	return (
-		<div className="fugu--single-blog-section">
-			<img className="fugu--single-thumb" src="/images/all-img/blog2/single-blog.png" alt="" />
+		<div className="BL--single-blog-section">
+			<img className="BL--single-thumb" src="/images/all-img/blog2/single-blog.png" alt="" />
 			<p>
 				A technologically advanced society like Japan is a natural place for non-fungible tokens to flourish.
 				While the adoption of NFTs has been slow in Japan thus far, we believe the conditions are ideal for

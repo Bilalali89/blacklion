@@ -26,19 +26,19 @@ export default function TestimonialSliderOne() {
 		],
 	};
 	return (
-		<div className="fugu-testimonial-section fugu-section-padding2">
+		<div className="BL-testimonial-section BL-section-padding2">
 			<div className="container">
-				<div className="fugu-section-title title-large">
+				<div className="BL-section-title title-large">
 					<h2>User gives feedback using our crypto app</h2>
 				</div>
-				<div className="fugu-testimonial-slider">
+				<div className="BL-testimonial-slider">
 					<Slider {...settings}>
-						<div className="fugu-testimonial-card">
-							<div className="fugu-testimonial-author-wrap">
-								<div className="fugu-testimonial-author-thumb">
+						<div className="BL-testimonial-card">
+							<div className="BL-testimonial-author-wrap">
+								<div className="BL-testimonial-author-thumb">
 									<img src="/images/all-img/testimonial1.png" alt="" />
 								</div>
-								<div className="fugu-testimonial-author-data">
+								<div className="BL-testimonial-author-data">
 									<h5>Marcel Gafam</h5>
 									<span>@margafam</span>
 								</div>
@@ -50,12 +50,12 @@ export default function TestimonialSliderOne() {
 								code.
 							</p>
 						</div>
-						<div className="fugu-testimonial-card">
-							<div className="fugu-testimonial-author-wrap">
-								<div className="fugu-testimonial-author-thumb">
+						<div className="BL-testimonial-card">
+							<div className="BL-testimonial-author-wrap">
+								<div className="BL-testimonial-author-thumb">
 									<img src="/images/all-img/testimonial2.png" alt="" />
 								</div>
-								<div className="fugu-testimonial-author-data">
+								<div className="BL-testimonial-author-data">
 									<h5>Patrick Perfetto</h5>
 									<span>@patrickfetto</span>
 								</div>
@@ -64,15 +64,15 @@ export default function TestimonialSliderOne() {
 							<p>
 								Here, Im rating the Fugu crypto app and the debit card. My experience is great! & the
 								app is very well designed. Crypto is a marketing is very good and I think it ll to win
-								long term with fugu app.
+								long term with BL app.
 							</p>
 						</div>
-						<div className="fugu-testimonial-card">
-							<div className="fugu-testimonial-author-wrap">
-								<div className="fugu-testimonial-author-thumb">
+						<div className="BL-testimonial-card">
+							<div className="BL-testimonial-author-wrap">
+								<div className="BL-testimonial-author-thumb">
 									<img src="/images/all-img/testimonial3.png" alt="" />
 								</div>
-								<div className="fugu-testimonial-author-data">
+								<div className="BL-testimonial-author-data">
 									<h5>Alex Zansir</h5>
 									<span>@alexzan</span>
 								</div>
@@ -80,16 +80,16 @@ export default function TestimonialSliderOne() {
 							<h4>I love it! ❤️</h4>
 							<p>
 								I have been using Fugu crypto app since December 2021 and so far things have a been
-								alright where purchasing BTCs and to my external wallets. Thanks fugu for a good
+								alright where purchasing BTCs and to my external wallets. Thanks BL for a good
 								experience at my first Wallet
 							</p>
 						</div>
-						<div className="fugu-testimonial-card">
-							<div className="fugu-testimonial-author-wrap">
-								<div className="fugu-testimonial-author-thumb">
+						<div className="BL-testimonial-card">
+							<div className="BL-testimonial-author-wrap">
+								<div className="BL-testimonial-author-thumb">
 									<img src="/images/all-img/testimonial1.png" alt="" />
 								</div>
-								<div className="fugu-testimonial-author-data">
+								<div className="BL-testimonial-author-data">
 									<h5>Marcel Gafam</h5>
 									<span>@margafam</span>
 								</div>
@@ -101,12 +101,12 @@ export default function TestimonialSliderOne() {
 								code.
 							</p>
 						</div>
-						<div className="fugu-testimonial-card">
-							<div className="fugu-testimonial-author-wrap">
-								<div className="fugu-testimonial-author-thumb">
+						<div className="BL-testimonial-card">
+							<div className="BL-testimonial-author-wrap">
+								<div className="BL-testimonial-author-thumb">
 									<img src="/images/all-img/testimonial2.png" alt="" />
 								</div>
-								<div className="fugu-testimonial-author-data">
+								<div className="BL-testimonial-author-data">
 									<h5>Patrick Perfetto</h5>
 									<span>@patrickfetto</span>
 								</div>
@@ -115,15 +115,15 @@ export default function TestimonialSliderOne() {
 							<p>
 								Here, I'm rating the Fugu crypto app and the debit card. My experience is great! & the
 								app is very well designed. Crypto is a marketing is very good and I think it'll to win
-								long term with fugu app.
+								long term with BL app.
 							</p>
 						</div>
-						<div className="fugu-testimonial-card">
-							<div className="fugu-testimonial-author-wrap">
-								<div className="fugu-testimonial-author-thumb">
+						<div className="BL-testimonial-card">
+							<div className="BL-testimonial-author-wrap">
+								<div className="BL-testimonial-author-thumb">
 									<img src="/images/all-img/testimonial3.png" alt="" />
 								</div>
-								<div className="fugu-testimonial-author-data">
+								<div className="BL-testimonial-author-data">
 									<h5>Alex Zansir</h5>
 									<span>@alexzan</span>
 								</div>
@@ -131,7 +131,7 @@ export default function TestimonialSliderOne() {
 							<h4>I love it! ❤️</h4>
 							<p>
 								I have been using Fugu crypto app since December 2021 and so far things have a been
-								alright where purchasing BTCs and to my external wallets. Thanks fugu for a good
+								alright where purchasing BTCs and to my external wallets. Thanks BL for a good
 								experience at my first Wallet
 							</p>
 						</div>

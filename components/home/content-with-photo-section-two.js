@@ -2,12 +2,12 @@
 
 export default function ContentWithPhotoSectionTwo() {
 	return (
-		<div className="section bg-warning-300 fugu-section-padding z-index">
+		<div className="section bg-warning-300 BL-section-padding z-index">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6">
 						<div
-							className="fugu-apps-thumb fugu-apps-thumb2"
+							className="BL-apps-thumb BL-apps-thumb2"
 							id="rotatethree"
 							style={{ transform: "rotate(0deg)" }}
 						>
@@ -20,13 +20,13 @@ export default function ContentWithPhotoSectionTwo() {
 						</div>
 					</div>
 					<div className="col-lg-6 col-md-10 d-flex align-items-center">
-						<div className="fugu-default-content large-content">
+						<div className="BL-default-content large-content">
 							<h2>Open an account in 3 easy steps</h2>
 							<p>
 								Become a better investor on the go, right in the app. Join a new generation of crypto
 								investors. Easy interface to create an account.
 							</p>
-							<div className="fugu-icon-list2">
+							<div className="BL-icon-list2">
 								<ul>
 									<li>
 										<div className="fulo-list-icon">
@@ -55,7 +55,7 @@ export default function ContentWithPhotoSectionTwo() {
 					</div>
 				</div>
 			</div>
-			<div className="fugu-shape3">
+			<div className="BL-shape3">
 				<img src="/images/shape/shape2.png" alt="" />
 			</div>
 		</div>

@@ -23,7 +23,7 @@ export default function HeaderHomeOne() {
 
 	return (
 		<header
-			className={`site-header site-header--menu-right fugu-header-section ${scroll ? "sticky-menu" : ""}`}
+			className={`site-header site-header--menu-right BL-header-section ${scroll ? "sticky-menu" : ""}`}
 			id="sticky-menu"
 		>
 			<div className="container-fluid">
@@ -55,7 +55,7 @@ export default function HeaderHomeOne() {
 						</nav>
 					</div>
 					<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-						<a className="fugu-btn fugu-header-btn" href="contact.html">
+						<a className="BL-btn BL-header-btn" href="contact.html">
 							Get Started
 						</a>
 					</div>

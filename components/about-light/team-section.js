@@ -43,11 +43,11 @@ import { v4 as uuidv4 } from "uuid";
 /* eslint-disable @next/next/no-img-element */
 export default function TeamSection() {
 	return (
-		<div className="fugu--team-section fugu--team-three fugu--section-padding2">
+		<div className="BL--team-section BL--team-three BL--section-padding2">
 			<div className="container">
-				<div className="fugu--section-title-wrap">
-					<div className="fugu--section-title">
-						<div className="fugu--default-content content-black">
+				<div className="BL--section-title-wrap">
+					<div className="BL--section-title">
+						<div className="BL--default-content content-black">
 							<h2>A team of innovative and confident people</h2>
 							<p>
 								Meet our expert team who value these relationships and will look for NFTs with a unique
@@ -55,8 +55,8 @@ export default function TeamSection() {
 							</p>
 						</div>
 					</div>
-					<div className="fugu--section-button">
-						<a className="fugu--btn bg-orange" href="">
+					<div className="BL--section-button">
+						<a className="BL--btn bg-orange" href="">
 							View All Members
 						</a>
 					</div>
@@ -64,14 +64,14 @@ export default function TeamSection() {
 				<div className="row">
 					{teamMemberList.map((el) => (
 						<div key={uuidv4()} className="col-xl-3 col-md-6">
-							<div className="fugu--team-wrap wow fadeInUpX" data-wow-delay=".10s">
-								<div className="fugu--team-thumb">
+							<div className="BL--team-wrap wow fadeInUpX" data-wow-delay=".10s">
+								<div className="BL--team-thumb">
 									<img src={`/images/all-img/about2/${el.image}.png`} alt="" />
 								</div>
-								<div className="fugu--team-data">
+								<div className="BL--team-data">
 									<h4>{el.name}</h4>
 									<p>{el.designation}</p>
-									<div className="fugu--social-icon fugu--social-icon4">
+									<div className="BL--social-icon BL--social-icon4">
 										<ul>
 											<li>
 												<Link href={el.fbUserName}>

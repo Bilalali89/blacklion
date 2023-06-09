@@ -17,7 +17,7 @@ export default function ComingSoon() {
 							we launch it.
 						</p>
 					</div>
-					<div className="fugu-countdown-wrap">
+					<div className="BL-countdown-wrap">
 						<CountdownSection />
 					</div>
 					<form action="#">

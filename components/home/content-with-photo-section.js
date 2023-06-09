@@ -3,11 +3,11 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function ContentWithPhotoSection() {
 	return (
-		<div className="section bg-warning-300 fugu-section-padding2 z-index">
+		<div className="section bg-warning-300 BL-section-padding2 z-index">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6">
-						<div className="fugu-apps-thumb" id="rotatetwo">
+						<div className="BL-apps-thumb" id="rotatetwo">
 							<img
 								className="wow fadeInUpX"
 								data-wow-delay=".10s"
@@ -17,7 +17,7 @@ export default function ContentWithPhotoSection() {
 						</div>
 					</div>
 					<div className="col-lg-6 col-md-10 d-flex align-items-center">
-						<div className="fugu-default-content large-content">
+						<div className="BL-default-content large-content">
 							<h2>Build a portfolio with popular coins</h2>
 							<p>
 								To achieve a diversified portfolio, look for asset classes that have low or negative
@@ -28,16 +28,16 @@ export default function ContentWithPhotoSection() {
 								The best way to start a crypto portfolio is to have at least a 60% stake in Bitcoin
 								&Ethereum which you can easily do with this app.
 							</p>
-							<div className="fugu-btn-wrap">
+							<div className="BL-btn-wrap">
 								<Link href={"contact"} legacyBehavior>
-									<a className="fugu-btn">Get Started</a>
+									<a className="BL-btn">Get Started</a>
 								</Link>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className="fugu-shape3">
+			<div className="BL-shape3">
 				<img src="/images/shape/shape2.png" alt="" />
 			</div>
 		</div>

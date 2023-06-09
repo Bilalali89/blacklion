@@ -5,11 +5,11 @@ export default function OrganisationsHeroSectionTwo() {
   const { scrollYProgress } = useScroll();
 
   return (
-    <div className="fugu--hero-section BL--organization-sec">
+    <div className="BL--hero-section BL--organization-sec">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-4 d-flex justify-content-center flex-direction-column">
-            <div className="fugu--hero-content BL--organization-content">
+            <div className="BL--hero-content BL--organization-content">
               <h1 className="cursor-scale small">
                 Digitize&nbsp;&<br />
                 Streamline

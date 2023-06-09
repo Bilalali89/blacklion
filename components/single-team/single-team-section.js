@@ -3,17 +3,17 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function SingleTeamSection() {
 	return (
-		<div className="section fugu-single-team-page">
+		<div className="section BL-single-team-page">
 			<div className="container">
-				<div className="fugu-team-single-wrap">
+				<div className="BL-team-single-wrap">
 					<div className="row">
 						<div className="col-xl-4 col-lg-5">
-							<div className="fugu-team-single-thumb">
+							<div className="BL-team-single-thumb">
 								<img src="/images/all-img/about/team8.png" alt="" />
 							</div>
 						</div>
 						<div className="col-xl-7 col-lg-7 offset-xl-1 d-flex align-items-center">
-							<div className="fugu-team-single-data">
+							<div className="BL-team-single-data">
 								<h2>Ronald Richards</h2>
 								<span>Product Designer</span>
 								<p>
@@ -25,8 +25,8 @@ export default function SingleTeamSection() {
 									my professional development, I have focused for my attention on working in the area
 									of ​​user experience design.
 								</p>
-								<div className="fugu-team-single-footer">
-									<div className="fugu-social-icon">
+								<div className="BL-team-single-footer">
+									<div className="BL-social-icon">
 										<ul>
 											<li>
 												<Link href={"/"}>
@@ -105,7 +105,7 @@ export default function SingleTeamSection() {
 										</ul>
 									</div>
 									<Link href={"#"} legacyBehavior>
-										<a className="fugu-btn small-btn">Contact Now</a>
+										<a className="BL-btn small-btn">Contact Now</a>
 									</Link>
 								</div>
 							</div>

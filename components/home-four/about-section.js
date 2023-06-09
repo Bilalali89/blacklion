@@ -6,31 +6,31 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function AboutSection() {
 	return (
-		<div className="fugu--about-section">
+		<div className="BL--about-section">
 			<div className="container">
 				<div className="row">
 					<div className="col-xl-4 col-lg-4">
-						<div className="fugu--swiper-slider-wrap">
-							<div className="fugu--swiper-slider">
+						<div className="BL--swiper-slider-wrap">
+							<div className="BL--swiper-slider">
 								{/* <div className="swiper-wrapper"> */}
 								<Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]} className="mySwiper">
 									<SwiperSlide>
 										<div className="swiper-slide">
-											<div className="fugu--card-wrap fugu--card2">
-												<div className="fugu--card-thumb">
+											<div className="BL--card-wrap BL--card2">
+												<div className="BL--card-thumb">
 													<img src="/images/all-img/v4/card4.jpg" alt="" />
 												</div>
-												<div className="fugu--card-data">
+												<div className="BL--card-data">
 													<h3>Monkey Cowboy</h3>
 													<p>
 														<img src="/images/all-img/v4/daimond.png" alt="" /> 0.438 ETH
 													</p>
-													<div className="fugu--card-footer">
-														<div className="fugu--card-footer-data">
+													<div className="BL--card-footer">
+														<div className="BL--card-footer-data">
 															<h4>By Cooper</h4>
 														</div>
 														<button
-															className="fugu--btn btn-sm fugu--tigger dark-btn"
+															className="BL--btn btn-sm BL--tigger dark-btn"
 															type="button"
 														>
 															<img
@@ -52,21 +52,21 @@ export default function AboutSection() {
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="swiper-slide">
-											<div className="fugu--card-wrap fugu--card2">
-												<div className="fugu--card-thumb">
+											<div className="BL--card-wrap BL--card2">
+												<div className="BL--card-thumb">
 													<img src="/images/all-img/v4/card2.jpg" alt="" />
 												</div>
-												<div className="fugu--card-data">
+												<div className="BL--card-data">
 													<h3>Attitude Ape</h3>
 													<p>
 														<img src="/images/all-img/v4/daimond.png" alt="" />
 														0.438 ETH
 													</p>
-													<div className="fugu--card-footer">
-														<div className="fugu--card-footer-data">
+													<div className="BL--card-footer">
+														<div className="BL--card-footer-data">
 															<h4>By Howard</h4>
 														</div>
-														<button className="fugu--btn btn-sm fugu--tigger" type="button">
+														<button className="BL--btn btn-sm BL--tigger" type="button">
 															<img
 																className="black-heart"
 																src="/images/svg2/heart-black.svg"
@@ -86,21 +86,21 @@ export default function AboutSection() {
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="swiper-slide">
-											<div className="fugu--card-wrap fugu--card2">
-												<div className="fugu--card-thumb">
+											<div className="BL--card-wrap BL--card2">
+												<div className="BL--card-thumb">
 													<img src="/images/all-img/v4/card3.jpg" alt="" />
 												</div>
-												<div className="fugu--card-data">
+												<div className="BL--card-data">
 													<h3>Ape Mutant</h3>
 													<p>
 														<img src="/images/all-img/v4/daimond.png" alt="" /> 0.438 ETH
 													</p>
-													<div className="fugu--card-footer">
-														<div className="fugu--card-footer-data">
+													<div className="BL--card-footer">
+														<div className="BL--card-footer-data">
 															<h4>0.194 ETH</h4>
 														</div>
 														<button
-															className="fugu--btn btn-sm fugu--tigger dark-btn"
+															className="BL--btn btn-sm BL--tigger dark-btn"
 															type="button"
 														>
 															<img
@@ -122,20 +122,20 @@ export default function AboutSection() {
 									</SwiperSlide>
 									<SwiperSlide>
 										<div className="swiper-slide">
-											<div className="fugu--card-wrap fugu--card2">
-												<div className="fugu--card-thumb">
+											<div className="BL--card-wrap BL--card2">
+												<div className="BL--card-thumb">
 													<img src="/images/all-img/v4/card1.jpg" alt="" />
 												</div>
-												<div className="fugu--card-data">
+												<div className="BL--card-data">
 													<h3>ApeSmilling</h3>
 													<p>
 														<img src="/images/all-img/v4/daimond.png" alt="" /> 0.438 ETH
 													</p>
-													<div className="fugu--card-footer">
-														<div className="fugu--card-footer-data">
+													<div className="BL--card-footer">
+														<div className="BL--card-footer-data">
 															<h4>By Jenny</h4>
 														</div>
-														<button className="fugu--btn btn-sm fugu--tigger" type="button">
+														<button className="BL--btn btn-sm BL--tigger" type="button">
 															<img
 																className="black-heart"
 																src="/images/svg2/heart-black.svg"
@@ -155,13 +155,13 @@ export default function AboutSection() {
 									</SwiperSlide>
 								</Swiper>
 							</div>
-							<div className="fugu--double-star">
+							<div className="BL--double-star">
 								<img src="/images/all-img/v4/double-star.png" alt="" />
 							</div>
 						</div>
 					</div>
 					<div className="col-xl-5 offset-xl-2 col-lg-7 offset-lg-1 d-flex align-items-center">
-						<div className="fugu--default-content content-black">
+						<div className="BL--default-content content-black">
 							<h2>A clear concept of an NFTs marketplace</h2>
 							<p>
 								NFT art is a digital asset that is collectable, unique, and non-transferrable, Cortes
@@ -169,9 +169,9 @@ export default function AboutSection() {
 								them limited and rare. NFTs get their value because the transaction proves ownership of
 								the art.
 							</p>
-							<div className="fugu--btn-wrap">
+							<div className="BL--btn-wrap">
 								<Link href={"#"} legacyBehavior>
-									<a className="fugu--btn bg-orange">Explore More</a>
+									<a className="BL--btn bg-orange">Explore More</a>
 								</Link>
 							</div>
 						</div>

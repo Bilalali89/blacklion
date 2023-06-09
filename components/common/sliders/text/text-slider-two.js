@@ -24,23 +24,23 @@ export default function TextSliderTwo() {
 		],
 	};
 	return (
-		<div className="fugu--text-slider-section">
-			<div className="fugu--text-slider">
+		<div className="BL--text-slider-section">
+			<div className="BL--text-slider">
 				<Slider {...settings}>
-					<div className="fugu--text-slider-data">
-						<div className="fugu--text-slider-icon">
+					<div className="BL--text-slider-data">
+						<div className="BL--text-slider-icon">
 							<img src="/images/all-img/v3/daimond.png" alt="" />
 						</div>
 						<h3>COLLECT RARE AND EXTRAORDINARY RARE ARTWORK</h3>
 					</div>
-					<div className="fugu--text-slider-data">
-						<div className="fugu--text-slider-icon">
+					<div className="BL--text-slider-data">
+						<div className="BL--text-slider-icon">
 							<img src="/images/all-img/v3/daimond.png" alt="" />
 						</div>
 						<h3>COLLECT RARE AND EXTRAORDINARY RARE ARTWORK</h3>
 					</div>
-					<div className="fugu--text-slider-data">
-						<div className="fugu--text-slider-icon">
+					<div className="BL--text-slider-data">
+						<div className="BL--text-slider-icon">
 							<img src="/images/all-img/v3/daimond.png" alt="" />
 						</div>
 						<h3>COLLECT RARE AND EXTRAORDINARY RARE ARTWORK</h3>

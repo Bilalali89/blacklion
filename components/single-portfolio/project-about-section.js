@@ -2,7 +2,7 @@
 
 export default function ProjectAboutSection() {
 	return (
-		<div className="fugu-gallery-data4">
+		<div className="BL-gallery-data4">
 			<h2>About the project:</h2>
 			<p>
 				There are many variations of passages of Lorem Ipsum available, but the majority have suf alteration in

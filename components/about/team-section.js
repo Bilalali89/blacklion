@@ -3,23 +3,23 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function TeamSection() {
 	return (
-		<div className="section fugu-section-padding3">
+		<div className="section BL-section-padding3">
 			<div className="container">
-				<div className="fugu-section-title">
+				<div className="BL-section-title">
 					<h2>Our experts work to make life easier for customers</h2>
 				</div>
 				<div className="row">
 					<div className="col-xxl-3 col-lg-4 col-md-6">
-						<div className="fugu-team-wrap wow fadeInUpX" data-wow-delay=".10s">
-							<div className="fugu-team-thumb">
+						<div className="BL-team-wrap wow fadeInUpX" data-wow-delay=".10s">
+							<div className="BL-team-thumb">
 								<img src="/images/all-img/about/team1.png" alt="" />
-								<div className="fugu-team-data">
+								<div className="BL-team-data">
 									<h5>
 										<Link href={"single-team"}>Cameron Williamson</Link>
 									</h5>
-									<div className="fugu-team-data-wrap">
+									<div className="BL-team-data-wrap">
 										<p>CEO@company</p>
-										<div className="fugu-social-icon2">
+										<div className="BL-social-icon2">
 											<ul>
 												<li>
 													<a href="">
@@ -103,16 +103,16 @@ export default function TeamSection() {
 						</div>
 					</div>
 					<div className="col-xxl-3 col-lg-4 col-md-6">
-						<div className="fugu-team-wrap wow fadeInUpX" data-wow-delay=".20s">
-							<div className="fugu-team-thumb">
+						<div className="BL-team-wrap wow fadeInUpX" data-wow-delay=".20s">
+							<div className="BL-team-thumb">
 								<img src="/images/all-img/about/team2.png" alt="" />
-								<div className="fugu-team-data">
+								<div className="BL-team-data">
 									<h5>
 										<a href="single-team.html">Leslie Alexander</a>
 									</h5>
-									<div className="fugu-team-data-wrap">
+									<div className="BL-team-data-wrap">
 										<p>Product Designer</p>
-										<div className="fugu-social-icon2">
+										<div className="BL-social-icon2">
 											<ul>
 												<li>
 													<a href="">
@@ -196,16 +196,16 @@ export default function TeamSection() {
 						</div>
 					</div>
 					<div className="col-xxl-3 col-lg-4 col-md-6">
-						<div className="fugu-team-wrap wow fadeInUpX" data-wow-delay=".30s">
-							<div className="fugu-team-thumb">
+						<div className="BL-team-wrap wow fadeInUpX" data-wow-delay=".30s">
+							<div className="BL-team-thumb">
 								<img src="/images/all-img/about/team3.png" alt="" />
-								<div className="fugu-team-data">
+								<div className="BL-team-data">
 									<h5>
 										<a href="single-team.html">Esther Howard</a>
 									</h5>
-									<div className="fugu-team-data-wrap">
+									<div className="BL-team-data-wrap">
 										<p>WP Developer</p>
-										<div className="fugu-social-icon2">
+										<div className="BL-social-icon2">
 											<ul>
 												<li>
 													<a href="">
@@ -289,16 +289,16 @@ export default function TeamSection() {
 						</div>
 					</div>
 					<div className="col-xxl-3 col-lg-4 col-md-6 offset-xxl-0 offset-lg-4">
-						<div className="fugu-team-wrap wow fadeInUpX" data-wow-delay=".40s">
-							<div className="fugu-team-thumb">
+						<div className="BL-team-wrap wow fadeInUpX" data-wow-delay=".40s">
+							<div className="BL-team-thumb">
 								<img src="/images/all-img/about/team4.png" alt="" />
-								<div className="fugu-team-data">
+								<div className="BL-team-data">
 									<h5>
 										<a href="single-team.html">Kristin Watson</a>
 									</h5>
-									<div className="fugu-team-data-wrap">
+									<div className="BL-team-data-wrap">
 										<p>Marketing Expert</p>
-										<div className="fugu-social-icon2">
+										<div className="BL-social-icon2">
 											<ul>
 												<li>
 													<a href="">

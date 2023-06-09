@@ -4,14 +4,14 @@ import React from "react";
 
 export default function CommentListSection() {
 	return (
-		<div className="fugu-comment-section">
+		<div className="BL-comment-section">
 			<h5>3 comments on this post:</h5>
-			<div className="fugu-comment-wrap">
-				<div className="fugu-comment-item">
-					<div className="fugu-comment-author">
+			<div className="BL-comment-wrap">
+				<div className="BL-comment-item">
+					<div className="BL-comment-author">
 						<img src="/images/all-img/blog/comment1.png" alt="" />
 					</div>
-					<div className="fugu-comment-author-data">
+					<div className="BL-comment-author-data">
 						<h6>Kathryn Murphy</h6>
 						<span>August 26, 2022</span>
 						<p>
@@ -23,11 +23,11 @@ export default function CommentListSection() {
 						<a className="comment-reply">Reply</a>
 					</Link>
 				</div>
-				<div className="fugu-comment-item">
-					<div className="fugu-comment-author author2">
+				<div className="BL-comment-item">
+					<div className="BL-comment-author author2">
 						<img src="/images/all-img/blog/comment3.png" alt="" />
 					</div>
-					<div className="fugu-comment-author-data">
+					<div className="BL-comment-author-data">
 						<h6>Darrell Steward</h6>
 						<span>August 26, 2022</span>
 						<p>
@@ -39,11 +39,11 @@ export default function CommentListSection() {
 						<a className="comment-reply">Reply</a>
 					</Link>
 				</div>
-				<div className="fugu-comment-item">
-					<div className="fugu-comment-author">
+				<div className="BL-comment-item">
+					<div className="BL-comment-author">
 						<img src="/images/all-img/blog/comment2.png" alt="" />
 					</div>
-					<div className="fugu-comment-author-data">
+					<div className="BL-comment-author-data">
 						<h6>Ronald Richards</h6>
 						<span>August 26, 2022</span>
 						<p>

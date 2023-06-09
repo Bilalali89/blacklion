@@ -6,11 +6,11 @@ import TextSliderOne from "../common/sliders/text/text-slider-one";
 export default function HeroSection() {
   return (
     <>
-      <div className="fugu--hero-section home-hero-one">
+      <div className="BL--hero-section home-hero-one">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 d-flex justify-content-center flex-direction-column">
-              <div className="fugu--hero-content">
+              <div className="BL--hero-content">
                 <h1 className="cursor-scale small">
                   <MotionConfig transition={{ duration: 1, delay: 0 }}>
                     <motion.div
@@ -85,10 +85,10 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          <div className="fugu--hero-shape1" style={{ zIndex: "-2" }}>
+          <div className="BL--hero-shape1" style={{ zIndex: "-2" }}>
             <img src="/images/all-img/v3/shape-hero1.png" alt="shape" />
           </div>
-          <div className="fugu--hero-shape2" style={{ zIndex: "-2" }}></div>
+          <div className="BL--hero-shape2" style={{ zIndex: "-2" }}></div>
         </div>
         <TextSliderOne backgroundColor="transparent" />
       </div>

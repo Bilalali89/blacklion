@@ -8,14 +8,14 @@ export default function BlogPost() {
 		<div className="col-xl-8 col-lg-7">
 			<div className="row">
 				<div className="col-xl-6 col-lg-12 col-md-6">
-					<div className="fugu-blog-card wow fadeInUpX" data-wow-delay="0s">
-						<div className="fugu-blog-thumb">
+					<div className="BL-blog-card wow fadeInUpX" data-wow-delay="0s">
+						<div className="BL-blog-thumb">
 							<Link href={"/single-blog-light"}>
 								<img src="/images/all-img/blog/blog1.png" alt="" />
 							</Link>
 						</div>
-						<div className="fugu-blog-content">
-							<div className="fugu-blog-meta">
+						<div className="BL-blog-content">
+							<div className="BL-blog-meta">
 								<ul>
 									<li>
 										<Link href={"/"}>Article</Link>
@@ -35,7 +35,7 @@ export default function BlogPost() {
 								ground-breaking...
 							</p>
 							<Link href={"/single-blog-light"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Read More <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>
@@ -43,14 +43,14 @@ export default function BlogPost() {
 					</div>
 				</div>
 				<div className="col-xl-6 col-lg-12 col-md-6">
-					<div className="fugu-blog-card wow fadeInUpX" data-wow-delay=".10s">
-						<div className="fugu-blog-thumb">
+					<div className="BL-blog-card wow fadeInUpX" data-wow-delay=".10s">
+						<div className="BL-blog-thumb">
 							<Link href={"/single-blog-light"}>
 								<img src="/images/all-img/blog/blog2.png" alt="" />
 							</Link>
 						</div>
-						<div className="fugu-blog-content">
-							<div className="fugu-blog-meta">
+						<div className="BL-blog-content">
+							<div className="BL-blog-meta">
 								<ul>
 									<li>
 										<Link href={"/"}>Article</Link>
@@ -70,7 +70,7 @@ export default function BlogPost() {
 								buying...
 							</p>
 							<Link href={"/single-blog-light"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Read More <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>
@@ -78,14 +78,14 @@ export default function BlogPost() {
 					</div>
 				</div>
 				<div className="col-xl-6 col-lg-12 col-md-6">
-					<div className="fugu-blog-card wow fadeInUpX" data-wow-delay=".20s">
-						<div className="fugu-blog-thumb">
+					<div className="BL-blog-card wow fadeInUpX" data-wow-delay=".20s">
+						<div className="BL-blog-thumb">
 							<Link href={"/single-blog-light"}>
 								<img src="/images/all-img/blog/blog3.png" alt="" />
 							</Link>
 						</div>
-						<div className="fugu-blog-content">
-							<div className="fugu-blog-meta">
+						<div className="BL-blog-content">
+							<div className="BL-blog-meta">
 								<ul>
 									<li>
 										<Link href={"/"}>Article</Link>
@@ -105,7 +105,7 @@ export default function BlogPost() {
 								ideas...
 							</p>
 							<Link href={"/single-blog-light"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Read More <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>
@@ -113,14 +113,14 @@ export default function BlogPost() {
 					</div>
 				</div>
 				<div className="col-xl-6 col-lg-12 col-md-6">
-					<div className="fugu-blog-card wow fadeInUpX" data-wow-delay=".30s">
-						<div className="fugu-blog-thumb">
+					<div className="BL-blog-card wow fadeInUpX" data-wow-delay=".30s">
+						<div className="BL-blog-thumb">
 							<Link href={"/single-blog-light"}>
 								<img src="/images/all-img/blog/blog4.png" alt="" />
 							</Link>
 						</div>
-						<div className="fugu-blog-content">
-							<div className="fugu-blog-meta">
+						<div className="BL-blog-content">
+							<div className="BL-blog-meta">
 								<ul>
 									<li>
 										<Link href={"/"}>Article</Link>
@@ -140,7 +140,7 @@ export default function BlogPost() {
 								impressive...
 							</p>
 							<Link href={"/single-blog-light"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Read More <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>
@@ -148,14 +148,14 @@ export default function BlogPost() {
 					</div>
 				</div>
 				<div className="col-xl-6 col-lg-12 col-md-6">
-					<div className="fugu-blog-card wow fadeInUpX" data-wow-delay=".40s">
-						<div className="fugu-blog-thumb">
+					<div className="BL-blog-card wow fadeInUpX" data-wow-delay=".40s">
+						<div className="BL-blog-thumb">
 							<Link href={"/single-blog-light"}>
 								<img src="/images/all-img/blog/blog5.png" alt="" />
 							</Link>
 						</div>
-						<div className="fugu-blog-content">
-							<div className="fugu-blog-meta">
+						<div className="BL-blog-content">
+							<div className="BL-blog-meta">
 								<ul>
 									<li>
 										<Link href={"/"}>Article</Link>
@@ -175,7 +175,7 @@ export default function BlogPost() {
 								scale...
 							</p>
 							<Link href={"/single-blog-light"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Read More <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>
@@ -183,14 +183,14 @@ export default function BlogPost() {
 					</div>
 				</div>
 				<div className="col-xl-6 col-lg-12 col-md-6">
-					<div className="fugu-blog-card wow fadeInUpX" data-wow-delay=".50s">
-						<div className="fugu-blog-thumb">
+					<div className="BL-blog-card wow fadeInUpX" data-wow-delay=".50s">
+						<div className="BL-blog-thumb">
 							<Link href={"/single-blog-light"}>
 								<img src="/images/all-img/blog/blog6.png" alt="" />
 							</Link>
 						</div>
-						<div className="fugu-blog-content">
-							<div className="fugu-blog-meta">
+						<div className="BL-blog-content">
+							<div className="BL-blog-meta">
 								<ul>
 									<li>
 										<Link href={"/"}>Article</Link>
@@ -209,7 +209,7 @@ export default function BlogPost() {
 								Watch the interview our solutions Consultant Agnieszka Hołownia-Niedzielska who works...
 							</p>
 							<Link href={"/single-blog-light"} legacyBehavior>
-								<a className="fugu-icon-btn">
+								<a className="BL-icon-btn">
 									Read More <img src="/images/svg/arrow-black-right.svg" alt="" />
 								</a>
 							</Link>

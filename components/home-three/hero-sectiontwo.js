@@ -5,14 +5,14 @@ export default function HeroSectionTwo() {
   // const { scrollYProgress } = useScroll();
 
   return (
-    <div className="fugu--hero-section home-hero-2">
+    <div className="BL--hero-section home-hero-2">
 
       <div className="container-fluid">
         <div className="row">
           <div
             className="col-lg-4 d-flex justify-content-center flex-direction-column"
           >
-            <div className="fugu--hero-content">
+            <div className="BL--hero-content">
               <h1 className="cursor-scale small">
                 Digitize&nbsp;& <br />
                 Streamline <br />
@@ -29,11 +29,11 @@ export default function HeroSectionTwo() {
           </div>
         </div>
        
-        <div className="fugu--hero-shape1">
+        <div className="BL--hero-shape1">
           <img src="/images/home/bluegradient.png" alt="shape" />
         </div>
-        <div className="fugu--hero-shape2"></div>
-        <div className="fugu--hero-shape3">
+        <div className="BL--hero-shape2"></div>
+        <div className="BL--hero-shape3">
           <img src="/images/home/purple.png" alt="shape" />
         </div>
       </div>

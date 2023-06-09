@@ -11,10 +11,10 @@ export default function ContactSection() {
 	const onSubmit = (data) => console.log(data);
 
 	return (
-		<div className="fugu--contact-section">
+		<div className="BL--contact-section">
 			<div className="row">
 				<div className="col-lg-5">
-					<div className="fugu--contact-info">
+					<div className="BL--contact-info">
 						<h4>Reach out to us at:</h4>
 						<ul>
 							<li>
@@ -43,7 +43,7 @@ export default function ContactSection() {
 							</li>
 						</ul>
 					</div>
-					<div className="fugu--contact-info fugu--contact-info2">
+					<div className="BL--contact-info BL--contact-info2">
 						<h4>Opening hours:</h4>
 						<ul>
 							<li>
@@ -58,11 +58,11 @@ export default function ContactSection() {
 					</div>
 				</div>
 				<div className="col-lg-7">
-					<div className="fugu--contact-form wow fadeInUpX" data-wow-delay="0.15s">
+					<div className="BL--contact-form wow fadeInUpX" data-wow-delay="0.15s">
 						<h3>Leave a Reply:</h3>
 						<p>Your email address will not be published. Required fields are marked*</p>
 						<form onSubmit={handleSubmit(onSubmit)}>
-							<div className="fugu--comment-field">
+							<div className="BL--comment-field">
 								<input
 									type="text"
 									placeholder="Your Name*"
@@ -75,7 +75,7 @@ export default function ContactSection() {
 									</p>
 								)}
 							</div>
-							<div className="fugu--comment-field">
+							<div className="BL--comment-field">
 								<input
 									type="email"
 									placeholder="Your Email*"
@@ -88,14 +88,14 @@ export default function ContactSection() {
 									</p>
 								)}
 							</div>
-							<div className="fugu--comment-field">
+							<div className="BL--comment-field">
 								<textarea
 									name="textarea"
 									placeholder="Write your comment*"
 									{...register("comment")}
 								></textarea>
 							</div>
-							<button id="fugu--form-submit-btn" type="submit">
+							<button id="BL--form-submit-btn" type="submit">
 								Post Comment
 							</button>
 						</form>

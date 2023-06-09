@@ -14,11 +14,11 @@ export default function CreativeCTA() {
 new projects and be paid quickly and securely!
             </h3>
             <div
-              className="fugu--hero-btn wow fadeInUpX"
+              className="BL--hero-btn wow fadeInUpX"
               data-wow-delay="0.20s"
             >
               <Link href={"#"} legacyBehavior>
-                <a className="fugu--btn bg-gray active">Learn How!</a>
+                <a className="BL--btn bg-gray active">Learn How!</a>
               </Link>
             </div>
           </div>

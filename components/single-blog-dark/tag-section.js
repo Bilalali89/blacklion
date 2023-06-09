@@ -3,7 +3,7 @@ import React from "react";
 
 export default function TagSection() {
 	return (
-		<div className="fugu--tags fugu--tags2">
+		<div className="BL--tags BL--tags2">
 			<h4>Tags:</h4>
 			<ul>
 				<li>

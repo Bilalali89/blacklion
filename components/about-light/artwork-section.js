@@ -5,12 +5,12 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function ArtWorkSection() {
 	return (
-		<div className="fugu--artwork-section fugu--section-padding">
+		<div className="BL--artwork-section BL--section-padding">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6">
-						<div className="fugu--artwork-right left">
-							<div className="fugu--artwork-thumb" id="rotateThree">
+						<div className="BL--artwork-right left">
+							<div className="BL--artwork-thumb" id="rotateThree">
 								<img
 									className="wow fadeInLeft"
 									data-wow-delay=".10s"
@@ -18,23 +18,23 @@ export default function ArtWorkSection() {
 									alt=""
 								/>
 								<div
-									className="fugu--artwork-data wow fadeInUpX"
+									className="BL--artwork-data wow fadeInUpX"
 									data-wow-delay=".50s"
 									style={{ backgroundImage: "url(/images/all-img/v4/shape.png)" }}
 								>
 									<p>
-										fugu--Gen NFT <br />
+										BL--Gen NFT <br />
 										Marketplace
 									</p>
 								</div>
 							</div>
-							<div className="fugu--shape-art fugu--shape-art2">
+							<div className="BL--shape-art BL--shape-art2">
 								<img src="/images/shape2/shape-v2-3.png" alt="" />
 							</div>
 						</div>
 					</div>
 					<div className="col-lg-5">
-						<div className="fugu--default-content content-black">
+						<div className="BL--default-content content-black">
 							<h2>We add value to your artwork & sell them</h2>
 							<p>
 								Start your NFT collection quickly & easily by grabbing a free NFT every week! Get in
@@ -44,9 +44,9 @@ export default function ArtWorkSection() {
 								We're excited about a brand new type of digital a called NFT. NFTs have exciting new
 								properties: provably scarce, tradeable, and across multiple applications.
 							</p>
-							<div className="fugu--btn-wrap">
+							<div className="BL--btn-wrap">
 								<Link legacyBehavior href={"/"}>
-									<a className="fugu--btn bg-orange">Join Community</a>
+									<a className="BL--btn bg-orange">Join Community</a>
 								</Link>
 							</div>
 						</div>

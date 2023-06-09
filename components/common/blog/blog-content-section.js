@@ -4,7 +4,7 @@ import BlogSidebarSection from "./blog-sidebar-section";
 
 export default function BlogContentSection({ theme }) {
 	return (
-		<div className="fugu--blog-sidebar-section">
+		<div className="BL--blog-sidebar-section">
 			<div className="row">
 				<div className="col-lg-8">
 					<BlogPostSection />

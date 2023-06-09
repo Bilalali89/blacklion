@@ -3,23 +3,23 @@ import Link from "next/link";
 /* eslint-disable @next/next/no-img-element */
 export default function FooterHomeOne() {
 	return (
-		<footer className="fugu-footer-section">
+		<footer className="BL-footer-section">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-4">
-						<div className="fugu-textarea">
-							<div className="fugu-footer-logo">
+						<div className="BL-textarea">
+							<div className="BL-footer-logo">
 								<img src="/images/logo/logo-white.svg" alt="" className="light-version-logo" />
 							</div>
 							<p>
-								Cryptocurrency trading is offered through an account with the fugu crypto app. Our
+								Cryptocurrency trading is offered through an account with the BL crypto app. Our
 								simplified zero commission pricing for use stocks.
 							</p>
-							<p className="fugu-copywright">&copy; Copyright 2022, All Rights Reserved by Mthemeus</p>
+							<p className="BL-copywright">&copy; Copyright 2022, All Rights Reserved by Mthemeus</p>
 						</div>
 					</div>
 					<div className="col-lg-2 offset-lg-1 col-md-4 col-sm-4">
-						<div className="fugu-footer-menu">
+						<div className="BL-footer-menu">
 							<span>Product</span>
 							<ul>
 								<li>
@@ -41,7 +41,7 @@ export default function FooterHomeOne() {
 						</div>
 					</div>
 					<div className="col-lg-3 col-md-4 col-sm-4">
-						<div className="fugu-footer-menu fugu-custom-margin">
+						<div className="BL-footer-menu BL-custom-margin">
 							<span>Company</span>
 							<ul>
 								<li>
@@ -63,7 +63,7 @@ export default function FooterHomeOne() {
 						</div>
 					</div>
 					<div className="col-lg-2 col-md-4 col-sm-4">
-						<div className="fugu-footer-menu">
+						<div className="BL-footer-menu">
 							<span>Contact</span>
 							<ul>
 								<li>
@@ -74,7 +74,7 @@ export default function FooterHomeOne() {
 								</li>
 							</ul>
 						</div>
-						<div className="fugu-social-icon">
+						<div className="BL-social-icon">
 							<ul>
 								<li>
 									<Link href={"#"}>

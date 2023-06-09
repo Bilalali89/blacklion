@@ -3,13 +3,13 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 export default function FilterFaqGallary() {
 	return (
-		<div className="section fugu-section-padding2">
+		<div className="section BL-section-padding2">
 			<div className="container">
-				<div className="fugu-section-title">
+				<div className="BL-section-title">
 					<h2>Ask any questions related to our services or products</h2>
 				</div>
 
-				<Tabs defaultActiveKey="general" className="fugu-tab-menu">
+				<Tabs defaultActiveKey="general" className="BL-tab-menu">
 					<Tab eventKey="general" title="General Question">
 						<div className="row">
 							<div className="col-md-6">

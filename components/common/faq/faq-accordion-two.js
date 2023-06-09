@@ -3,10 +3,10 @@
 import { Accordion } from "react-bootstrap";
 export default function FaqAccordionTwo() {
 	return (
-		<div className="fugu--faq-section2 fugu--section-padding-bottom">
+		<div className="BL--faq-section2 BL--section-padding-bottom">
 			<div className="container">
-				<div className="fugu--section-title">
-					<div className="fugu--default-content">
+				<div className="BL--section-title">
+					<div className="BL--default-content">
 						<h2>Do you have any questions about cryptocurrency? Ask us</h2>
 						<p>
 							Frequently asked questions qbout cryptocurrency & blockchain technology. Cryptographic
@@ -14,7 +14,7 @@ export default function FaqAccordionTwo() {
 						</p>
 					</div>
 				</div>
-				<div className="fugu--accordion-one accordion-three" id="accordionExample2">
+				<div className="BL--accordion-one accordion-three" id="accordionExample2">
 					<div className="row">
 						<div className="col-lg-6">
 							<Accordion defaultActiveKey="0">
@@ -73,15 +73,15 @@ export default function FaqAccordionTwo() {
 					</div>
 				</div>
 			</div>
-			<div className="fugu--circle-shape circle-five">
+			<div className="BL--circle-shape circle-five">
 				<img src="/images/all-img/shapes-round.png" alt="" />
 				<div className="waves wave-1"></div>
 			</div>
-			<div className="fugu--circle-shape circle-six">
+			<div className="BL--circle-shape circle-six">
 				<img src="/images/all-img/shapes-round.png" alt="" />
 				<div className="waves wave-1"></div>
 			</div>
-			<div className="fugu--circle-shape circle-seven">
+			<div className="BL--circle-shape circle-seven">
 				<img src="/images/all-img/shapes-round.png" alt="" />
 				<div className="waves wave-1"></div>
 			</div>

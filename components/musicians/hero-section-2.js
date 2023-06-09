@@ -4,14 +4,14 @@ import CountUp from "react-countup";
 
 export default function HeroSectionTwoMusicians() {
   return (
-    <div className="fugu--hero-section">
-      <div id="fugu--counter"></div>
+    <div className="BL--hero-section">
+      <div id="BL--counter"></div>
       <div className="container">
         <div className="row">
           <div
             className="col-lg-5 d-flex justify-content-center flex-direction-column"
           >
-            <div className="fugu--hero-content">
+            <div className="BL--hero-content">
               <h1 className="cursor-scale small">
                 Insights <br />
                 That <br />

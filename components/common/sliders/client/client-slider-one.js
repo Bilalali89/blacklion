@@ -36,41 +36,41 @@ export default function ClientSliderOne() {
 		],
 	};
 	return (
-		<div className="fugu-client-section bg-gray-800">
+		<div className="BL-client-section bg-gray-800">
 			<div className="container">
-				<div className="fugu-client-title text-white">
+				<div className="BL-client-title text-white">
 					<h5>Trusted by 1600+ of the world most popular companies</h5>
 				</div>
-				<div className="fugu-client-slider">
+				<div className="BL-client-slider">
 					<Slider {...settings}>
-						<div className="fugu-brand-logo">
+						<div className="BL-brand-logo">
 							<img src="/images/all-img/client1.png" alt="" />
 						</div>
-						<div className="fugu-brand-logo">
+						<div className="BL-brand-logo">
 							<img src="/images/all-img/client2.png" alt="" />
 						</div>
-						<div className="fugu-brand-logo">
+						<div className="BL-brand-logo">
 							<img src="/images/all-img/client3.png" alt="" />
 						</div>
-						<div className="fugu-brand-logo">
+						<div className="BL-brand-logo">
 							<img src="/images/all-img/client4.png" alt="" />
 						</div>
-						<div className="fugu-brand-logo">
+						<div className="BL-brand-logo">
 							<img src="/images/all-img/client5.png" alt="" />
 						</div>
-						<div className="fugu-brand-logo">
+						<div className="BL-brand-logo">
 							<img src="/images/all-img/client1.png" alt="" />
 						</div>
-						<div className="fugu-brand-logo">
+						<div className="BL-brand-logo">
 							<img src="/images/all-img/client2.png" alt="" />
 						</div>
-						<div className="fugu-brand-logo">
+						<div className="BL-brand-logo">
 							<img src="/images/all-img/client3.png" alt="" />
 						</div>
-						<div className="fugu-brand-logo">
+						<div className="BL-brand-logo">
 							<img src="/images/all-img/client4.png" alt="" />
 						</div>
-						<div className="fugu-brand-logo">
+						<div className="BL-brand-logo">
 							<img src="/images/all-img/client5.png" alt="" />
 						</div>
 					</Slider>

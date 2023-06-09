@@ -15,12 +15,12 @@ export default function AppLinks() {
 					
 						<div className="BL-applinks-icons wow fadeInUpX" data-wow-delay="0.25s">
 						<Link href={"/"} legacyBehavior>
-								<a className="fugu-app-btn">
+								<a className="BL-app-btn">
 									<img src="/images/all-img/play-store.png" alt="playstore" />
 								</a>
 							</Link>
 							<Link href={"/"} legacyBehavior>
-								<a className="fugu-app-btn">
+								<a className="BL-app-btn">
 									<img src="/images/all-img/app-store.png" alt="appstore" />
 								</a>
 							</Link>

@@ -7,22 +7,22 @@ const ModalVideo = dynamic(() => import("react-modal-video"), { ssr: false });
 export default function VideoSectionSix() {
 	const [isOpen, setOpen] = useState(false);
 	return (
-		<div className="section fugu-section-padding">
+		<div className="section BL-section-padding">
 			<div className="container">
 				<div className="row">
 					<div className="col-xl-6 offset-xl-1 col-lg-6 order-lg-2">
-						<div className="fugu-video-thumb wow fadeInUpX" data-wow-delay=".10s">
+						<div className="BL-video-thumb wow fadeInUpX" data-wow-delay=".10s">
 							<img src="/images/all-img/service/video-bg.png" alt="" />
-							<div className="fugu-popup" onClick={() => setOpen(true)}>
+							<div className="BL-popup" onClick={() => setOpen(true)}>
 								<img src="/images/all-img/video-btn.png" alt="" />
-								<div className="fugu-play-btn">
+								<div className="BL-play-btn">
 									<img src="/images/all-img/play-btn.png" alt="" />
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className="col-xl-5 col-lg-6 col-md-10 d-flex align-items-center">
-						<div className="fugu-default-content">
+						<div className="BL-default-content">
 							<h2>How do we provide our clients with industry a leading security?</h2>
 							<p>
 								There are three main types of security officers working for a private and public bus and

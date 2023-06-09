@@ -49,38 +49,38 @@ export default function TextSliderOne(props) {
 
 	let {backgroundColor} = props
 	return (
-		<div className="fugu-text-slider-section" id="homeslide" style={{backgroundColor: `${backgroundColor}`}}>
+		<div className="BL-text-slider-section" id="homeslide" style={{backgroundColor: `${backgroundColor}`}}>
 			
-			<div className="fugu-text-slider-area2">
-				<div className="fugu-text-slider2" dir="rtl">
+			<div className="BL-text-slider-area2">
+				<div className="BL-text-slider2" dir="rtl">
 					<Slider {...settingsTwo}>
-						<div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
+						<div className="BL-text-slider-data">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '100px'}} />
 							</div>
 							<h3>UNLOCKING VALUE </h3>
 						</div>
 						
-						<div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
+						<div className="BL-text-slider-data">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '100px'}}/>
 							</div>
 							<h3>UNLOCKING VALUE </h3>
 						</div>
-						<div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
+						<div className="BL-text-slider-data">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '100px'}}/>
 							</div>
 							<h3>UNLOCKING VALUE </h3>
 						</div>
-						<div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
+						<div className="BL-text-slider-data">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '100px'}}/>
 							</div>
 							<h3>UNLOCKING VALUE </h3>
 						</div>
-						<div className="fugu-text-slider-data">
-							<div className="fugu-text-slider-icon">
+						<div className="BL-text-slider-data">
+							<div className="BL-text-slider-icon">
 								<img src="/images/home/Polygon.png" alt="polygon" style={{paddingLeft: '100px'}}/>
 							</div>
 							<h3>UNLOCKING VALUE </h3>
