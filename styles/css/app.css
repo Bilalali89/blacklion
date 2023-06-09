@@ -14369,4 +14369,13 @@ circle {
   height: 42px;
   width: auto;
 }
+
+.d-none {
+  display: none;
 }
+
+.BL--musician-hero4-section {
+  display: none;
+}
+}
+

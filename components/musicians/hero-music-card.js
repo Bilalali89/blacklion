@@ -8,7 +8,7 @@ export default function MusicianDataInsight() {
         <div className="row">
           <div className="heading">DATA INSIGHTS ON</div>
           
-          <div className="rt-spacer-100"></div>
+          <div className="rt-spacer-100 d-none"></div>
           <div className="rt-spacer-100"></div>
           <div className="insight-cards">
             <div className="row">

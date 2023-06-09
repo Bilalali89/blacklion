@@ -46,6 +46,7 @@ export default function MusiciansHeroSection() {
       <div className="container">
         <div className="row">
           <div className="col-lg-7 d-flex justify-content-center flex-direction-column">
+            
             <div className="BL--hero-content BL--musicians-content">
               <h1 className="cursor-scale small">
                 <MotionConfig transition={{ duration: 1, delay: 0 }}>
@@ -112,6 +113,12 @@ export default function MusiciansHeroSection() {
         </div>
         <div className="row">
           <div className="col-lg-12">
+          <div className="mobDisplay d-none">
+            <img
+                   src="/images/musicians/mobile-phone.png"
+                    alt="greenarrow"
+                  />
+            </div>
             <div className="BL--musicician-mobile-sec">
               <motion.div initial="rest" whileHover="hover" animate="rest">
                 <motion.div

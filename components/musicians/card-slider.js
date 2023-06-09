@@ -73,8 +73,8 @@ export default function MusicianCardSlider() {
             <img src="/images/musicians/slide-4.png" alt="slide" />
           </div>
         </div>
-        <div className="spacer"></div>
-        <div className="spacer"></div>
+        <div className="spacer "></div>
+        <div className="spacer "></div>
 
        
        
