@@ -14492,5 +14492,9 @@ circle {
 .container.mt-400 {
   margin-top: 100px !important
 }
+
+.home-hero-2 .BL--hero-content {
+  margin-left: 0vw;
+}
 }
 
