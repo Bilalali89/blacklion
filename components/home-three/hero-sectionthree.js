@@ -75,7 +75,7 @@ export default function HeroSectionThree() {
                 </MotionConfig>
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
                   <div style={{overflow: "hidden", display: "block"}}>
-                    <motion.div  ref={refFour} 
+                    <motion.div ref={refFour} 
                   initial={{ y: "100%" }} animate={{ y: isInViewFour ? "0%" : "100%" }}>
                     Valuation
                   </motion.div>

@@ -18,9 +18,9 @@ export default function FooterHomeTwo() {
 						<div className="col-xl-10 col-lg-10 d-flex justify-content-end">
 							<div className="BL-footer-menu2">
 								<ul>
-									<li>
+									{/* <li>
 										<Link href={"#"}> About </Link>
-									</li>
+									</li> */}
 									<li>
 										<Link href={"#"}> FAQs </Link>
 									</li>
