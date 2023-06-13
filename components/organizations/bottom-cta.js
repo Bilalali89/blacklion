@@ -19,7 +19,7 @@ export default function OrganizationsCTA() {
     <>
       <div className="BL-social-section BL-org-cta">
         <div className="container">
-          <div className="rt-spacer-100"></div>
+          <div className="rt-spacer-100 mob-none"></div>
           <div className="rt-spacer-100"></div>
           <MotionConfig transition={{ duration: 1 }}>
             <div className="BL--org-cta">

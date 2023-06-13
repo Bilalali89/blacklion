@@ -4671,6 +4671,16 @@ a.BL-app-btn:last-child {
   -webkit-animation: float 3s ease-in-out infinite;
   animation: float 3s ease-in-out infinite;
 }
+
+/* GSAP */
+
+.split-parent {
+  overflow: hidden;
+}
+.split-child {
+  display: inline-block;
+}
+
 @media (max-width: 767px) {
   .BL-shape5 {
     display: none;
@@ -12569,9 +12579,9 @@ circle {
 .BL--org-hero-section .BL--org-content h1 {
   font-family: "ClashDisplay-Bold", sans-serif;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
-  color: #35323e;
+  color: #bafc55;
   opacity: 0.8;
 }
 }
@@ -14315,10 +14325,10 @@ circle {
 
 .BL--org-ellipse {
   position: absolute;
-  bottom: -58%;
-  right: -45%;
+  bottom: -20%;
+  right: -18%;
   animation: floatellipse 10s infinite alternate;
- ;
+  width: 50%;
 }
 
 .BL--org--leftring {
@@ -14376,6 +14386,77 @@ circle {
 
 .BL--musician-hero4-section {
   display: none;
+}
+
+.home-hero-one .text {
+  font-size: 2rem;
+}
+
+.BL--hero--btn {
+    text-align: center;
+    position: absolute;
+    bottom: 45%;
+    right: 25%;
+}
+
+.BL-foote3-section {
+  padding-top: 40px;
+}
+
+.BL-text-slider-area2 {
+  margin-top: 0px !important;
+}
+
+.BL--newsletter-org--info {
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+.BL--org-disc {
+  top: -17%;
+}
+
+.mob-none {
+  display: none;
+}
+.f-size-50 {
+  font-size: 40px !important;
+}
+
+.BL-social-icons .col:last-child img {
+  height: 34px;
+}
+
+.BL-social-section .BL-social-default-content {
+  font-size: 1.4rem;
+}
+
+.BL--org-hero-section-3 .BL--org--text p {
+  font-size: 30px;
+  line-height: 1.1;
+}
+
+.BL--org-hero-section-3 .BL--org--text h1 {
+  color: var(--green);
+  font-size: 7rem;
+}
+
+.BL--org-hero-section-3 .BL--org-arrow {
+  text-align: center;
+  animation: arrow 2s infinite alternate;
+  width: 26%;
+  margin: 0 auto;
+}
+.BL-footer-middle .BL-footer-logo {
+ transform: scale(0.8);
+}
+
+.BL--musician--data-insight .card-center img {
+  transform: scale(2.1);
+  position: relative;
+  top: 33px;
+  z-index: 2;
+  box-shadow: 0px 0px 20px;
 }
 }
 

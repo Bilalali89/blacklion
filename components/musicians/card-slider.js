@@ -9,7 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 export default function MusicianCardSlider() {
   const comp = useRef();
 
-
   useEffect(() => {
           let ctx = gsap.context(() => {
               const spacer = 0;
@@ -73,8 +72,8 @@ export default function MusicianCardSlider() {
             <img src="/images/musicians/slide-4.png" alt="slide" />
           </div>
         </div>
-        <div className="spacer "></div>
-        <div className="spacer "></div>
+        <div className="spacer mob-none"></div>
+        <div className="spacer mob-none"></div>
 
        
        

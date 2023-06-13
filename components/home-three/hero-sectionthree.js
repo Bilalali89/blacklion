@@ -8,9 +8,19 @@ import { useRef } from "react";
 export default function HeroSectionThree() {
   const refOne = useRef(null);
   const refTwo = useRef(null);
+  const refThree = useRef(null);
+  const refFour = useRef(null);
+  const refFive = useRef(null);
+  const refSix = useRef(null);
+  const refSeven = useRef(null);
 
   const isInViewOne = useInView(refOne, { once: true });
   const isInViewTwo = useInView(refTwo, { once: true });
+  const isInViewThree = useInView(refThree, { once: true });
+  const isInViewFour = useInView(refFour, { once: true });
+  const isInViewFive = useInView(refFive, { once: true });
+  const isInViewSix = useInView(refSix, { once: true });
+  const isInViewSeven = useInView(refSeven, { once: true });
 
   const { scrollYProgress } = useScroll();
   return (
@@ -53,9 +63,35 @@ export default function HeroSectionThree() {
           <div className="col-xl-4 col-md-12 d-flex justify-content-center flex-direction-column">
             <div className="BL--hero-content">
               <h1 className="cursor-scale small">
-                Blacklion <br />
-                Valuation <br />
-                Engine
+              <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
+                  <div style={{overflow: "hidden", display: "inline-block"}}>
+                    <motion.div ref={refThree} 
+                   initial={{ y: "100%" }}
+                      animate={{ y: isInViewThree? "0%" : "100%" }}>
+                    Blacklion
+                  </motion.div>
+                  </div>
+                  
+                </MotionConfig>
+                <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
+                  <div style={{overflow: "hidden", display: "inline-block"}}>
+                    <motion.div  ref={refFour} 
+                  initial={{ y: "100%" }} animate={{ y: isInViewFour ? "0%" : "100%" }}>
+                    Valuation
+                  </motion.div>
+                  </div>
+                
+                </MotionConfig>
+                <MotionConfig transition={{ duration: 0.7, delay: 0.3}}>
+                  <div style={{overflow: "hidden", display: "inline-block"}}>
+                  <motion.div  ref={refFive}
+                 initial={{ y: "100%" }}
+                  animate={{ y: isInViewFive ? "0%" : "100%"  }}>
+                    Engine
+                  </motion.div>
+                  </div>
+          
+                </MotionConfig>
               </h1>
               <p>
                 The valuation engine blends streaming, financial, social and
@@ -111,8 +147,26 @@ export default function HeroSectionThree() {
           <div className="col-xl-4 col-md-12 order-2 order-xs-1 order-sm-1 order-md-1 d-flex justify-content-center flex-direction-column">
             <div className="BL--hero-content ">
               <h1 className="cursor-scale small">
-                Blacklion <br />
-                App <br />
+              <MotionConfig transition={{ duration: 0.7, delay: 0.3}}>
+                  <div style={{overflow: "hidden", display: "inline-block"}}>
+                  <motion.div  ref={refSix}
+                 initial={{ y: "100%" }}
+                  animate={{ y: isInViewSix ? "0%" : "100%"  }}>
+                  Blacklion
+                  </motion.div>
+                  </div>
+          
+                </MotionConfig>
+                <MotionConfig transition={{ duration: 0.7, delay: 0.3}}>
+                  <div style={{overflow: "hidden", display: "inline-block"}}>
+                  <motion.div  ref={refSeven}
+                 initial={{ y: "100%" }}
+                  animate={{ y: isInViewSeven ? "0%" : "100%"  }}>
+                    App
+                  </motion.div>
+                  </div>
+          
+                </MotionConfig>
               </h1>
               <p className="wow fadeInUpX" data-wow-delay="0.10s">
                 A music networking tool that connects artists, investors,
