@@ -23,7 +23,7 @@ export default function HeroSectionTwoMusicians() {
             <div className="BL--hero-content">
               <h1 className="cursor-scale small">
               <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
-                  <div style={{display: "inline-block"}}>
+                  <div style={{overflow: "hidden", display: "inline-block"}}>
                     <motion.div ref={refOne} 
                    initial={{ y: "100%" }}
                       animate={{ y: isInViewOne? "0%" : "100%" }}>
@@ -33,7 +33,7 @@ export default function HeroSectionTwoMusicians() {
                   
                 </MotionConfig>
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
-                  <div style={{display: "inline-block"}}>
+                  <div style={{overflow: "hidden", display: "inline-block"}}>
                     <motion.div  ref={refTwo} 
                   initial={{ y: "100%" }} animate={{ y: isInViewTwo? "0%" : "100%" }}>
                     That {" "}
@@ -42,7 +42,7 @@ export default function HeroSectionTwoMusicians() {
                 
                 </MotionConfig>
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3}}>
-                  <div style={{display: "inline-block"}}>
+                  <div style={{overflow: "hidden", display: "inline-block"}}>
                   <motion.div  ref={refThree}
                  initial={{ y: "100%" }}
                   animate={{ y: isInViewThree? "0%" : "100%"  }}>

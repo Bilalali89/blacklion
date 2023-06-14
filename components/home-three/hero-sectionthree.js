@@ -66,8 +66,8 @@ export default function HeroSectionThree() {
               <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
                   <div style={{display: "block"}}>
                     <motion.div ref={refThree} 
-                   initial={{ y: "100%" }}
-                      animate={{ y: isInViewThree? "0%" : "100%" }}>
+                   initial={{ y: "100%", opacity: "0" }}
+                      animate={{ y: isInViewThree? "0%" : "100%", opacity: isInViewThree ? "1" : "0" }}>
                     Blacklion
                   </motion.div>
                   </div>
@@ -76,7 +76,7 @@ export default function HeroSectionThree() {
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
                   <div style={{display: "block"}}>
                     <motion.div ref={refFour} 
-                  initial={{ y: "100%" }} animate={{ y: isInViewFour ? "0%" : "100%" }}>
+                  initial={{ y: "100%", opacity: "0" }} animate={{ y: isInViewFour ? "0%" : "100%", opacity: isInViewThree ? "1" : "0" }}>
                     Valuation
                   </motion.div>
                   </div>
@@ -85,8 +85,8 @@ export default function HeroSectionThree() {
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3}}>
                   <div style={{display: "block"}}>
                   <motion.div  ref={refFive}
-                 initial={{ y: "100%" }}
-                  animate={{ y: isInViewFive ? "0%" : "100%"  }}>
+                 initial={{ y: "100%", opacity: "0" }}
+                  animate={{ y: isInViewFive ? "0%" : "100%", opacity: isInViewFive ? "1" : "0"  }}>
                     Engine
                   </motion.div>
                   </div>
@@ -160,15 +160,15 @@ export default function HeroSectionThree() {
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3}}>
                   <div style={{display: "block"}}>
                   <motion.div  ref={refSeven}
-                 initial={{ y: "100%" }}
-                  animate={{ y: isInViewSeven ? "0%" : "100%"  }}>
+                 initial={{ y: "100%", opacity: "0" }}
+                  animate={{ y: isInViewSeven ? "0%" : "100%", opacity: isInViewSeven ? "1" : "0"  }}>
                     App
                   </motion.div>
                   </div>
           
                 </MotionConfig>
               </h1>
-              <p className="wow fadeInUpX" data-wow-delay="0.10s">
+              <p>
                 A music networking tool that connects artists, investors,
                 creatives and organizations through our app.
               </p>
