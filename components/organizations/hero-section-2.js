@@ -20,7 +20,7 @@ export default function OrganisationsHeroSectionTwo() {
             <div className="BL--hero-content BL--organization-content">
               <h1 className="cursor-scale small">
               <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
-                  <div style={{overflow: "hidden", display: "inline-block"}}>
+                  <div style={{overflowY: "hidden", display: "inline-block"}}>
                     <motion.div ref={refOne} 
                    initial={{ y: "100%" }}
                       animate={{ y: isInViewOne? "0%" : "100%" }}>
@@ -30,7 +30,7 @@ export default function OrganisationsHeroSectionTwo() {
                   
                 </MotionConfig>
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
-                  <div style={{overflow: "hidden", display: "inline-block"}}>
+                  <div style={{overflowY: "hidden", display: "inline-block"}}>
                     <motion.div  ref={refTwo} 
                   initial={{ y: "100%" }} animate={{ y: isInViewTwo? "0%" : "100%" }}>
                     Streamline
@@ -39,7 +39,7 @@ export default function OrganisationsHeroSectionTwo() {
                 
                 </MotionConfig>
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3}}>
-                  <div style={{overflow: "hidden", display: "inline-block"}}>
+                  <div style={{overflowY: "hidden", display: "inline-block"}}>
                   <motion.div  ref={refThree}
                  initial={{ y: "100%" }}
                   animate={{ y: isInViewThree? "0%" : "100%"  }}>

@@ -64,7 +64,7 @@ export default function HeroSectionThree() {
             <div className="BL--hero-content">
               <h1 className="cursor-scale small">
               <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
-                  <div style={{overflow: "hidden", display: "block"}}>
+                  <div style={{overflowY: "hidden", display: "block"}}>
                     <motion.div ref={refThree} 
                    initial={{ y: "100%" }}
                       animate={{ y: isInViewThree? "0%" : "100%" }}>
@@ -74,7 +74,7 @@ export default function HeroSectionThree() {
                   
                 </MotionConfig>
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3 }}>
-                  <div style={{overflow: "hidden", display: "block"}}>
+                  <div style={{overflowY: "hidden", display: "block"}}>
                     <motion.div ref={refFour} 
                   initial={{ y: "100%" }} animate={{ y: isInViewFour ? "0%" : "100%" }}>
                     Valuation
@@ -83,7 +83,7 @@ export default function HeroSectionThree() {
                 
                 </MotionConfig>
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3}}>
-                  <div style={{overflow: "hidden", display: "block"}}>
+                  <div style={{overflowY: "hidden", display: "block"}}>
                   <motion.div  ref={refFive}
                  initial={{ y: "100%" }}
                   animate={{ y: isInViewFive ? "0%" : "100%"  }}>
@@ -148,7 +148,7 @@ export default function HeroSectionThree() {
             <div className="BL--hero-content ">
               <h1 className="cursor-scale small">
               <MotionConfig transition={{ duration: 0.7, delay: 0.3}}>
-                  <div style={{overflow: "hidden", display: "block"}}>
+                  <div style={{overflowY: "hidden", display: "block"}}>
                   <motion.div  ref={refSix}
                  initial={{ y: "100%" }}
                   animate={{ y: isInViewSix ? "0%" : "100%"  }}>
@@ -158,7 +158,7 @@ export default function HeroSectionThree() {
           
                 </MotionConfig>
                 <MotionConfig transition={{ duration: 0.7, delay: 0.3}}>
-                  <div style={{overflow: "hidden", display: "block"}}>
+                  <div style={{overflowY: "hidden", display: "block"}}>
                   <motion.div  ref={refSeven}
                  initial={{ y: "100%" }}
                   animate={{ y: isInViewSeven ? "0%" : "100%"  }}>
