@@ -72,7 +72,6 @@ export default function HeroSection() {
               </div>
               <div className="BL--hero--btn">
                 <Link href={"#"} legacyBehavior>
-                  {/* <a className="hero-btn">GET EARLY ACCESS</a> */}
 
                   <motion.a
                     className="hero-btn"
